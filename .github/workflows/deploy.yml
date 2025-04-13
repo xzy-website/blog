@@ -45,12 +45,12 @@ jobs:
         if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
         run: |
           npm install --save
-          npm install gulp-cli -g
+          npm install -g gulp
 
       - name: 生成静态文件
         run: |
-          hexo clean
-          hexo generate
+          npm run buildzh
+          gulp
 
       - name: 部署到 Github
         uses: JamesIves/github-pages-deploy-action@v4
