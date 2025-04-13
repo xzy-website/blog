@@ -59,7 +59,7 @@
     "markdown-it-mark": "^3.0.1",
     "save": "^2.9.0",
     "vanilla-lazyload": "^17.9.0",
-    "workbox-build": "^6.6.0",
+    "workbox-build": "^7.3.0",
     "yamljs": "^0.3.0"
   }
 }
