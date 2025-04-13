@@ -1,0 +1,291 @@
+#icat-bber
+    margin-top: 1.5rem
+    width: 100%
+
+    .icat-page
+        #waterfall
+            opacity: 0
+            transition: .3s
+
+            &.list
+                display: flex
+                flex-flow: row wrap
+                justify-content: space-between
+
+            &.show
+                opacity: 1
+
+            .icat-bber-item
+                position: relative
+                width: 32%
+                border: var(--style-border)
+                border-radius: 12px
+                padding: 1rem 1rem 0.9rem
+                transition: all 0.3s ease 0s
+                display: flex
+                flex-flow: column nowrap
+                justify-content: space-between
+                align-items: flex-start
+                background: var(--icat-card-bg)
+                box-shadow: var(--icat-shadow-border)
+                margin-right: 2%
+                margin-bottom: 1rem
+                animation: slide-in .6s .4s backwards
+
+                +maxWidth1024()
+                    width: 49%
+                    margin-right: 1%
+
+                +maxWidth768()
+                    width: 100%
+                    margin-right: 0px
+                    
+                &:hover
+                    border-color: var(--icat-blue)
+
+                .icat-bber-content
+                    display: flex
+                    flex-flow: wrap
+                    border-radius: 12px
+                    width: 100%
+                    height: 100%
+
+                    p
+                        margin: 0px
+
+                    .datacont
+                        order: 0
+                        font-size: 0.8rem
+                        font-weight: 700
+                        color: var(--icat-fontcolor)
+                        width: 100%
+                        line-height: 1.38
+                        border-radius: 12px
+                        margin-bottom: 0.8rem
+                        display: flex
+                        flex-direction: column
+                        text-align: justify
+                        padding: 0px 8px
+
+                    .icat-bber-image
+                        display: flex
+                        gap: 8px
+                        width: 100%
+                        flex-wrap: wrap
+                        margin-bottom: 10px
+                        padding-left: 8px
+
+                        .imgbox
+                            width: calc(100% / 4 - 8px)
+                            aspect-ratio: 1 / 1
+                            overflow: hidden
+                            border-radius: 6px
+
+                            a
+                                height: 100px
+                                display: flex
+                                position: relative
+
+                                img
+                                    object-fit: cover
+                                    width: 100%
+                                    max-height: 100%
+                                    border-radius: 6px
+                                    animation: slide-in .6s .4s backwards
+
+                    .icat-bber-video
+                        position: relative
+                        padding: 30% 50%
+                        margin-bottom: 10px
+
+                        video,
+                        iframe
+                            position: absolute
+                            width: 100%
+                            height: 100%
+                            left: 0
+                            top: 0
+                            margin: 0
+                            border-radius: 6px
+                            border: var(--style-border)
+
+                    .icat-bber-music
+                        width: 100%
+                        height: 90px
+                        margin: 0 0 0.5rem
+                        border-radius: 8px
+                        overflow: hidden
+                        border: var(--style-border)
+                        background: var(--icat-secondbg)
+
+                hr
+                    display: flex
+                    position: relative
+                    margin: 8px 0px
+                    border: 1px dashed var(--icat-blue)
+                    width: 100%
+                    opacity: 0.4
+
+                .icat-bber-bottom
+                    display: flex
+                    justify-content: space-between
+                    width: 100%
+                    margin-top: 10px
+                    user-select: none
+
+                    .icat-bber-info
+                        display: flex
+
+                        .icat-bber-info-time
+                            color: var(--icat-fontcolor)
+                            font-size: 0.7rem
+                            background-color: var(--icat-gray-op)
+                            padding: 8px
+                            border-radius: 20px
+                            cursor: default
+                            display: flex
+                            align-items: center
+                            padding-right: 12px
+                            line-height: 1
+
+                            i
+                                padding-right: 4px
+
+                        .icat-bber-info-from
+                            @extend .icat-bber-info-time
+                            margin-left: 0.5rem
+
+                            span
+                                margin-left: 0.35rem
+
+                        .icat-bber-content-link
+                            display: flex
+                            margin-left: 0.5rem
+                            font-size: 0.7rem
+                            align-items: center
+                            background-color: rgba(103, 194, 58, 0.13)
+                            color: rgb(103, 194, 58)
+                            padding: 0px 8px
+                            border-radius: 20px
+                            padding-right: 10px
+                            line-height: 1
+
+                            i
+                                margin-right: 4px
+
+                            &:hover
+                                background-color: var(--icat-blue)
+                                color: var(--icat-white)
+
+                        .icat-bber-info-top
+                            background-color: rgba(245, 108, 108, 0.13)
+                            color: rgb(245, 108, 108)
+                            display: flex
+                            margin-left: 0.5rem
+                            font-size: 0.7rem
+                            align-items: center
+                            padding: 0px 8px
+                            border-radius: 20px
+                            padding-right: 10px
+                            line-height: 1
+
+                            i
+                                margin-right: 4px
+                                font-size: 14px
+                                transform: rotateZ(35deg)
+
+                    .icat-bber-reply
+                        cursor: pointer
+                        transition: .6s
+
+                        &:hover
+                            color: var(--icat-blue)
+
+        #icat-bber-tips
+            font-size: 14px
+            display: flex
+            justify-content: center
+            margin-bottom: 2rem
+            color: var(--icat-secondtext)
+    
+    .icat-bber-loading
+        position: revert !important
+        margin: 0 auto
+
+    .aplayer
+        margin: 0
+
+        &.aplayer-withlrc
+            .aplayer-pic
+                height: 82px
+                width: 82px
+                margin: 3px
+                border-radius: 4px
+
+            .aplayer-info
+                margin-left: 84px
+                padding: 5px 7px 0
+
+                .aplayer-music
+                    height: 23px
+                    text-align: center
+
+                    .aplayer-title
+                        font-size: 0.8rem
+                        font-weight: 700
+                        margin: 0
+                        color: var(--icat-fontcolor)
+
+                .aplayer-controller
+                    align-items: center
+
+                    .aplayer-bar-wrap
+                        padding: 0
+
+                        .aplayer-bar
+                            background: var(--icat-gray)
+                            height: 8px
+                            border-radius: 12px
+                            transition: 0.3s
+                            overflow: hidden
+
+                            .aplayer-loaded
+                                height: 100%
+                                border-radius: 12px
+
+                            .aplayer-played
+                                height: 100%
+                                border-radius: 12px
+
+                                .aplayer-thumb
+                                    display: none
+
+                    .aplayer-time
+                        position: initial
+
+        .aplayer-lrc
+            height: 36px
+            margin: -12px 0 3px
+
+            &::after
+                height: 20%
+            &::before
+                height: 4%
+
+            p
+                color: var(--icat-fontcolor)
+
+[data-theme='dark']
+    #icat-bber
+        .icat-page
+            #waterfall
+                .icat-bber-item
+                    hr
+                        opacity: 0.2
+            
+            .icat-bber-music .aplayer,
+            .aplayer .aplayer-lrc:before,
+            .aplayer .aplayer-lrc:after
+                background: var(--icat-card-bg)
+                color: var(--icat-fontcolor)
+

@@ -1,0 +1,14 @@
+hr
+#post-comment
+  .comment-head
+    .comment-headline
+      i.fas.fa-comments.fa-fw
+      span= ' ' + _p('webmention.webmention')
+
+  .comment-wrap
+    #webmentions
+    form.webmention-form(action=url_for(theme.indieweb.webmention.endpoint) method="post" style="margin: 2ch 0;")
+      label(for="source")=_p('webmention.webmention_submit')
+      input.url(name="source" placeholder="Your URL" required="" type="url")
+      input(name="target" type="hidden" value=urlNoIndex())
+      input(style="background:var(--font-color);" type="submit" value=_p('webmention.webmention_status.submit'))

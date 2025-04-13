@@ -1,0 +1,66 @@
+if theme.footer.marquee.enable
+  .footer-marquee-container
+    .footer-marquee-box
+      p!=theme.footer.marquee.text
+#footer-wrap
+  #ft
+    .ft-item-1
+      .t-top
+        .t-t-l
+          p.ft-t.t-l-t=_p('footer.motto')
+          .bg-ad
+            div=_p('footer.mottosay')
+            .btn-xz-box
+              a.btn-xz(href='https://stellarium.org/')=_p('footer.mottostart')
+        .t-t-r
+          p.ft-t.t-l-t=_p('footer.guess')
+          ul.ft-links
+            each item in theme.footer.links
+              li
+                if item.l_link && item.l_name
+                  a(href=url_for(item.l_link))=item.l_name
+                if item.l_link && item.l_name && item.r_link && item.r_name
+                  a(href=url_for(item.r_link))=item.r_name
+    .ft-item-2
+      p.ft-t 推荐友链⌛
+      .ft-img-group
+        each item in theme.footer.flinks
+          .img-group-item
+            a(href=url_for(item.link) title=url_for(item.title))
+              img(src=url_for(item.image) alt='')
+
+  if theme.footer.owner.enable
+    - var now = new Date()
+    - var nowYear = now.getFullYear()
+    //- if theme.footer.owner.since && theme.footer.owner.since != nowYear
+    //-   .copyright!= `&copy;${theme.footer.owner.since} - ${nowYear} By ${config.author}`
+    //- else
+    //-   .copyright!= `&copy;${nowYear} By ${config.author}`
+    //- 新加的
+    if theme.footer.owner.since && theme.footer.owner.since != nowYear
+      .copyright
+        span!= `<b>&copy;${theme.footer.owner.since}-${nowYear}</b>`
+        span!= `<b>&nbsp;&nbsp;By ${config.author}</b>`
+    else
+       .copyright
+         span!= `<b>&copy;${nowYear}</b>`
+         span!= `<b>&nbsp;&nbsp;By ${config.author}</b>`
+    //- 到这里
+  if theme.footer.copyright
+    .framework-info
+      span= _p('footer.framework') + ' '
+      a(href='https://hexo.io')= 'Hexo'
+      span.footer-separator |
+      span= _p('footer.theme') + ' '
+      a(href='https://github.com/jerryc127/hexo-theme-butterfly')= 'Butterfly'
+  if theme.footer.custom_text
+    .footer_custom_text!=`${theme.footer.custom_text}`
+  #workboard
+  p#ghbdages
+    if theme.footer.bdages
+      each item in theme.footer.bdages
+        a.github-badge(target='_blank' href=url_for(item.link) style='margin-inline:5px' title=item.title)
+          img(src=url_for(item.image) alt='')
+
+    //- a.github-badge(target='_blank' href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style='margin-inline:5px' title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可")
+    //-   img(src="https://sourcebucket.s3.ladydaily.com/badge/Copyright-BY--NC--SA--4.svg" alt='')
