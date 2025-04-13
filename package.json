@@ -55,7 +55,7 @@
     "hexo-wordcount-fomal": "^1.0.0",
     "markdown-it-container": "^3.0.0",
     "markdown-it-deflist": "^2.1.0",
-    "markdown-it-emoji": "^2.0.2",
+    "markdown-it-emoji": "^3.0.0",
     "markdown-it-mark": "^3.0.1",
     "save": "^2.9.0",
     "vanilla-lazyload": "^17.9.0",
