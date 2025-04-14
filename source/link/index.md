@@ -264,7 +264,7 @@ function askFriend (event) {
                             "description": des,
                             "verify": token,
                         },
-                        url: "https://webadmin.xzy404.me",
+                        url: 'https://webadmin.xzy404.me',
                         success: function (data) {
                             alert(data.msg);
                         }
