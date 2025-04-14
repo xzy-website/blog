@@ -1,1 +1,89 @@
-function whenDOMReady(){"/essay/"==location.pathname&&document.addEventListener("DOMContentLoaded",(function(){setTimeout((()=>{changeTime(),btf.loadLightbox(document.querySelectorAll("#icat-bber img")),window.lazyLoadInstance&&window.lazyLoadInstance.update(),reflashWaterFall()}),300)}))}function timeDiff(e,t){const n=Date.UTC(e.getFullYear(),e.getMonth(),e.getDate()),a=Date.UTC(t.getFullYear(),t.getMonth(),t.getDate())-n;return Math.floor(a/864e5)}function changeTime(){const e=Array.from(document.getElementsByTagName("time")),t=new Date;e.forEach((e=>{const n=e.getAttribute("datetime"),a=new Date(n),l=timeDiff(a,t);let o;o=0===l?"最近":1===l?"昨天":2===l?"前天":l<=7?`${l}天前`:a.getFullYear()!==t.getFullYear()?`${a.getFullYear()}/${a.getMonth()+1}/${a.getDate()}`:`${a.getMonth()+1}/${a.getDate()}`,e.textContent=o}))}function reflashWaterFall(){document.querySelector("#waterfall")&&setTimeout((function(){waterfall("#waterfall"),document.getElementById("waterfall").classList.add("show")}),500)}function commentText(e){const t=["#wl-edit",".el-textarea__inner"];for(let n=0;n<t.length;n++){let a=document.querySelector(t[n]);null!=a&&(a.dispatchEvent(new Event("input",{bubble:!0,cancelable:!0})),a.value="> "+e.replace(/\n/g,"\n> ")+"\n\n",a.focus(),a.setSelectionRange(-1,-1))}}function whenDOMReady(){initEssay()}function initEssay(){if(document.querySelector("#essay-mini")){new Swiper(".swiper-container",{direction:"vertical",loop:!0,autoplay:{delay:3e3,pauseOnMouseEnter:!0}})}}whenDOMReady(),document.addEventListener("pjax:complete",whenDOMReady),window.onresize=()=>{waterfall("#waterfall")},whenDOMReady(),document.addEventListener("pjax:complete",whenDOMReady);
+function whenDOMReady() {
+    if (location.pathname == '/essay/') document.addEventListener('DOMContentLoaded', function () {setTimeout(() => { changeTime(), btf.loadLightbox(document.querySelectorAll('#icat-bber img')), window.lazyLoadInstance && window.lazyLoadInstance.update(), reflashWaterFall();}, 300)})
+  }
+  whenDOMReady()
+  document.addEventListener("pjax:complete", whenDOMReady)
+  
+  // 适配pjax
+  
+  window.onresize = () => {
+    waterfall('#waterfall');
+  };
+  
+  // 自适应
+  
+  function timeDiff(timeObj, today) {
+    const timeObjUTC = Date.UTC(timeObj.getFullYear(), timeObj.getMonth(), timeObj.getDate());
+    const todayUTC = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate());
+  
+    const timeDiff = todayUTC - timeObjUTC;
+    return Math.floor(timeDiff / (1000 * 3600 * 24));
+  }
+  function changeTime() {
+    const timeElements = Array.from(document.getElementsByTagName("time"));
+    const currentDate = new Date();
+  
+    timeElements.forEach(timeElement => {
+      const datetime = timeElement.getAttribute("datetime");
+      const timeObj = new Date(datetime);
+      const daysDiff = timeDiff(timeObj, currentDate);
+  
+      let timeString;
+      if (daysDiff === 0) {
+        timeString = `最近`;
+      } else if (daysDiff === 1) {
+        timeString = `昨天`;
+      } else if (daysDiff === 2) {
+        timeString = `前天`;
+      } else if (daysDiff <= 7) {
+        timeString = `${daysDiff}天前`;
+      } else {
+        if (timeObj.getFullYear() !== currentDate.getFullYear()) {
+          timeString = `${timeObj.getFullYear()}/${timeObj.getMonth() + 1}/${timeObj.getDate()}`;
+        } else {
+          timeString = `${timeObj.getMonth() + 1}/${timeObj.getDate()}`;
+        }
+      }
+      timeElement.textContent = timeString;
+    });
+  }
+  function reflashWaterFall() {
+    document.querySelector("#waterfall") &&
+      setTimeout(function() {
+        waterfall("#waterfall");
+        document.getElementById("waterfall")
+          .classList.add("show");
+      }, 500);
+  } // 加载显示 - 即刻短文
+  function commentText(txt) {
+    const inputs = ["#wl-edit", ".el-textarea__inner"];
+    for (let i = 0; i < inputs.length; i++) {
+      let el = document.querySelector(inputs[i]);
+      if (el != null) {
+        el.dispatchEvent(new Event('input', { bubble: true, cancelable: true }));
+        el.value = '> ' + txt.replace(/\n/g, '\n> ') + '\n\n';
+        el.focus();
+        el.setSelectionRange(-1, -1);
+      }
+    }
+  } // 引用评论跳转 - 即刻短文
+  
+  function whenDOMReady() {
+	initEssay();
+};
+
+whenDOMReady()
+document.addEventListener("pjax:complete", whenDOMReady)
+
+function initEssay() {
+  if (document.querySelector('#essay-mini')) {
+    let swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            pauseOnMouseEnter: true
+        },
+    });
+  }
+} // Swiper轮播 - 即刻mini

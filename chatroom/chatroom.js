@@ -1,1 +1,195 @@
-window.openChatWindow=function(t){window.open(t,"_blank","width=450,height=650,scrollbars=yes")};const chatroom={userAvatarMap:new Map,avatarIndex:0,init:function(t){if(!t||"object"!=typeof t)return void console.error("Chatroom configuration is missing or invalid.");const a=t.chatroomName,n=t.jsonFilePath,e=t.MyAvatar;if(!a||!n||!e)return void console.error("Chatroom name (containerId), JSON file path, and MyAvatar must be provided.");const s=document.getElementById(a);s?this.loadChatData(n).then((a=>{const n=this.generateChatContent(a,e,t.hideAvatar);s.innerHTML=this.generateChatBoxHTML(n,t.title||"群聊的聊天记录")})).catch((t=>{console.error("Error loading chat data:",t)})):console.error(`Chat container with id "${a}" not found.`)},loadChatData:function(t){return fetch(t).then((a=>{if(!a.ok)throw new Error(`Failed to load chat data from ${t}`);return a.json()}))},generateChatBoxHTML:function(t,a){return`<div class="chatContainer">${`<div class="chatBoxTitle"><i class="fa fa-chevron-left"></i><span class="chatTitleText">${a}</span><div class="chatBoxIcons"><i class="fa fa-group"></i><i class="fa fa-dedent"></i></div></div>`}<div class="chatBox">${t}</div></div>`},generateChatContent:function(t,a,n){let e="";const s=new Set;return t.forEach((t=>{t.name&&"sys"===t.name.toLowerCase()?(e+=this.generateSystemNotification(t),s.add(t.content)):s.has(t.content)||(e+=this.generateChatItem(t,a,n))})),e},generateChatItem:function(t,a,n){let e=t.name?t.name.trim():"未知",s=t.content?t.content.trim():"无内容",i=t.avatar||null;const o="me"===e.toLowerCase(),r=o?"我":e,c=o?"me":"";let h;h=o?a:i&&i.startsWith("http")?i:i&&!isNaN(Number(i))?`https://q1.qlogo.cn/g?b=qq&nk=${i}&s=100`:this.assignAvatar(e);const d=n?"":`<img class="chatAvatar no-lightbox" src="${h}" onerror="this.src='https://via.placeholder.com/100';">`;return s=this.parseContent(s),`\n            <div class="chatItem ${c}">\n                ${d}\n                <div class="chatContentWrapper">\n                    <b class="chatName">${r}</b>\n                    <div class="chatContent">${s}</div>\n                </div>\n            </div>\n        `},generateSystemNotification:function(t){let a=t.content?t.content.trim():"无内容";return a=this.parseContent(a),`\n            <div class="systemNotification">\n                <div class="systemContent">${a}</div>\n            </div>\n        `},parseContent:function(t){return t=(t=(t=(t=(t=t.replace(/\[:image::(https?:\/\/[^\s]+?)::\]/g,((t,a)=>`<img class="chatMedia" src="${a}" alt="Image" />`))).replace(/\[:chat:\(([^)]+)\)::([^\s]+?)::\]/g,((t,a,n)=>{const e=encodeURIComponent(a);return`\n                <div class="chatQuoteCard">\n                    <div class="chatQuoteTetle">\n                        <i class="fa fa-database"></i>\n                        <span>转发的聊天记录</span>\n                    </div>\n                    <a class="chatMessage" onclick="openChatWindow('${`http://localhost:4000/Chatroom/?jsonFilePath=${encodeURIComponent(n)}&title=${e}`}')">转发自：${a}</a>\n                </div>\n            `}))).replace(/\[:a::(https?:\/\/[^\s]+?)::\]/g,((t,a)=>`<a href="${a}" class="chatLink" target="_blank">${a}</a>`))).replace(/\[:call::@([^:]+?)::\]/g,((t,a)=>`<span class="chatCall">@${a}</span>`))).replace(/\[:rep:\[([^\]]+)\]:(.*?)::\]/g,((t,a,n)=>`\n                <div class="chatQuote">\n                    <div class="quoteUser">\n                        <i class="fa fa-share-square-o"></i>\n                        <span>${a}</span>\n                    </div>\n                    <span class="quotedMessage">${n}</span>\n                </div>\n            `))},assignAvatar:function(t){const a=["https://i.p-i.vip/30/20240920-66ed9a608c2cf.png","https://i.p-i.vip/30/20240920-66ed9b0655cba.png","https://i.p-i.vip/30/20240920-66ed9b18a56ee.png","https://i.p-i.vip/30/20240920-66ed9b2c199bf.png","https://i.p-i.vip/30/20240920-66ed9b3350ed1.png","https://i.p-i.vip/30/20240920-66ed9b5181630.png"];return this.userAvatarMap.has(t)||(this.userAvatarMap.set(t,a[this.avatarIndex%a.length]),this.avatarIndex++),this.userAvatarMap.get(t)}};"object"==typeof chatroom.init&&document.addEventListener("DOMContentLoaded",(function(){chatroom.init(chatroom.init)}));
+window.openChatWindow = function (url) {
+    window.open(url, '_blank', 'width=450,height=650,scrollbars=yes');
+  };
+  
+  const chatroom = {
+    userAvatarMap: new Map(),
+    avatarIndex: 0,
+  
+    init: function (config) {
+        if (!config || typeof config !== 'object') {
+            console.error('Chatroom configuration is missing or invalid.');
+            return;
+        }
+  
+        const containerId = config.chatroomName;
+        const jsonFilePath = config.jsonFilePath;
+        const myAvatar = config.MyAvatar;
+  
+        if (!containerId || !jsonFilePath || !myAvatar) {
+            console.error('Chatroom name (containerId), JSON file path, and MyAvatar must be provided.');
+            return;
+        }
+  
+        const container = document.getElementById(containerId);
+        if (!container) {
+            console.error(`Chat container with id "${containerId}" not found.`);
+            return;
+        }
+  
+        this.loadChatData(jsonFilePath)
+            .then((chatData) => {
+                const chatContent = this.generateChatContent(chatData, myAvatar, config.hideAvatar);
+                container.innerHTML = this.generateChatBoxHTML(chatContent, config.title || '群聊的聊天记录');
+            })
+            .catch((err) => {
+                console.error('Error loading chat data:', err);
+            });
+    },
+  
+    loadChatData: function (filePath) {
+        return fetch(filePath)
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error(`Failed to load chat data from ${filePath}`);
+                }
+                return response.json();
+            });
+    },
+  
+    generateChatBoxHTML: function (content, title) {
+        const titleHtml = `<div class="chatBoxTitle"><i class="fa fa-chevron-left"></i><span class="chatTitleText">${title}</span><div class="chatBoxIcons"><i class="fa fa-group"></i><i class="fa fa-dedent"></i></div></div>`;
+        return `<div class="chatContainer">${titleHtml}<div class="chatBox">${content}</div></div>`;
+    },
+  
+    generateChatContent: function (chatData, myAvatar, hideAvatar) {
+        let content = '';
+        const sysProcessed = new Set(); // 用于标记已经渲染过的 sys
+  
+        chatData.forEach((chatItem) => {
+            if (chatItem.name && chatItem.name.toLowerCase() === 'sys') {
+                // 如果是 sys 类型的记录，先渲染通知
+                content += this.generateSystemNotification(chatItem);
+  
+                // 将对应的 sys 记录标记为已经处理过，避免重复渲染
+                sysProcessed.add(chatItem.content); // 使用 content 或其他唯一标识作为标记
+            } else if (!sysProcessed.has(chatItem.content)) {
+                // 非 sys 类型的记录，如果没有被标记为处理过，才渲染
+                content += this.generateChatItem(chatItem, myAvatar, hideAvatar);
+            }
+        });
+  
+        return content;
+    },
+  
+    generateChatItem: function (chatItem, myAvatar, hideAvatar) {
+        let name = chatItem.name ? chatItem.name.trim() : '未知';
+        let content = chatItem.content ? chatItem.content.trim() : '无内容';
+        let avatar = chatItem.avatar || null;
+  
+        const isMe = name.toLowerCase() === 'me';
+        const chatName = isMe ? '我' : name;
+        const chatClass = isMe ? 'me' : '';
+  
+        let avatarUrl;
+        if (isMe) {
+            avatarUrl = myAvatar;
+        } else if (avatar && avatar.startsWith('http')) {
+            avatarUrl = avatar;
+        } else if (avatar && !isNaN(Number(avatar))) {
+            avatarUrl = `https://q1.qlogo.cn/g?b=qq&nk=${avatar}&s=100`;
+        } else {
+            avatarUrl = this.assignAvatar(name);
+        }
+  
+        const avatarHTML = hideAvatar
+            ? ''
+            : `<img class="chatAvatar no-lightbox" src="${avatarUrl}" onerror="this.src='https://via.placeholder.com/100';">`;
+  
+        content = this.parseContent(content);
+  
+        return `
+            <div class="chatItem ${chatClass}">
+                ${avatarHTML}
+                <div class="chatContentWrapper">
+                    <b class="chatName">${chatName}</b>
+                    <div class="chatContent">${content}</div>
+                </div>
+            </div>
+        `;
+    },
+  
+    generateSystemNotification: function (chatItem) {
+        let content = chatItem.content ? chatItem.content.trim() : '无内容';
+        content = this.parseContent(content);
+  
+        return `
+            <div class="systemNotification">
+                <div class="systemContent">${content}</div>
+            </div>
+        `;
+    },
+  
+    parseContent: function (content) {
+        const imagePattern = /\[:image::(https?:\/\/[^\s]+?)::\]/g;
+        const chatPattern = /\[:chat:\(([^)]+)\)::([^\s]+?)::\]/g;
+        const linkPattern = /\[:a::(https?:\/\/[^\s]+?)::\]/g;
+        const callPattern = /\[:call::@([^:]+?)::\]/g;
+        const repPattern = /\[:rep:\[([^\]]+)\]:(.*?)::\]/g;
+  
+        content = content.replace(imagePattern, (match, p1) => {
+            return `<img class="chatMedia" src="${p1}" alt="Image" />`;
+        });
+  
+        content = content.replace(chatPattern, (match, title, jsonFilePath) => {
+            const encodedTitle = encodeURIComponent(title);
+            const encodedJsonFilePath = encodeURIComponent(jsonFilePath);
+            const chatLink = `http://localhost:4000/Chatroom/?jsonFilePath=${encodedJsonFilePath}&title=${encodedTitle}`;
+            return `
+                <div class="chatQuoteCard">
+                    <div class="chatQuoteTetle">
+                        <i class="fa fa-database"></i>
+                        <span>转发的聊天记录</span>
+                    </div>
+                    <a class="chatMessage" onclick="openChatWindow('${chatLink}')">转发自：${title}</a>
+                </div>
+            `;
+        });
+  
+        content = content.replace(linkPattern, (match, p1) => {
+            return `<a href="${p1}" class="chatLink" target="_blank">${p1}</a>`;
+        });
+  
+        content = content.replace(callPattern, (match, username) => {
+            return `<span class="chatCall">@${username}</span>`;
+        });
+  
+        content = content.replace(repPattern, (match, username, quotedContent) => {
+            return `
+                <div class="chatQuote">
+                    <div class="quoteUser">
+                        <i class="fa fa-share-square-o"></i>
+                        <span>${username}</span>
+                    </div>
+                    <span class="quotedMessage">${quotedContent}</span>
+                </div>
+            `;
+        });
+  
+        return content;
+    },
+  
+    assignAvatar: function (name) {
+        const avatars = [
+            'https://i.p-i.vip/30/20240920-66ed9a608c2cf.png',
+            'https://i.p-i.vip/30/20240920-66ed9b0655cba.png',
+            'https://i.p-i.vip/30/20240920-66ed9b18a56ee.png',
+            'https://i.p-i.vip/30/20240920-66ed9b2c199bf.png',
+            'https://i.p-i.vip/30/20240920-66ed9b3350ed1.png',
+            'https://i.p-i.vip/30/20240920-66ed9b5181630.png',
+        ];
+  
+        if (!this.userAvatarMap.has(name)) {
+            this.userAvatarMap.set(name, avatars[this.avatarIndex % avatars.length]);
+            this.avatarIndex++;
+        }
+        return this.userAvatarMap.get(name);
+    },
+  };
+  
+  if (typeof chatroom.init === 'object') {
+    document.addEventListener('DOMContentLoaded', function () {
+        chatroom.init(chatroom.init);
+    });
+  }
+  
