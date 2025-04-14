@@ -209,7 +209,7 @@ a(href='https://xzy404.me//' rel="external nofollow") xzy 的小屋子
         </div>
     </div>
 </article>
-<script data-pjax src="https://recaptcha.net/recaptcha/api.js?render=6LcrLZwqAAAAAE2vd7a-W_5tNO5jsCI-GXf0ONo8"></script>
+<script data-pjax src="https://recaptcha.net/recaptcha/api.js?render=6LftRhgrAAAAAE_YJ-KXKavs_DABCjPY1_VckqrJ"></script>
 <script data-pjax>
 function TestUrl(url) {
     var Expression=/http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w- .\/?%&=]*)?/;
@@ -243,7 +243,7 @@ function askFriend (event) {
     }
     event.target.classList.add('is-loading');
     grecaptcha.ready(function() {
-          grecaptcha.execute('6LcrLZwqAAAAAE2vd7a-W_5tNO5jsCI-GXf0ONo8', {action: 'submit'}).then(function(token) {
+          grecaptcha.execute('6LftRhgrAAAAAE_YJ-KXKavs_DABCjPY1_VckqrJ', {action: 'submit'}).then(function(token) {
               $.ajax({
                 type: 'get',
                 cache: false,
