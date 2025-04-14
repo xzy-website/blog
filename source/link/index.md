@@ -1,77 +1,66 @@
 ---
-title: 友人帐
-date: 2020-12-01 22:19:45
-type: link
-top_img: false
 aside: false
+date: '2020-12-01T22:19:45+08:00'
+title: 友人帐
+top_img: false
+type: link
+updated: '2025-04-14T20:01:10.588+08:00'
 ---
 # 通过qexo添加的
+
 {% raw %}
 
 <div id="qexo-friends"></div>
 <link rel="stylesheet" href="https://jsd.cdn.storisinz.site/npm/qexo-static@1.6.0/hexo/friends.css"/>
 
 <script data-pjax src="https://jsd.cdn.storisinz.site/npm/qexo-static@1.6.0/hexo/friends.js"></script>
-<script data-pjax>loadQexoFriends("qexo-friends", "https://houtai.hexo.sinzmise.top")</script>
+
+<script data-pjax>loadQexoFriends("qexo-friends", "https://webadmin.xzy404.me")</script>
 
 <link rel="stylesheet" href="/css/apursuer-hexo-friend-links.css"/>
 
 {% endraw %}
+
 # 待君归（大佬）
+
 ```yaml
       # 已经永久停止更新
-      - name: 陈鑫磊的博客
-        link: https://www.cxl2020mc.top
-        avatar: https://public.img.cxl2020mc.top/avatar.png
-        descr: 这个人太懒了啥也没写......
-        siteshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://www.cxl2020mc.top
-      # 未添加本站链接
-      - name: 沧海网络
-        link: https://www.halloworlds.cn
-        avatar: https://www.halloworlds.cn/wp-content/uploads/2022/01/1640496399484.png
-        descr: 冲天香阵透长安，满城尽带黄金甲
-        siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://www.halloworlds.cn
-      # 未添加本站链接，新友链页面没法添加
-      - name: 醉里博客
-        link: https://202271.xyz
-        avatar: https://202271.xyz/images/uploads/android-chrome-192x192.png
-        descr: 小豪的个人博客
-        siteshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://202271.xyz
+      -
 ```
+
 # 失去同步！（小伙伴）
+
 ```yaml
       #（无法访问，疑似域名被卖掉）
-      - name: HeiYing
-        link: https://blog.black-ying.online
-        avatar: https://blog.black-ying.online/img/avatar.jpg
-        descr: 游龙当归海，海不迎我自来也。
-        siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://blog.black-ying.online
-      #（疑似停止更新）
-    # 未添加本站链接
-      - name: YYDS Space
-        link: https://www.yyds.space
-        avatar: https://www.yyds.space/public/images/author.jpg
-        descr: A space for sharing technology.
-        siteshot: https://www.yyds.space/public/images/siteshot.jpg
+    
 ```
+
 （既然“小伙伴们”的友情链接超过10条，那么是时候该提一下添加要求了）
+
 # 本站添加友链要求
+
 1. 站点可以在中国大陆区域正常访问且内容符合中国大陆法律法规
 2. 站点友情链接含本站链接
 3. 站点类型为**博客**（除我主动申请的链接之外）
    {% tabs 友链添加方式 %}
+
 <!-- tab General -->
-| 名称      | 值 |
-| ----------- | ----------- |
-|站点名称|xzy 的小屋子|
-|站点地址|https://xzy404.me//|
-|站点描述|An oier|
-|站点图像|https://cdn.luogu.com.cn/upload/usericon/1062508.png|
-|站点页面|https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://xzy404.me//|
-|站点关键词|xzy,个人博客|
-|rss链接|https://xzy404.me//atom.xml|
+
+
+| 名称       | 值                                                                                |
+| ---------- | --------------------------------------------------------------------------------- |
+| 站点名称   | xzy 的小屋子                                                                      |
+| 站点地址   | https://xzy404.me//                                                               |
+| 站点描述   | An oier                                                                           |
+| 站点图像   | https://cdn.luogu.com.cn/upload/usericon/1062508.png                              |
+| 站点页面   | https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://xzy404.me// |
+| 站点关键词 | xzy,个人博客                                                                      |
+| rss链接    | https://xzy404.me//atom.xml                                                       |
+
 <!-- endtab -->
+
 <!-- tab Butterfly(anzhiyu) & MengD -->
+
 ```yml
 - name: xzy 的小屋子
   link: https://xzy404.me//
@@ -80,8 +69,11 @@ aside: false
   siteshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://xzy404.me//
   theme_color: "#e66744"
 ```
+
 <!-- endtab -->
+
 <!-- tab Volantis -->
+
 ```yml
 - name: xzy 的小屋子
   link: https://xzy404.me//
@@ -90,8 +82,11 @@ aside: false
   keywords: xzy，个人博客
   screenshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://xzy404.me//
 ```
+
 <!-- endtab -->
+
 <!-- tab Yun -->
+
 ```json
 {
     "url": "https://xzy404.me//",
@@ -102,8 +97,11 @@ aside: false
     "desc": "An oier"
 }
 ```
+
 <!-- endtab -->
+
 <!-- tab fluid -->
+
 ```yml
 - {
   name: 'xzy 的小屋子',
@@ -112,28 +110,41 @@ aside: false
   avatar: 'https://cdn.luogu.com.cn/upload/usericon/1062508.png'
 }
 ```
+
 <!-- endtab -->
+
 <!-- tab Html -->
+
 ```html
 <a href="https://xzy404.me//"><img src="https://cdn.luogu.com.cn/upload/usericon/1062508.png" alt="avatar">xzy 的小屋子</a>
 ```
+
 <!-- endtab -->
+
 <!-- tab jade -->
+
 ```pug
 a(href='https://xzy404.me//')
   img(src='https://cdn.luogu.com.cn/upload/usericon/1062508.png', alt='avatar') xzy 的小屋子
 ```
+
 或者
+
 ```pug
 a(href='https://xzy404.me//' rel="external nofollow") xzy 的小屋子
 ```
+
 <!-- endtab -->
+
 {% endtabs %}
+
 # 评论区申请（速度较慢）
-<div class="addBtns"><button class="addBtn btn-beautify block orange larger" onclick="leonus.linkCom()"><i class="fa-solid fa-circle-plus"></i>&nbsp;快速申请 (默认样式)</button> <button class="addBtn btn-beautify block orange larger" onclick="leonus.linkCom(&quot;bf&quot;)"><i class="fa-solid fa-circle-plus"></i>&nbsp;快速申请 (Butterfly)</button></div>
+
+<div class="addBtns"><button class="addBtn btn-beautify block orange larger" onclick="leonus.linkCom()"><i class="fa-solid fa-circle-plus"></i> 快速申请 (默认样式)</button> <button class="addBtn btn-beautify block orange larger" onclick="leonus.linkCom("bf")"><i class="fa-solid fa-circle-plus"></i> 快速申请 (Butterfly)</button></div>
 <script src="/js/kslink.js"></script>
 
 ## Qexo申请（速度较快）
+
 <article class="message is-info">
     <div class="message-header">
         通过Qexo申请友链
@@ -247,7 +258,7 @@ function askFriend (event) {
                             "description": des,
                             "verify": token,
                         },
-                        url: 'TODO',
+                        url: 'https://webadmin.xzy404.me',
                         success: function (data) {
                             alert(data.msg);
                         }
