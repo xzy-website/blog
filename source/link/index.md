@@ -4,7 +4,7 @@ date: '2020-12-01T22:19:45+08:00'
 title: 友人帐
 top_img: false
 type: link
-updated: '2025-04-14T20:01:10.588+08:00'
+updated: '2025-04-14T20:12:02.668+08:00'
 ---
 # 通过qexo添加的
 
@@ -32,7 +32,7 @@ updated: '2025-04-14T20:01:10.588+08:00'
 
 ```yaml
       #（无法访问，疑似域名被卖掉）
-    
+  
 ```
 
 （既然“小伙伴们”的友情链接超过10条，那么是时候该提一下添加要求了）
@@ -137,6 +137,12 @@ a(href='https://xzy404.me//' rel="external nofollow") xzy 的小屋子
 <!-- endtab -->
 
 {% endtabs %}
+
+# Github
+
+自行发起 PR。
+
+[xzy-website/blog](https://github.com/xzy-website/blog)
 
 # 评论区申请（速度较慢）
 
