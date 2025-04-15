@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>题解：P12154 [蓝桥杯 2024 省 Java B] 逃离高塔</title>
+      <link href="/article/%E9%A2%98%E8%A7%A3%EF%BC%9AP12154%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202024%20%E7%9C%81%20Java%20B%5D%20%E9%80%83%E7%A6%BB%E9%AB%98%E5%A1%94/"/>
+      <url>/article/%E9%A2%98%E8%A7%A3%EF%BC%9AP12154%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202024%20%E7%9C%81%20Java%20B%5D%20%E9%80%83%E7%A6%BB%E9%AB%98%E5%A1%94/</url>
+      
+        <content type="html"><![CDATA[<h1>题解：P12154 [蓝桥杯 2024 省 Java B] 逃离高塔</h1><h2 id="思路">思路</h2><p>一个数的立方数个位仅由<strong>该数的个位数</strong>决定。因此，我们只需确定哪些个位数的立方结果以 $3$ 结尾并统计以这些个位数结尾的数的出现次数。</p><p>因为在 $0$ 至 $9$ 这个范围内，只有 $7$ 的立方数个位是 $3$（$7^3=343$）。</p><p>然后从 $1$ 到 $2025$ 中每 $10$ 个就会有一个数的个位为 $7$，最小为 $7$，最大为 $2017$。</p><p>所以，我们用这些数构成等差数列，首项为 $7$，末项为 $2017$，公差为 $10$。总项数公式为：</p><p>$$<br>\text{项数} = \frac{\text{末项} - \text{首项}}{\text{公差}} + 1 = \frac{2017 - 7}{10} + 1 = 202<br>$$</p><p>因此答案为 $202$。</p><h2 id="代码">代码</h2><p>C++ 代码：</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> endl <span class="string">&#x27;\n&#x27;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">// ios::sync_with_stdio(false);</span></span><br><span class="line">    <span class="comment">// cin.tie(nullptr);</span></span><br><span class="line">    <span class="comment">// cout.tie(nullptr);</span></span><br><span class="line">    cout &lt;&lt; <span class="number">202</span> &lt;&lt; endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Java 代码：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="number">202</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题解 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 题解 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>题解：CF411C Kicker</title>
       <link href="/article/%E9%A2%98%E8%A7%A3%EF%BC%9ACF411C%20Kicker/"/>
       <url>/article/%E9%A2%98%E8%A7%A3%EF%BC%9ACF411C%20Kicker/</url>
