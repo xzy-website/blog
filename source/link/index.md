@@ -4,44 +4,13 @@ date: '2020-12-01T22:19:45+08:00'
 title: 友人帐
 top_img: false
 type: link
-updated: '2025-04-14T20:12:02.668+08:00'
+updated: '2025-04-15T20:37:18.815+08:00'
 ---
-# 通过qexo添加的
-
-{% raw %}
-
-<div id="qexo-friends"></div>
-<link rel="stylesheet" href="https://jsd.cdn.storisinz.site/npm/qexo-static@1.6.0/hexo/friends.css"/>
-
-<script data-pjax src="https://jsd.cdn.storisinz.site/npm/qexo-static@1.6.0/hexo/friends.js"></script>
-
-<script data-pjax>loadQexoFriends("qexo-friends", "https://webadmin.xzy404.me")</script>
-
-<link rel="stylesheet" href="/css/apursuer-hexo-friend-links.css"/>
-
-{% endraw %}
-
-# 待君归（大佬）
-
-```yaml
-      # 已经永久停止更新
-      -
-```
-
-# 失去同步！（小伙伴）
-
-```yaml
-      #（无法访问，疑似域名被卖掉）
-  
-```
-
-（既然“小伙伴们”的友情链接超过10条，那么是时候该提一下添加要求了）
-
 # 本站添加友链要求
 
 1. 站点可以在中国大陆区域正常访问且内容符合中国大陆法律法规
 2. 站点友情链接含本站链接
-3. 站点类型为**博客**（除我主动申请的链接之外）
+3. 站点类型尽量为**博客**，当然也可以是你的用户中心~
    {% tabs 友链添加方式 %}
 
 <!-- tab General -->
@@ -50,8 +19,8 @@ updated: '2025-04-14T20:12:02.668+08:00'
 | 名称       | 值                                                                                |
 | ---------- | --------------------------------------------------------------------------------- |
 | 站点名称   | xzy 的小屋子                                                                      |
-| 站点地址   | https://xzy404.me//                                                               |
-| 站点描述   | An oier                                                                           |
+| 站点地址   | https://xzy404.me                                                                 |
+| 站点描述   | An OIer                                                                           |
 | 站点图像   | https://cdn.luogu.com.cn/upload/usericon/1062508.png                              |
 | 站点页面   | https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://xzy404.me// |
 | 站点关键词 | xzy,个人博客                                                                      |
@@ -63,10 +32,10 @@ updated: '2025-04-14T20:12:02.668+08:00'
 
 ```yml
 - name: xzy 的小屋子
-  link: https://xzy404.me//
+  link: https://xzy404.me
   avatar: https://cdn.luogu.com.cn/upload/usericon/1062508.png
-  descr: An oier
-  siteshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://xzy404.me//
+  descr: An OIer
+  siteshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://xzy404.me
   theme_color: "#e66744"
 ```
 
@@ -76,11 +45,11 @@ updated: '2025-04-14T20:12:02.668+08:00'
 
 ```yml
 - name: xzy 的小屋子
-  link: https://xzy404.me//
+  link: https://xzy404.me
   avatar: https://cdn.luogu.com.cn/upload/usericon/1062508.png
-  description: An oier
+  description: An OIer
   keywords: xzy，个人博客
-  screenshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://xzy404.me//
+  screenshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://xzy404.me
 ```
 
 <!-- endtab -->
@@ -89,12 +58,12 @@ updated: '2025-04-14T20:12:02.668+08:00'
 
 ```json
 {
-    "url": "https://xzy404.me//",
+    "url": "https://xzy404.me",
     "avatar": "https://cdn.luogu.com.cn/upload/usericon/1062508.png",
     "name": "xzy",
     "color": "#e66744", //或者 #ef9140
     "blog": "xzy 的小屋子", 
-    "desc": "An oier"
+    "desc": "An OIer"
 }
 ```
 
@@ -105,8 +74,8 @@ updated: '2025-04-14T20:12:02.668+08:00'
 ```yml
 - {
   name: 'xzy 的小屋子',
-  intro: 'An oier',
-  link: 'https://xzy404.me//',
+  intro: 'An OIer',
+  link: 'https://xzy404.me',
   avatar: 'https://cdn.luogu.com.cn/upload/usericon/1062508.png'
 }
 ```
@@ -116,7 +85,7 @@ updated: '2025-04-14T20:12:02.668+08:00'
 <!-- tab Html -->
 
 ```html
-<a href="https://xzy404.me//"><img src="https://cdn.luogu.com.cn/upload/usericon/1062508.png" alt="avatar">xzy 的小屋子</a>
+<a href="https://xzy404.me"><img src="https://cdn.luogu.com.cn/upload/usericon/1062508.png" alt="avatar">xzy 的小屋子</a>
 ```
 
 <!-- endtab -->
@@ -124,14 +93,14 @@ updated: '2025-04-14T20:12:02.668+08:00'
 <!-- tab jade -->
 
 ```pug
-a(href='https://xzy404.me//')
+a(href='https://xzy404.me')
   img(src='https://cdn.luogu.com.cn/upload/usericon/1062508.png', alt='avatar') xzy 的小屋子
 ```
 
 或者
 
 ```pug
-a(href='https://xzy404.me//' rel="external nofollow") xzy 的小屋子
+a(href='https://xzy404.me' rel="external nofollow") xzy 的小屋子
 ```
 
 <!-- endtab -->
@@ -279,3 +248,7 @@ function askFriend (event) {
     });
 }
 </script>
+
+<link rel="stylesheet" href="https://jsd.cdn.storisinz.site/npm/qexo-static@1.6.0/hexo/friends.css"/>
+
+<link rel="stylesheet" href="/css/apursuer-hexo-friend-links.css"/>
