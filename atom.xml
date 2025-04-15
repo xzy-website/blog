@@ -6,7 +6,7 @@
   <link href="https://xzy404.me/atom.xml" rel="self"/>
   
   <link href="https://xzy404.me/"/>
-  <updated>2025-04-15T12:13:41.890Z</updated>
+  <updated>2025-04-15T12:23:27.064Z</updated>
   <id>https://xzy404.me/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>退谷记</title>
+    <link href="https://xzy404.me/article/%E9%80%80%E8%B0%B7%E8%AE%B0/"/>
+    <id>https://xzy404.me/article/%E9%80%80%E8%B0%B7%E8%AE%B0/</id>
+    <published>2025-04-15T12:23:26.054Z</published>
+    <updated>2025-04-15T12:23:27.064Z</updated>
+    
+    <content type="html"><![CDATA[<p>看到大家都在写退役记，可我不想退役，所以就有了退谷记。</p><h1>上线记录</h1><ul><li>2025/4/9：发布退谷犇犇 | 发布退谷记。</li><li>2025/4/10：拜谢佛祖。</li><li>2025/4/11：打入门赛。</li><li>2025/4/12：搞博客。</li></ul><h1>随笔</h1><p>2025/4/9-1</p><ul><li>水题不开 IDE，</li><li>红题不开编译器。</li><li>橙题靠运气，</li><li>黄靠测评机。</li><li>绿题全靠打破表，</li><li>蓝题全靠飞样例。</li><li>紫下测试点，</li><li>黑靠抄题解。</li></ul><p>2025/4/9-2</p><ul><li>也就只有那破红点陪着我了。</li></ul><p>2025/4/9-3</p><ul><li>再不理我就再也理不了我了。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;看到大家都在写退役记，可我不想退役，所以就有了退谷记。&lt;/p&gt;
+&lt;h1&gt;上线记录&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;2025/4/9：发布退谷犇犇 | 发布退谷记。&lt;/li&gt;
+&lt;li&gt;2025/4/10：拜谢佛祖。&lt;/li&gt;
+&lt;li&gt;2025/4/11：打入门赛。&lt;/li&gt;
+&lt;l</summary>
+      
+    
+    
+    
+    <category term="记录" scheme="https://xzy404.me/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="闲话" scheme="https://xzy404.me/tags/%E9%97%B2%E8%AF%9D/"/>
+    
+  </entry>
   
   <entry>
     <title>题解：P11950 [科大国创杯初中组 2023] 评分</title>
