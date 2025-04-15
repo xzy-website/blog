@@ -20,6 +20,24 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/update/</loc>
+    
+    <lastmod>2025-04-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
+    
+    <lastmod>2025-04-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/load</loc>
     
     <lastmod>2025-04-15</lastmod>
@@ -29,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/test.json</loc>
+    <loc>https://xzy404.me/manifest.json</loc>
     
     <lastmod>2025-04-15</lastmod>
     
@@ -38,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/manifest.json</loc>
+    <loc>https://xzy404.me/test.json</loc>
     
     <lastmod>2025-04-15</lastmod>
     
@@ -83,24 +101,6 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/update/</loc>
-    
-    <lastmod>2025-04-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
-    
-    <lastmod>2025-04-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/posts/61713/chats.json</loc>
     
     <lastmod>2025-04-15</lastmod>
@@ -119,15 +119,6 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/fcircle/</loc>
-    
-    <lastmod>2025-04-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/essay/</loc>
     
     <lastmod>2025-04-15</lastmod>
@@ -137,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/baidu_verify_codeva-F0RjFTve6w</loc>
+    <loc>https://xzy404.me/fcircle/</loc>
     
     <lastmod>2025-04-15</lastmod>
     
@@ -183,6 +174,15 @@
   
   <url>
     <loc>https://xzy404.me/comments/</loc>
+    
+    <lastmod>2025-04-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/baidu_verify_codeva-F0RjFTve6w</loc>
     
     <lastmod>2025-04-15</lastmod>
     
