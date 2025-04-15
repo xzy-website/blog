@@ -6,7 +6,7 @@
   <link href="https://xzy404.me/atom.xml" rel="self"/>
   
   <link href="https://xzy404.me/"/>
-  <updated>2025-04-15T12:12:51.026Z</updated>
+  <updated>2025-04-15T12:13:41.890Z</updated>
   <id>https://xzy404.me/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>题解：P11950 [科大国创杯初中组 2023] 评分</title>
+    <link href="https://xzy404.me/article/%E9%A2%98%E8%A7%A3%EF%BC%9AP11950%20[%E7%A7%91%E5%A4%A7%E5%9B%BD%E5%88%9B%E6%9D%AF%E5%88%9D%E4%B8%AD%E7%BB%84%202023]%20%E8%AF%84%E5%88%86/"/>
+    <id>https://xzy404.me/article/%E9%A2%98%E8%A7%A3%EF%BC%9AP11950%20[%E7%A7%91%E5%A4%A7%E5%9B%BD%E5%88%9B%E6%9D%AF%E5%88%9D%E4%B8%AD%E7%BB%84%202023]%20%E8%AF%84%E5%88%86/</id>
+    <published>2025-04-15T12:13:41.359Z</published>
+    <updated>2025-04-15T12:13:41.890Z</updated>
+    
+    <content type="html"><![CDATA[<h1>题解：P11950 [科大国创杯初中组 2023] 评分</h1><h2 id="思路">思路</h2><p>模拟题。</p><p>每次读入时先累计分数并统计最大和最小分值，读入完后减去后最大和最小分值后再取平均数。</p><p>最后排完序并输出即可。</p><h2 id="代码">代码</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> endl <span class="string">&#x27;\n&#x27;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> n, m, ma = <span class="number">-1</span>, mi = <span class="number">105</span>, sum, t;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">STRUCT</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">double</span> s;</span><br><span class="line">    <span class="type">int</span> id;</span><br><span class="line">&#125; a[<span class="number">105</span>];</span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">cmp</span><span class="params">(STRUCT x, STRUCT y)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (x.s != y.s)</span><br><span class="line">        <span class="keyword">return</span> x.s &gt; y.s;</span><br><span class="line">    <span class="keyword">return</span> x.id &lt; y.id;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin &gt;&gt; n &gt;&gt; m;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        ma = <span class="number">-1</span>, mi = <span class="number">105</span>, sum = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">1</span>; j &lt;= m; j++)</span><br><span class="line">        &#123;</span><br><span class="line">            cin &gt;&gt; t;</span><br><span class="line">            sum += t;</span><br><span class="line">            ma = <span class="built_in">max</span>(ma, t);</span><br><span class="line">            mi = <span class="built_in">min</span>(mi, t);</span><br><span class="line">        &#125;</span><br><span class="line">        sum = sum - ma - mi;</span><br><span class="line">        a[i].s = <span class="number">1.0</span> * sum / (m - <span class="number">2</span>);</span><br><span class="line">        a[i].id = i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">sort</span>(a + <span class="number">1</span>, a + n + <span class="number">1</span>, cmp);</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">        cout &lt;&lt; a[i].id &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;题解：P11950 [科大国创杯初中组 2023] 评分&lt;/h1&gt;
+&lt;h2 id=&quot;思路&quot;&gt;思路&lt;/h2&gt;
+&lt;p&gt;模拟题。&lt;/p&gt;
+&lt;p&gt;每次读入时先累计分数并统计最大和最小分值，读入完后减去后最大和最小分值后再取平均数。&lt;/p&gt;
+&lt;p&gt;最后排完序并输出即可。&lt;/p&gt;
+&lt;</summary>
+      
+    
+    
+    
+    <category term="题解" scheme="https://xzy404.me/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="题解" scheme="https://xzy404.me/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
   
   <entry>
     <title>狂包日记</title>
