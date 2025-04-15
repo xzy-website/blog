@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/manifest.json</loc>
+    <loc>https://xzy404.me/test.json</loc>
     
     <lastmod>2025-04-15</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/test.json</loc>
+    <loc>https://xzy404.me/manifest.json</loc>
     
     <lastmod>2025-04-15</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/seas/</loc>
+    <loc>https://xzy404.me/music/</loc>
     
     <lastmod>2025-04-15</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/music/</loc>
+    <loc>https://xzy404.me/seas/</loc>
     
     <lastmod>2025-04-15</lastmod>
     
@@ -191,6 +191,15 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/about/</loc>
+    
+    <lastmod>2025-04-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/album/</loc>
     
     <lastmod>2025-04-15</lastmod>
@@ -200,7 +209,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/about/</loc>
+    <loc>https://xzy404.me/article/%E5%AF%B9%E4%BA%8E%E6%9F%90%E4%BA%9B%E4%BA%8B%E7%9A%84%E5%8F%A6%E4%B8%80%E7%A7%8D%E8%A7%A3%E9%87%8A/</loc>
     
     <lastmod>2025-04-15</lastmod>
     

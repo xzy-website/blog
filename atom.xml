@@ -6,7 +6,7 @@
   <link href="https://xzy404.me/atom.xml" rel="self"/>
   
   <link href="https://xzy404.me/"/>
-  <updated>2025-04-15T12:24:53.058Z</updated>
+  <updated>2025-04-15T12:25:35.492Z</updated>
   <id>https://xzy404.me/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>对于某些事的另一种解释</title>
+    <link href="https://xzy404.me/article/%E5%AF%B9%E4%BA%8E%E6%9F%90%E4%BA%9B%E4%BA%8B%E7%9A%84%E5%8F%A6%E4%B8%80%E7%A7%8D%E8%A7%A3%E9%87%8A/"/>
+    <id>https://xzy404.me/article/%E5%AF%B9%E4%BA%8E%E6%9F%90%E4%BA%9B%E4%BA%8B%E7%9A%84%E5%8F%A6%E4%B8%80%E7%A7%8D%E8%A7%A3%E9%87%8A/</id>
+    <published>2025-04-15T12:25:34.834Z</published>
+    <updated>2025-04-15T12:25:35.492Z</updated>
+    
+    <content type="html"><![CDATA[<p>叠甲：本文仅作娱乐，不做任何依据。</p><ul><li>边运动边写作业会无事发生：<ul><li>从作用分析：<ul><li>运动使人快乐、写作业使人伤心，互相抵消</li></ul></li><li>从后果分析：<ul><li>猝死使人伤心、不用写作业使人快乐，互相抵消</li></ul></li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;叠甲：本文仅作娱乐，不做任何依据。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;边运动边写作业会无事发生：
+&lt;ul&gt;
+&lt;li&gt;从作用分析：
+&lt;ul&gt;
+&lt;li&gt;运动使人快乐、写作业使人伤心，互相抵消&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;从后果分析：
+&lt;ul&gt;
+&lt;li&gt;猝死使人伤心、不用写</summary>
+      
+    
+    
+    
+    <category term="闲话" scheme="https://xzy404.me/categories/%E9%97%B2%E8%AF%9D/"/>
+    
+    
+    <category term="闲话" scheme="https://xzy404.me/tags/%E9%97%B2%E8%AF%9D/"/>
+    
+  </entry>
   
   <entry>
     <title>题解：P12154 [蓝桥杯 2024 省 Java B] 逃离高塔</title>
