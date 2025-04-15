@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>题解：CF411C Kicker</title>
+      <link href="/article/%E9%A2%98%E8%A7%A3%EF%BC%9ACF411C%20Kicker/"/>
+      <url>/article/%E9%A2%98%E8%A7%A3%EF%BC%9ACF411C%20Kicker/</url>
+      
+        <content type="html"><![CDATA[<h1>题解：CF411C Kicker</h1><h2 id="思路">思路</h2><p>队伍一先安排，那么队伍二想要获胜一定安排能踢过队伍一的球员。</p><p>先看队伍一，怎么保证队伍一必胜呢？只要队伍一的攻击球员<s>至高无上</s>特别厉害，攻击力要比队伍二任意球员的防守力都要大，那么无论队伍二怎么安排防守都踢不过。同样的，只要队伍一的防守球员<s>至高无上</s>特别厉害，防守力要比队伍二任意球员的攻击力都要大，那么无论队伍二怎么安排攻击都踢不过。队伍二亦然。</p><p>结论：只要一个人的攻击力大于对方二人的防守力且另一个人的防守力大于对方二人的攻击力则该队伍获胜，反之亦然。如果两队都没有杰出的球员能同时踢败对方的两位球员，那么就没有保证胜利的安排方案。</p><p>当然，队伍二不能套用队伍一的代码，因为队伍二是根据队伍一进行选择的，而以队伍二为基准进行判断时我们并不知道队伍一的安排，所以要把队伍一每一种安排都列举出来。</p><h2 id="代码">代码</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> endl <span class="string">&#x27;\n&#x27;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> a[<span class="number">2</span>], b[<span class="number">2</span>], c[<span class="number">2</span>], d[<span class="number">2</span>];</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin &gt;&gt; afs &gt;&gt; agj &gt;&gt; bfs &gt;&gt; bgj &gt;&gt; cfs &gt;&gt; cgj &gt;&gt; dfs &gt;&gt; dgj;</span><br><span class="line">    <span class="keyword">if</span> (</span><br><span class="line">        (afs &gt; <span class="built_in">max</span>(cgj, dgj) &amp;&amp; bgj &gt; <span class="built_in">max</span>(cfs, dgj)) ||</span><br><span class="line">        (bfs &gt; <span class="built_in">max</span>(cgj, dgj) &amp;&amp; agj &gt; <span class="built_in">max</span>(cfs, dgj)))</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Team 1&quot;</span> &lt;&lt; endl;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (</span><br><span class="line">        (cgj &gt; afs &amp;&amp; dfs &gt; bgj || dgj &gt; afs &amp;&amp; cfs &gt; bgj) &amp;&amp;</span><br><span class="line">        (cgj &gt; bfs &amp;&amp; dfs &gt; agj || dgj &gt; bfs &amp;&amp; cfs &gt; agj))</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Team 2&quot;</span> &lt;&lt; endl;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Draw&quot;</span> &lt;&lt; endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题解 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 题解 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>退谷记</title>
       <link href="/article/%E9%80%80%E8%B0%B7%E8%AE%B0/"/>
       <url>/article/%E9%80%80%E8%B0%B7%E8%AE%B0/</url>
