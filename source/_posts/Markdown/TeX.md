@@ -8,11 +8,9 @@ mathjax: true
 tags:
 - About
 title: Markdown/TeX
-updated: '2025-04-15T20:22:22.968+08:00'
+updated: '2025-04-16T19:13:51.073+08:00'
 ---
-# 1 级标题：黑少好闪，拜谢黑少！本站来自黑少！黑少是大佬，xzy 是蒟蒻！
-
-# 1 级标题
+# 1 级标题：Built by 黑少, used by xzy, copyright belongs to xzy and 黑少. 本站由黑少建造，由 xzy 使用，版权归 xzy 和黑少所有。本站会不定时咕咕咕地更新！
 
 ## 2 级标题
 
