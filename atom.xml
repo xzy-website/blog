@@ -6,7 +6,7 @@
   <link href="https://xzy404.me/atom.xml" rel="self"/>
   
   <link href="https://xzy404.me/"/>
-  <updated>2025-04-15T13:10:22.063Z</updated>
+  <updated>2025-04-16T11:19:33.734Z</updated>
   <id>https://xzy404.me/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试轮播图</title>
+    <link href="https://xzy404.me/article/lunbotu/"/>
+    <id>https://xzy404.me/article/lunbotu/</id>
+    <published>2025-04-16T11:19:00.751Z</published>
+    <updated>2025-04-16T11:19:33.734Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>game</title>
@@ -58,9 +71,9 @@
     <category term="闲话" scheme="https://xzy404.me/categories/%E9%97%B2%E8%AF%9D/"/>
     
     
-    <category term="转载" scheme="https://xzy404.me/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
     <category term="闲话" scheme="https://xzy404.me/tags/%E9%97%B2%E8%AF%9D/"/>
+    
+    <category term="转载" scheme="https://xzy404.me/tags/%E8%BD%AC%E8%BD%BD/"/>
     
   </entry>
   
