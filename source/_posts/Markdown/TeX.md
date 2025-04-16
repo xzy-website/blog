@@ -9,7 +9,7 @@ swiper_index: 1000
 tags:
 - About
 title: Markdown/TeX
-updated: '2025-04-16T19:22:57.247+08:00'
+updated: '2025-04-16T20:19:30.134+08:00'
 ---
 # 1 级标题：Built by 黑少, used by xzy, copyright belongs to xzy and 黑少. 本站由黑少建造，由 xzy 使用，版权归 xzy 和黑少所有。本站会不定时咕咕咕地更新！
 
@@ -29,9 +29,6 @@ updated: '2025-04-16T19:22:57.247+08:00'
 
 当然不能落了[博客主页](https://xzy404.me)。
 
-- [ ]  听一遍诈骗神曲
-- [X]  唱一遍诈骗神曲
-
 - 114514
 - 1919810
 
@@ -43,7 +40,6 @@ updated: '2025-04-16T19:22:57.247+08:00'
 ---
 
 ```
-
 #include <bits/stdc++.h>
 #define endl '\n'
 using namespace std;
@@ -60,7 +56,6 @@ int main()
 
 `114514` 是个数。
 
-
 | col1 | col2 | col3 |
 | ---- | ---- | ---- |
 | 1    | 2    | 3    |
@@ -70,4 +65,7 @@ $$
 114514 + 1919810 = \texttt{114514} \text{ 就怪了！}
 $$
 
+$114514+1919810=\text{?}$
+
 博客好评！
+
