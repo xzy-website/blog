@@ -507,7 +507,9 @@ aside:
       link: https://mugu.zhaohonghao-qwq.com/
   card_announcement:
     enable: true
-    content: 本站作者黑少（全站设计开发），请不要在评论区出现 xzy 好强等。
+    content: 
+        <p>Built by 黑少, used by xzy, copyright belongs to xzy and 黑少.</p>   
+        <p>本站由黑少建造，由 xzy 使用，版权归 xzy 和黑少所有。</p>
   card_recent_post:
     enable: false
     limit: 3
