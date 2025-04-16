@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>公告与随笔</title>
+      <link href="/article/%E5%85%AC%E5%91%8A%E4%B8%8E%E9%9A%8F%E7%AC%94/"/>
+      <url>/article/%E5%85%AC%E5%91%8A%E4%B8%8E%E9%9A%8F%E7%AC%94/</url>
+      
+        <content type="html"><![CDATA[<h1>公告</h1><ul><li>2025-xx-xx：启用博客！</li></ul><h1>随笔</h1><ul><li>无。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 闲话 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> About </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>测试轮播图</title>
       <link href="/article/lunbotu/"/>
       <url>/article/lunbotu/</url>
