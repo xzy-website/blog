@@ -27,6 +27,7 @@ jobs:
         run: |
           export TZ='Asia/Shanghai'
           npm install hexo-cli -g
+          npm install hexo-butterfly-swiper --save
 
       - name: 缓存 Hexo
         id: cache-npm
