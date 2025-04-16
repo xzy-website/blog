@@ -510,6 +510,8 @@ aside:
     content: 
         <p>Built by 黑少, used by xzy, copyright belongs to xzy and 黑少.</p>   
         <p>本站由黑少建造，由 xzy 使用，版权归 xzy 和黑少所有。</p>
+        <p><b>本站会不定时咕咕咕地更新！</b></p>
+        <p> <a href="https://umami.heishao.me/share/iveXT5gbH5JamBio/xzy404.me">本站数据统计</a> </p>
   card_recent_post:
     enable: false
     limit: 3
@@ -625,7 +627,7 @@ indieweb:
   auth_endpoint: https://indieauth.com/auth
   token_endpoint: https://tokens.indieauth.com/token
   webmention:
-    enable: true
+    enable: false
     endpoint: https://webmention.io/blog.sinzmise.top/webmention
     pingback: https://webmention.io/blog.sinzmise.top/xmlrpc
 inject:
@@ -644,6 +646,7 @@ inject:
     - <style id="menu_shadow"></style>
     - <script data-pjax src="/chatroom/chatroom.js"></script>
     - <script async src="/js/categorybar.js"></script>
+    - <script defer src="https://umami.heishao.me/umami" data-website-id="3b05b879-d6e1-464e-a887-3935bbd48dab"></script>
   bottom:
     - <script async data-pjax src="/bbs/bbs.js"></script>
     - >-
