@@ -115,15 +115,22 @@ deploy:
 # 首页轮播图
 # hexo-butterfly-swiper
 # see https://akilar.top/posts/8e1264d1/
+# hexo-butterfly-swiper
+# see https://akilar.top/posts/8e1264d1/
 swiper:
   enable: true # 开关
-  priority: 1 #过滤器优先权
+  priority: 5 #过滤器优先权
   enable_page: / # 应用页面
+  exclude: #屏蔽页面
+    # - /posts/
+    # - /about/
   timemode: date #date/updated
   layout: # 挂载容器类型
     type: id
     name: recent-posts
     index: 0
+  error_img: /img/default.png #封面图片加载失败的默认封面
+  insertposition: afterbegin
   default_descr: 再怎么看我也不知道怎么描述它的啦！
   swiper_css: https://jsd.cdn.storisinz.site/npm/hexo-butterfly-swiper/lib/swiper.min.css #swiper css依赖
   swiper_js: https://jsd.cdn.storisinz.site/npm/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
