@@ -5,10 +5,11 @@ categories:
 date: '2025-04-13T21:02:15.095128+08:00'
 description: null
 mathjax: true
+swiper_index: 1000
 tags:
 - About
 title: Markdown/TeX
-updated: '2025-04-16T19:13:51.073+08:00'
+updated: '2025-04-16T19:22:57.247+08:00'
 ---
 # 1 级标题：Built by 黑少, used by xzy, copyright belongs to xzy and 黑少. 本站由黑少建造，由 xzy 使用，版权归 xzy 和黑少所有。本站会不定时咕咕咕地更新！
 
