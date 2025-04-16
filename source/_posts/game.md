@@ -1,12 +1,14 @@
 ---
 abbrlink: Game
-categories: []
+categories:
+- - 环境
 date: '2025-04-15T21:10:21.331164+08:00'
 description: null
 mathjax: true
-tags: []
+tags:
+- 环境
 title: game
-updated: '2025-04-15T21:10:22.063+08:00'
+updated: '2025-04-16T20:24:54.959+08:00'
 ---
 ```cpp
 #include <bits/stdc++.h>
