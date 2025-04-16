@@ -5,7 +5,6 @@ categories:
 date: '2025-04-13T21:02:15.095128+08:00'
 description: null
 mathjax: true
-swiper_index: 1000
 tags:
 - About
 title: Markdown/TeX
