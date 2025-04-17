@@ -547,7 +547,7 @@ busuanzi:
   cdn: https://jsd.cdn.storisinz.site/npm/penndu@16.0.0/bsz.js
 runtimeshow:
   enable: false
-  publish_date: 13/4/2025 00:00:00
+  publish_date: 4/13/2025 00:00:00
 newest_comments:
   enable: true
   sort_order: null
