@@ -131,7 +131,7 @@ swiper:
     index: 0
   error_img: /img/default.png #封面图片加载失败的默认封面
   insertposition: afterbegin
-  default_descr: 再怎么看我也不知道怎么描述它的啦！
+  default_descr: 哎，作者没有设置简介，快去看看吧！
   swiper_css: https://jsd.cdn.sinzmise.top/npm/hexo-butterfly-swiper/lib/swiper.min.css #swiper css依赖
   swiper_js: https://jsd.cdn.sinzmise.top/npm/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
   custom_css: https://jsd.cdn.sinzmise.top/npm/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
