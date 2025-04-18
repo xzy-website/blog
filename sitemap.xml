@@ -56,15 +56,6 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/tags/</loc>
-    
-    <lastmod>2025-04-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/music/</loc>
     
     <lastmod>2025-04-18</lastmod>
@@ -74,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/update/</loc>
+    <loc>https://xzy404.me/seas/</loc>
     
     <lastmod>2025-04-18</lastmod>
     
@@ -83,7 +74,16 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/seas/</loc>
+    <loc>https://xzy404.me/tags/</loc>
+    
+    <lastmod>2025-04-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/update/</loc>
     
     <lastmod>2025-04-18</lastmod>
     
@@ -119,6 +119,15 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/essay/</loc>
+    
+    <lastmod>2025-04-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/fcircle/</loc>
     
     <lastmod>2025-04-18</lastmod>
@@ -137,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/comments/</loc>
+    <loc>https://xzy404.me/charts/</loc>
     
     <lastmod>2025-04-18</lastmod>
     
@@ -146,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/essay/</loc>
+    <loc>https://xzy404.me/comments/</loc>
     
     <lastmod>2025-04-18</lastmod>
     
@@ -174,15 +183,6 @@
   
   <url>
     <loc>https://xzy404.me/categories/</loc>
-    
-    <lastmod>2025-04-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/charts/</loc>
     
     <lastmod>2025-04-18</lastmod>
     
