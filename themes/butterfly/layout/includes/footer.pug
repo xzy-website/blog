@@ -1,26 +1,29 @@
-if theme.footer.marquee.enable
-  .footer-marquee-container
-    .footer-marquee-box
-      p!=theme.footer.marquee.text
 #footer-wrap
   #ft
     .ft-item-1
       .t-top
         .t-t-l
-          p.ft-t.t-l-t=_p('footer.motto')
+          p.ft-t.t-l-t 人生格言🧬
           .bg-ad
-            div=_p('footer.mottosay')
+            div
+              | Looking(回看) back(过去), The 轻 boat(舟) 已 sailed through(过) 万重 mountains(山).
             .btn-xz-box
-              a.btn-xz(href='https://stellarium.org/')=_p('footer.mottostart')
+              a.btn-xz(href='https://hitokoto.cn/') 点击开启一言之旅
         .t-t-r
-          p.ft-t.t-l-t=_p('footer.guess')
+          p.ft-t.t-l-t 猜你想看💡
           ul.ft-links
-            each item in theme.footer.links
-              li
-                if item.l_link && item.l_name
-                  a(href=url_for(item.l_link))=item.l_name
-                if item.l_link && item.l_name && item.r_link && item.r_name
-                  a(href=url_for(item.r_link))=item.r_name
+            li
+              a(href='/link/') 我的朋友
+              a(href='/comments/') 留点什么
+            li
+              a(href='/categories/') 文章分类
+              a(href='/tags/') 文章标签
+            li
+              a(href='https://easylink.cc/') 简单云链
+              a(href='https://www.jyshare.com/') 菜鸟工具
+            li
+              a(href='https://shadiao.pro/') 沙雕导航
+              a(href='https://www.iiice.cn/') 下次一定
     .ft-item-2
       p.ft-t 推荐友链⌛
       .ft-img-group
@@ -46,20 +49,13 @@ if theme.footer.marquee.enable
          span!= `<b>&copy;${nowYear}</b>`
          span!= `<b>&nbsp;&nbsp;By ${config.author}</b>`
     //- 到这里
-  if theme.footer.copyright
-    .framework-info
-      span= _p('footer.framework') + ' '
-      a(href='https://hexo.io')= 'Hexo'
-      span.footer-separator |
-      span= _p('footer.theme') + ' '
-      a(href='https://github.com/jerryc127/hexo-theme-butterfly')= 'Butterfly'
   if theme.footer.custom_text
     .footer_custom_text!=`${theme.footer.custom_text}`
   #workboard
   p#ghbdages
     a.github-badge(target='_blank' href="https://hexo.io/" style='margin-inline:5px' title="博客框架由Hexo提供支持")
       img(src="https://sourcebucket.s3.ladydaily.com/badge/Frame-Hexo-blue.svg" alt='')
-
+    
     a.github-badge(target='_blank' href="https://butterfly.js.org/" style='margin-inline:5px' title="主题框架由Butterfly提供支持")
       img(src="https://sourcebucket.s3.ladydaily.com/badge/Theme-Butterfly-6513df.svg" alt='')
 
