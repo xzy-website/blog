@@ -383,12 +383,6 @@ footer:
     - title: 本站托管由Vercel提供支持
       link: https://vercel.com/
       image: https://files.blog.sinzmise.top/images/Hosted-Vercel-brightgreen.svg
-    - title: 数据分析由Umami提供支持
-      link: https://umami.is/
-      image: https://sourcebucket.s3.bitiful.net/badge/Analytics-Umami-3db1eb.svg
-    - title: 本站备案由萌ICP备提供支持
-      link: https://icp.gov.moe/?keyword=2025xxxx
-      image: https://sourcebucket.s3.bitiful.net/badge/%E8%90%8CICP%E5%A4%87-2025xxxx-fe1384.svg
     - title: 本站源码由Github提供支持
       link: https://github.com/
       image: https://files.blog.sinzmise.top/images/Source-Github-d021d6.svg
