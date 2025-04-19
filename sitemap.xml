@@ -20,25 +20,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/test.json</loc>
-    
-    <lastmod>2025-04-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/update/</loc>
-    
-    <lastmod>2025-04-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
+    <loc>https://xzy404.me/manifest.json</loc>
     
     <lastmod>2025-04-19</lastmod>
     
@@ -56,16 +38,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/manifest.json</loc>
-    
-    <lastmod>2025-04-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/js/waifu-tips.json</loc>
+    <loc>https://xzy404.me/test.json</loc>
     
     <lastmod>2025-04-19</lastmod>
     
@@ -101,6 +74,24 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/update/</loc>
+    
+    <lastmod>2025-04-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
+    
+    <lastmod>2025-04-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/posts/61713/chats.json</loc>
     
     <lastmod>2025-04-19</lastmod>
@@ -110,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/google8073542809160a67</loc>
+    <loc>https://xzy404.me/js/waifu-tips.json</loc>
     
     <lastmod>2025-04-19</lastmod>
     
@@ -119,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/essay/</loc>
+    <loc>https://xzy404.me/google8073542809160a67</loc>
     
     <lastmod>2025-04-19</lastmod>
     
@@ -138,6 +129,24 @@
   
   <url>
     <loc>https://xzy404.me/config.json</loc>
+    
+    <lastmod>2025-04-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/comments/</loc>
+    
+    <lastmod>2025-04-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/essay/</loc>
     
     <lastmod>2025-04-19</lastmod>
     
@@ -174,15 +183,6 @@
   
   <url>
     <loc>https://xzy404.me/charts/</loc>
-    
-    <lastmod>2025-04-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/comments/</loc>
     
     <lastmod>2025-04-19</lastmod>
     
