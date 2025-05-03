@@ -507,7 +507,7 @@ aside:
       link: https://mugu.zhaohonghao-qwq.com/
   card_announcement:
     enable: true
-    content: <center>Hi</center>
+    content: <center>Built by heishao, used by xzy.</center>
   card_recent_post:
     enable: false
     limit: 3
