@@ -20,24 +20,6 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/load</loc>
-    
-    <lastmod>2025-05-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/manifest.json</loc>
-    
-    <lastmod>2025-05-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/test.json</loc>
     
     <lastmod>2025-05-03</lastmod>
@@ -101,6 +83,24 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/load</loc>
+    
+    <lastmod>2025-05-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/manifest.json</loc>
+    
+    <lastmod>2025-05-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/js/waifu-tips.json</loc>
     
     <lastmod>2025-05-03</lastmod>
@@ -128,6 +128,24 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/config.json</loc>
+    
+    <lastmod>2025-05-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/comments/</loc>
+    
+    <lastmod>2025-05-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/essay/</loc>
     
     <lastmod>2025-05-03</lastmod>
@@ -146,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/config.json</loc>
+    <loc>https://xzy404.me/bbs/</loc>
     
     <lastmod>2025-05-03</lastmod>
     
@@ -164,25 +182,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/bbs/</loc>
-    
-    <lastmod>2025-05-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/charts/</loc>
-    
-    <lastmod>2025-05-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/comments/</loc>
     
     <lastmod>2025-05-03</lastmod>
     
