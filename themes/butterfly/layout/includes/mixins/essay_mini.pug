@@ -1,0 +1,46 @@
+.essay-mini
+    i.iconfont.icat-essay-mini(onclick=`pjax.loadUrl('${theme.essay.home_mini_link}')` title="即刻短文" style="font-size: 2.25rem; margin-right: 1rem")
+    .swiper-container.swiper-no-swiping#Essay(tabindex="-1" onclick=`pjax.loadUrl('${theme.essay.home_mini_link}')`)
+        .swiper-wrapper#essay-mini
+.essay-mini.wow.animation-slide-in(data-wow-duration="1s" data-wow-delay="200ms" data-wow-offset="100" data-wow-iteration="1")
+    i.iconfont.icat-essay-mini(onclick=`pjax.loadUrl('${theme.essay.home_mini_link}')` title="即刻短文" style="font-size: 2.25rem; margin-right: 1rem")
+    .swiper-container.swiper-no-swiping#Essay(tabindex="-1" onclick=`pjax.loadUrl('${theme.essay.home_mini_link}')`)
+        .swiper-wrapper#essay-mini
+            case theme.essay.mode
+                when 'local'
+                    each item, i in site.data.essay.essay_list.slice(0, 10)
+                        .li-style.swiper-slide
+                            | #{item.content}
+                            if item.image
+                                | 【图片】
+                            else if item.aplayer
+                                | 【音乐】
+                            else if item.video || item.bilibili
+                                | 【视频】
+                when 'json'
+                    .li-style.essay-loading(style="text-align: center") 正在加载...
+                    script.
+                        (async function () {
+                            const response = await fetch('!{url_for(theme.essay.mode_link)}');
+                            const data = await response.json();
+                            const list = data[0].essay_list.slice(0, 10).map(item => {
+                                let type = item.image ? '【图片】' : item.aplayer ? '【音乐】' : item.video ? '【视频】' : '';
+                                return `<div class="li-style swiper-slide">${item.content + type}</div>`
+                            });
+                            document.querySelector('#essay-mini').innerHTML = list.join(' ');
+                        })()
+                when 'memos'
+                    .li-style.essay-loading(style="text-align: center") 正在加载...
+                    script.
+                        (async function () {
+                            const response = await fetch('!{url_for(theme.essay.mode_link)}');
+                            const data = await response.json();
+                            const list = data.slice(0, 10).map(item => {
+                                let data = item.content,
+                                    content = data.replace(/#(.*?)\s|\n/g, '').replace(/\!\[(.*?)\]\((.*?)\)/g, '').replace(/\{(.*?)\}/g, '').replace(/(?<!\!)\[(.*?)\]\((.*?)\)/g, '').trim();
+                                    type = data.match(/\!\[(.*?)\]\((.*?)\)/g) ? '【图片】' : data.match(/{\s*music\s*(.*?)\s*(.*?)\s*}/g) ? '【音乐】' : data.match(/{\s*player\s*(.*)\s*}/g) || data.match(/{\s*bilibili\s*(.*?)\s*}/g) ? '【视频】' : '';
+                                return `<div class="li-style swiper-slide">${content + type}</div>`
+                            });
+                            document.querySelector('#essay-mini').innerHTML = list.join(' ');
+                        })()
+    i.iconfont.icat-right-btn(title="查看全文" onclick=`pjax.loadUrl('${theme.essay.home_mini_link}')` style="margin-left: 1rem")

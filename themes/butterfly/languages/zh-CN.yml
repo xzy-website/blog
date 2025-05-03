@@ -1,0 +1,169 @@
+footer:
+  framework: 框架
+  theme: 主题
+  motto: 格言🧬
+  mottosay: 再看看那个光点，它就在这里，这是家园，这是我们 —— 你所爱的每一个人，你认识的一个人，你听说过的每一个人，曾经有过的每一个人，都在它上面度过他们的一生✨
+  mottostart: 穿梭到星空之旅途
+  guess: 猜你想看
+  flinks: 推荐友链⌛
+
+copy:
+  success: 复制成功
+  error: 复制错误
+  noSupport: 浏览器不支持
+
+page:
+  articles: 文章总览
+  tag: 标签
+  category: 分类
+  archives: 归档
+
+card_post_count: 条评论
+
+sticky: 置顶
+no_title: 无题
+
+post:
+  created: 发表于
+  updated: 更新于
+  wordcount: 字数总计
+  min2read: 阅读时长
+  min2read_unit: 分钟
+  page_pv: 阅读量
+  comments: 评论数
+  copyright:
+    author: 文章作者
+    link: 文章链接
+    license: 许可协议
+    copyright_notice: 版权声明
+    copyright_content: '本博客所有文章除特别声明外，均采用
+      <a href="%s" target="_blank">%s</a> 许可协议。转载请注明来自 <a href="%s" target="_blank">%s</a>！'
+  recommend: 相关推荐
+  edit: 编辑
+
+search:
+  title: 搜索
+  load_data: 数据库加载中
+  algolia_search:
+    input_placeholder: 搜索文章
+    hits_empty: '找不到您查询的内容：${query}'
+    hits_stats: '找到 ${hits} 条结果，用时 ${time} 毫秒'
+
+  local_search:
+    input_placeholder: 搜索文章
+    hits_empty: '找不到您查询的内容：${query}'
+
+pagination:
+  prev: 上一篇
+  next: 下一篇
+
+comment: 评论
+
+aside:
+  articles: 文章
+  tags: 标签
+  categories: 分类
+  card_announcement: 公告栏
+  card_categories: 分类
+  card_tags: 标签
+  card_archives: 归档
+  card_recent_post: 最新文章
+  card_friend_link: 通讯录
+  card_weibo: 微博热搜
+  card_webinfo:
+    headline: 网站资讯
+    article_name: 文章数目
+    runtime:
+      name: 已运行时间
+      unit: 天
+    last_push_date:
+      name: 最后更新时间
+    site_wordcount: 本站总字数
+    site_uv_name: 本站访客数
+    site_pv_name: 本站总访问量
+  more_button: 查看更多
+  card_newest_comments:
+    headline: 最新评论
+    loading_text: 正在加载中...
+    error: 无法获取评论，请确认相关配置是否正确
+    zero: 没有评论
+    image: 图片
+    link: 链接
+    code: 代码
+  card_toc: 目录
+
+date_suffix:
+  just: 刚刚
+  min: 分钟前
+  hour: 小时前
+  day: 天前
+  month: 个月前
+
+donate: 投喂作者
+share: 分享
+
+rightside:
+  readmode_title: 阅读模式
+  translate_title: 简繁转换
+  night_mode_title: 浅色和深色模式转换
+  back_to_top: 回到顶部
+  toc: 目录
+  scroll_to_comment: 直达评论
+  setting: 设置
+  aside: 单栏和双栏切换
+  chat: 聊天
+
+copy_copyright:
+  author: 作者
+  link: 链接
+  source: 来源
+  info: 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+Snackbar:
+  chs_to_cht: 你已切换为繁体
+  cht_to_chs: 你已切换为简体
+  day_to_night: 你已切换为深色模式
+  night_to_day: 你已切换为浅色模式
+
+disquscheck: 加载 Disqus 原生评论框
+
+sw:
+  update: ✨ 魔法屋上新了！ 👉
+  check: 🍭查看新品🍬
+
+rightmenu:
+  copy: 复制
+  bing: 必应搜索
+  tolink: 转到链接
+  paste: 粘贴
+  comment: 评论
+  copythislink: 复制本文地址
+  newtab: 在新窗口打开
+  copylink: 复制链接
+  saveimage: 保存图片
+  copypiclink: 复制图片链接
+  random: 随便逛逛
+  checkdark: 昼夜切换
+  reading: 阅读模式
+  about: 关于我
+  themesetting: 主题设置
+  fullscreen: 切换全屏
+  print: 打印页面
+
+loading: 加载中...
+
+error404: 页面没有找到
+
+webmention:
+  webmention: 网络回响
+  webmention_submit: "欲提交/移除对本文的回应，请于此提交您的文章地址："
+  webmention_response:
+    response: Webmention 回应
+    no_response: 本文暂无回应。
+    one_response: 本文有以下一条回应：
+    some_response: 本文有以下 ${count} 条回应：
+    loading_response: 正在加载回应。
+  webmention_status:
+    submit: "提交"
+    good: "已提交！"
+    bad: "提交失败。"

@@ -1,0 +1,62 @@
+mixin renderArticle(item)
+    .icat-bber-item
+        .icat-bber-content
+            if item.content
+                p.datacont=item.content
+            if item.image
+                .icat-bber-image
+                    each iten, indey in item.image
+                        .imgbox
+                            - let image = item.image[indey].split('||')
+                            img(src=image[0] alt=image[1] ? image[1] : '' title=image[1] ? '' : '即刻短文配图' )
+            if item.video
+                .icat-bber-video
+                    if item.video.bilibili
+                        - let autoplay = item.video.autoplay ? '&autoplay=1' : '&autoplay=0'
+                        - let biliurl = '//player.bilibili.com/player.html?bvid=' + item.video.bilibili.match(/(BV\w+)/)[1] + autoplay
+                        iframe(src=biliurl scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true")
+                    else if item.video.player
+                        video(src=item.video.player controls="controls" style="object-fit: cover;")
+            if item.aplayer
+                .icat-bber-music
+                    meting-js(id=item.aplayer.id server=item.aplayer.server type="song" preload="none" autoplay="false" mutex="true" theme='var(--icat-blue)')
+        hr
+        .icat-bber-bottom
+            .icat-bber-info
+                .icat-bber-info-time
+                    i.iconfont.icat-time-fill
+                    time.datatime(datetime=item.date)= 'Loading'
+                if item.from
+                    .icat-bber-info-from
+                        span=item.from
+                if item.link
+                    - let link = item.link.split('||')
+                    a.icat-bber-content-link(target="_blank" href=link[0] title=link[1] ? link[1] : '跳转到短文指引的链接')
+                        i.iconfont.icat-jump-link
+                        | 链接
+                if item.top
+                    .icat-bber-info-top
+                        i.iconfont.icat-thumbtack
+                        | 置顶
+            if item.content
+                .icat-bber-reply(onclick="commentText(" + `'${item.content}'` + ")")
+                    i.iconfont.icat-message
+
+#waterfall.list
+    if theme.essay.strip === -1
+        - var limitedList = site.data.essay.essay_list
+    else
+        - var limitedList = site.data.essay.essay_list.slice(0, theme.essay.strip)
+
+    - var topArticles = site.data.essay.essay_list.filter(item => item.top === true)
+    each item in topArticles
+        +renderArticle(item)
+
+    each item in limitedList.filter(item => !item.top)
+        +renderArticle(item)
+
+#icat-bber-tips
+    if theme.essay.strip === -1 || Math.abs(theme.essay.strip) >= site.data.essay.essay_list.length
+        | - 已展开所有短文 -
+    else
+        | - 只展示最近 #{theme.essay.strip} 条短文 -
