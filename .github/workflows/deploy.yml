@@ -51,7 +51,6 @@ jobs:
       - name: 生成静态文件
         run: |
           npm run buildzh
-          gulp
 
       - name: 部署到 Github
         uses: JamesIves/github-pages-deploy-action@v4
