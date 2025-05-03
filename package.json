@@ -53,7 +53,7 @@
     "hexo-tag-map": "^1.2.1",
     "hexo-theme-volantis": "^5.8.0",
     "hexo-wordcount-fomal": "^1.0.0",
-    "markdown-it-container": "^3.0.0",
+    "markdown-it-container": "^4.0.0",
     "markdown-it-deflist": "^3.0.0",
     "markdown-it-emoji": "^2.0.2",
     "markdown-it-mark": "^4.0.0",
