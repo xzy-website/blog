@@ -23,14 +23,14 @@ jobs:
 
       - name: Assign for Friend Link
         if: env.pr_type == 'friend-link'
-        uses: peter-evans/assignee@v2
+        uses: peter-evans/assignee@v2.2.3
         with:
           assignees: China-fan
           add-assignees: true
 
       - name: Assign for Code Change
         if: env.pr_type == 'code-change'
-        uses: peter-evans/assignee@v2
+        uses: peter-evans/assignee@v2.2.3
         with:
           assignees: zhao2022-Ux
           add-assignees: true
