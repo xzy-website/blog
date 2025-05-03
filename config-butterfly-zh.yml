@@ -1,4 +1,4 @@
-menu:
+menu: 
   文章 || icon--article || faa-tada || hide:
     归档: /archives/ || icon-guidang1 || faa-tada
     标签: /tags/ || icon-sekuaibiaoqian || faa-tada
