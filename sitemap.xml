@@ -101,25 +101,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/fcircle/</loc>
-    
-    <lastmod>2025-05-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/config.json</loc>
-    
-    <lastmod>2025-05-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/comments/</loc>
     
     <lastmod>2025-05-05</lastmod>
     
@@ -156,6 +138,15 @@
   
   <url>
     <loc>https://xzy404.me/categories/</loc>
+    
+    <lastmod>2025-05-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/comments/</loc>
     
     <lastmod>2025-05-05</lastmod>
     
