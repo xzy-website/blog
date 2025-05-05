@@ -4,23 +4,22 @@ date: '2020-12-01T22:19:45+08:00'
 title: 友人帐
 top_img: false
 type: link
-updated: '2025-04-15T20:37:18.815+08:00'
+updated: '2025-05-05T12:07:39.530+08:00'
 ---
-# 本站添加友链要求
+# 友链交换规则
 
-1. 站点可以在中国大陆区域正常访问且内容符合中国大陆法律法规
-2. 站点友情链接含本站链接
-3. 站点类型尽量为**博客**，当然也可以是你的用户中心~
+1. 站点可以在中国大陆区域（IP）正常访问且内容符合中国大陆法律法规；
+2. 站点友情链接含本站链接；
+3. 站点类型不限，但如果为博客
    {% tabs 友链添加方式 %}
 
 <!-- tab General -->
 
-
 | 名称       | 值                                                                                |
 | ---------- | --------------------------------------------------------------------------------- |
-| 站点名称   | xzy 的小屋子                                                                      |
+| 站点名称   | xzy の 未知屋                                                                      |
 | 站点地址   | https://xzy404.me                                                                 |
-| 站点描述   | An OIer                                                                           |
+| 站点描述   | An OIer の Profile の Profile                                                                           |
 | 站点图像   | https://cdn.luogu.com.cn/upload/usericon/1062508.png                              |
 | 站点页面   | https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://xzy404.me// |
 | 站点关键词 | xzy,个人博客                                                                      |
@@ -31,10 +30,10 @@ updated: '2025-04-15T20:37:18.815+08:00'
 <!-- tab Butterfly(anzhiyu) & MengD -->
 
 ```yml
-- name: xzy 的小屋子
+- name: xzy の 未知屋
   link: https://xzy404.me
   avatar: https://cdn.luogu.com.cn/upload/usericon/1062508.png
-  descr: An OIer
+  descr: An OIer の Profile
   siteshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://xzy404.me
   theme_color: "#e66744"
 ```
@@ -44,10 +43,10 @@ updated: '2025-04-15T20:37:18.815+08:00'
 <!-- tab Volantis -->
 
 ```yml
-- name: xzy 的小屋子
+- name: xzy の 未知屋
   link: https://xzy404.me
   avatar: https://cdn.luogu.com.cn/upload/usericon/1062508.png
-  description: An OIer
+  description: An OIer の Profile
   keywords: xzy，个人博客
   screenshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://xzy404.me
 ```
@@ -62,8 +61,8 @@ updated: '2025-04-15T20:37:18.815+08:00'
     "avatar": "https://cdn.luogu.com.cn/upload/usericon/1062508.png",
     "name": "xzy",
     "color": "#e66744", //或者 #ef9140
-    "blog": "xzy 的小屋子", 
-    "desc": "An OIer"
+    "blog": "xzy の 未知屋", 
+    "desc": "An OIer の Profile"
 }
 ```
 
@@ -73,8 +72,8 @@ updated: '2025-04-15T20:37:18.815+08:00'
 
 ```yml
 - {
-  name: 'xzy 的小屋子',
-  intro: 'An OIer',
+  name: 'xzy の 未知屋',
+  intro: 'An OIer の Profile',
   link: 'https://xzy404.me',
   avatar: 'https://cdn.luogu.com.cn/upload/usericon/1062508.png'
 }
@@ -85,7 +84,7 @@ updated: '2025-04-15T20:37:18.815+08:00'
 <!-- tab Html -->
 
 ```html
-<a href="https://xzy404.me"><img src="https://cdn.luogu.com.cn/upload/usericon/1062508.png" alt="avatar">xzy 的小屋子</a>
+<a href="https://xzy404.me"><img src="https://cdn.luogu.com.cn/upload/usericon/1062508.png" alt="avatar">xzy の 未知屋</a>
 ```
 
 <!-- endtab -->
@@ -94,70 +93,69 @@ updated: '2025-04-15T20:37:18.815+08:00'
 
 ```pug
 a(href='https://xzy404.me')
-  img(src='https://cdn.luogu.com.cn/upload/usericon/1062508.png', alt='avatar') xzy 的小屋子
+  img(src='https://cdn.luogu.com.cn/upload/usericon/1062508.png', alt='avatar') xzy の 未知屋
 ```
 
 或者
 
 ```pug
-a(href='https://xzy404.me' rel="external nofollow") xzy 的小屋子
+a(href='https://xzy404.me' rel="external nofollow") xzy の 未知屋
 ```
 
 <!-- endtab -->
 
 {% endtabs %}
 
-# Github
+# 友链交换方式
 
-自行发起 PR。
+## 评论区申请
 
-[xzy-website/blog](https://github.com/xzy-website/blog)
+<div class="addBtns"><button class="addBtn btn-beautify block orange larger" onclick="leonus.linkCom()"><i class="fa-solid fa-circle-plus"></i> 点击此处进行申请 </button>
 
-# 评论区申请（速度较慢）
+## Github 申请
 
-<div class="addBtns"><button class="addBtn btn-beautify block orange larger" onclick="leonus.linkCom()"><i class="fa-solid fa-circle-plus"></i> 快速申请 (默认样式)</button> <button class="addBtn btn-beautify block orange larger" onclick="leonus.linkCom("bf")"><i class="fa-solid fa-circle-plus"></i> 快速申请 (Butterfly)</button></div>
-<script src="/js/kslink.js"></script>
+自行发起 PR：[xzy-website/blog](https://github.com/xzy-website/blog)。
 
-## Qexo申请（速度较快）
+## Qexo 申请
 
 <article class="message is-info">
     <div class="message-header">
-        通过Qexo申请友链
+        通过 Qexo 申请友链。
     </div>
     <div class="message-body">
         <div class="form-ask-friend">
             <div class="field">
-                <label class="label">站点名字</label>
+                <label class="label">友链名称</label>
                 <div class="control has-icons-left">
-                    <input class="input" type="text" placeholder="你的站点名字" id="friend-name" required>
+                    <input class="input" type="text" placeholder="例：xzy の 未知屋" id="friend-name" required>
                     <span class="icon is-small is-left">
                         <i class="fas fa-signature"></i>
                     </span>
                 </div>
             </div>
             <div class="field">
-                <label class="label">站点链接</label>
+                <label class="label">友链链接</label>
             <div class="control has-icons-left">
-                <input class="input" type="url" placeholder="你的站点链接" id="friend-link" required>
+                <input class="input" type="url" placeholder="例：https://xzy404.me" id="friend-link" required>
                 <span class="icon is-small is-left">
                     <i class="fas fa-link"></i>
                 </span>
             </div>
-            <p class="help ">请确保该网站可访问！</p>
+            <p class="help ">注：请确保该网站符合友链交换规则！</p>
             </div>
             <div class="field">
-                <label class="label">站点图标</label>
+                <label class="label">友链图标</label>
                 <div class="control has-icons-left">
-                    <input class="input" type="url" placeholder="你的站点图标" id="friend-icon" required>
+                    <input class="input" type="url" placeholder="例：https://cdn.luogu.com.cn/upload/usericon/1062508.png" id="friend-icon" required>
                     <span class="icon is-small is-left">
                         <i class="fas fa-image"></i>
                     </span>
                 </div>
             </div>
             <div class="field">
-                <label class="label">站点简介</label>
+                <label class="label">友链简介</label>
                 <div class="control has-icons-left">
-                    <input class="input" type="text" placeholder="你的站点简介" id="friend-des" required>
+                    <input class="input" type="text" placeholder="例：An OIer の Profile" id="friend-des" required>
                     <span class="icon is-small is-left">
                         <i class="fas fa-info"></i>
                     </span>
@@ -166,13 +164,13 @@ a(href='https://xzy404.me' rel="external nofollow") xzy 的小屋子
             <div class="field">
                 <div class="control">
                     <label class="checkbox">
-                        <input type="checkbox" id="friend-check"/> 我不会提交无意义的信息，并且已经遵守以上规则。
+                        <input type="checkbox" id="friend-check"/> 我不会提交无意义的友链申请，并且保证友链符合友链交换申请规则。
                     </label>
                 </div>
             </div>
             <div class="field is-grouped">
                 <div class="control">
-                    <button class="button is-info" type="submit" onclick="askFriend(event)">提交</button>
+                    <button class="button is-info" type="submit" onclick="askFriend(event)">提交！</button>
                 </div>
             </div>
         </div>
@@ -252,3 +250,4 @@ function askFriend (event) {
 <link rel="stylesheet" href="https://jsd.cdn.sinzmise.top/npm/qexo-static@1.6.0/hexo/friends.css"/>
 
 <link rel="stylesheet" href="/css/apursuer-hexo-friend-links.css"/>
+
