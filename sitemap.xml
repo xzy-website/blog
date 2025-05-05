@@ -20,15 +20,6 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/yugu/help/userpj</loc>
-    
-    <lastmod>2025-05-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
     
     <lastmod>2025-05-05</lastmod>
@@ -147,6 +138,15 @@
   
   <url>
     <loc>https://xzy404.me/comments/</loc>
+    
+    <lastmod>2025-05-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/yugu/help/userpj</loc>
     
     <lastmod>2025-05-05</lastmod>
     
@@ -363,14 +363,14 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/tags/%E5%A8%B1%E4%B9%90/</loc>
+    <loc>https://xzy404.me/tags/%E9%A2%98%E8%A7%A3/</loc>
     <lastmod>2025-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xzy404.me/tags/%E9%A2%98%E8%A7%A3/</loc>
+    <loc>https://xzy404.me/tags/%E5%A8%B1%E4%B9%90/</loc>
     <lastmod>2025-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -400,14 +400,14 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/categories/%E5%A8%B1%E4%B9%90/</loc>
+    <loc>https://xzy404.me/categories/%E9%A2%98%E8%A7%A3/</loc>
     <lastmod>2025-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xzy404.me/categories/%E9%A2%98%E8%A7%A3/</loc>
+    <loc>https://xzy404.me/categories/%E5%A8%B1%E4%B9%90/</loc>
     <lastmod>2025-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
