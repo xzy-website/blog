@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/music/</loc>
+    <loc>https://xzy404.me/js/waifu-tips.json</loc>
     
     <lastmod>2025-05-05</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/seas/</loc>
+    <loc>https://xzy404.me/music/</loc>
     
     <lastmod>2025-05-05</lastmod>
     
@@ -92,34 +92,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/js/waifu-tips.json</loc>
-    
-    <lastmod>2025-05-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/google8073542809160a67</loc>
-    
-    <lastmod>2025-05-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/fcircle/</loc>
-    
-    <lastmod>2025-05-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/config.json</loc>
     
     <lastmod>2025-05-05</lastmod>
     
@@ -137,7 +110,25 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/fcircle/</loc>
+    
+    <lastmod>2025-05-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/baidu_verify_codeva-F0RjFTve6w</loc>
+    
+    <lastmod>2025-05-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/config.json</loc>
     
     <lastmod>2025-05-05</lastmod>
     
