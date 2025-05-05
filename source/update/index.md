@@ -6,9 +6,9 @@ top_bg: https://jsd.cdn.sinzmise.top/gh/SinzMise/picx-images-hosting@master/2024
 top_img: false
 top_item: 更新日志
 top_page: true
-top_tips: 博客更新都会记录到这里哦~~
-top_title: CetaStories更新日志
-updated: '2025-05-05T12:07:42.350+08:00'
+top_tips: 博客更新都会记录到这里哦~
+top_title: Update 更新日志
+updated: '2025-05-05T13:32:45.166+08:00'
 ---
 {% timeline Update 更新日志,blue %}
 
@@ -31,4 +31,3 @@ updated: '2025-05-05T12:07:42.350+08:00'
 <!-- endtimeline -->
 
 {% endtimeline %}
-
