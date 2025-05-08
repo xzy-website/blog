@@ -25,7 +25,7 @@ jobs:
         if: env.pr_type == 'friend-link'
         uses: pozil/auto-assign-issue@v1
         with:
-          repo-token: ${{ secrets.TOKEN }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           assignees: China-fan
           numOfAssignee: 1
           
@@ -33,6 +33,6 @@ jobs:
         if: env.pr_type == 'code-change'
         uses: pozil/auto-assign-issue@v1
         with:
-          repo-token: ${{ secrets.TOKEN }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           assignees: zhao2022-Ux
           numOfAssignee: 1
