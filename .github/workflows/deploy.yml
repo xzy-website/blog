@@ -57,7 +57,7 @@ jobs:
       - name: 部署到 Github
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TOKEN }}
           repository-name: xzy-website/blog
           branch: gh-pages
           folder: public
