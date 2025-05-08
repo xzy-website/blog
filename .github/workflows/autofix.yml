@@ -1,8 +1,9 @@
 name: autofix.ci
 on:
+  workflow_call:
   pull_request:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 permissions:
   contents: read
 
@@ -12,7 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - run: pip install pre-commit
-      - run: pre-commit run --all-files
+      # Use uv to ensure we have the same ruff version in CI and locally.
+      - uses: astral-sh/setup-uv@6b9c6063abd6010835644d4c2e1bef4cf5cd0fca
+        with:
+          version: "0.4.20"
+      # Fix lint errors
+      - run: uv run ruff check --fix-only .
+      # Format code
+      - run: uv run ruff format .
 
       - uses: autofix-ci/action@551dded8c6cc8a1054039c8bc0b8b48c51dfc6ef
