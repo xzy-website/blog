@@ -1,0 +1,51 @@
+name: UnTest
+
+on: [pull_request]
+
+concurrency:
+  group: ${{github.workflow}}-${{github.event_name}}-${{github.ref}}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: macos-latest
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    strategy:
+      matrix:
+        node-version: [20]
+
+    steps:
+      - name: Test
+        run: |
+          yarn test:ci-coverage
+
+      - name: Workflow failed alert
+        if: ${{ failure() }}
+        uses: actions-cool/maintain-one-comment@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          body: |
+            你好, @${{ github.event.pull_request.user.login }} CI 执行失败, 请点击 [Details] 按钮查看, 并根据日志修复。
+
+            Hello, @${{ github.event.pull_request.user.login }} CI run failed, please click the [Details] button for detailed log information and fix it.
+            <!-- Created by actions-cool/maintain-one-comment -->
+          emojis: 'eyes'
+          body-include: '<!-- Created by actions-cool/maintain-one-comment -->'
+
+      - name: Workflow failed add test failed label
+        if: ${{ failure() && github.event.pull_request.number != '' }}
+        uses: actions-cool/issues-helper@main
+        with:
+          actions: 'add-labels'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.pull_request.number }}
+          labels: '  test failed'
+
+      - name: Remove test failed label
+        if: ${{ success() && github.event.pull_request.number != '' }}
+        uses: actions-cool/issues-helper@main
+        with:
+          actions: 'remove-labels'
+          token: ${{ secrets.TOKEN }}
+          issue-number: ${{ github.event.pull_request.number }}
+          labels: '  test failed'
