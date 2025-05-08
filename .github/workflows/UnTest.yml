@@ -23,7 +23,7 @@ jobs:
         if: ${{ failure() }}
         uses: actions-cool/maintain-one-comment@main
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TOKEN }}
           body: |
             你好, @${{ github.event.pull_request.user.login }} CI 执行失败, 请点击 [Details] 按钮查看, 并根据日志修复。
 
@@ -37,7 +37,7 @@ jobs:
         uses: actions-cool/issues-helper@main
         with:
           actions: 'add-labels'
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
           labels: '  test failed'
 
@@ -46,6 +46,6 @@ jobs:
         uses: actions-cool/issues-helper@main
         with:
           actions: 'remove-labels'
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
           labels: '  test failed'
