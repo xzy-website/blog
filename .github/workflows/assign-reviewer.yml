@@ -20,15 +20,7 @@ jobs:
           elif grep -q "## 问题描述" <<< "${{ github.event.pull_request.body }}"; then
             echo "pr_type=code-change" >> $GITHUB_ENV
           fi
-
-      - name: Assign for Friend Link
-        if: env.pr_type == 'friend-link'
-        uses: pozil/auto-assign-issue@v1
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          assignees: China-fan
-          numOfAssignee: 1
-          
+       
       - name: Assign for Code Change
         if: env.pr_type == 'code-change'
         uses: pozil/auto-assign-issue@v1
