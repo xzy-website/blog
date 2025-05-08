@@ -19,7 +19,7 @@ jobs:
       - name: Auto-approve Dependabot PR
         uses: hmarr/auto-approve-action@v2
         with:
-          github-token: ${{ secrets.TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           # 仅批准符合semver规范的更新
           label: dependencies
           require: 
@@ -45,7 +45,7 @@ jobs:
           github.event.pull_request.title.match(/bump .* from .* to .*/)
         uses: pascalgn/automerge-action@v0.15.6
         with:
-          github-token: ${{ secrets.TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           # 合并条件配置
           merge-method: squash
           required-status-checks: |
