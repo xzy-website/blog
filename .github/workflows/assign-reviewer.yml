@@ -21,8 +21,7 @@ jobs:
             echo "pr_type=code-change" >> $GITHUB_ENV
           fi
        
-      - name: Assign for Code Change
-        if: env.pr_type == 'code-change'
+      - name: Assign
         uses: pozil/auto-assign-issue@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
