@@ -11,10 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - run: pip install pre-commit
+      - run: pre-commit autoupdate
       - run: pre-commit install
-      - run: pre-commit sample-config > .pre-commit-config.yaml
       - run: pre-commit run --all-files
-
-      - uses: autofix-ci/action@551dded8c6cc8a1054039c8bc0b8b48c51dfc6ef
