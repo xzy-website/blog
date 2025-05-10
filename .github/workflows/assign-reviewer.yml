@@ -22,7 +22,6 @@ jobs:
           fi
        
       - name: Assign for Code Change
-        if: env.pr_type == 'code-change'
         uses: pozil/auto-assign-issue@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
