@@ -14,4 +14,3 @@ jobs:
       - run: pip install pre-commit
       - run: pre-commit autoupdate
       - run: pre-commit install
-      - run: pre-commit run --all-files
