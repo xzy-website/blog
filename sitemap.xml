@@ -101,15 +101,6 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/essay/</loc>
-    
-    <lastmod>2025-05-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/config.json</loc>
     
     <lastmod>2025-05-23</lastmod>
@@ -120,6 +111,15 @@
   
   <url>
     <loc>https://xzy404.me/comments/</loc>
+    
+    <lastmod>2025-05-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/essay/</loc>
     
     <lastmod>2025-05-23</lastmod>
     
