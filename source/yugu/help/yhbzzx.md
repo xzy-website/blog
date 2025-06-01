@@ -31,11 +31,37 @@ updated: '2025-06-01T14:34:08.422+08:00'
 
 ##### 退任管理员 Tag
 
-![]()
+![](https://tailchat-nightly.moonrailgun.com/static/files/66cc73fefdbc1501a473087d/d1fff1dd3a0bd5d52072dbaaba325a10.png)
 
 管理员退任后将保留 Tag，为红色。
 
-##### 
+##### 浴谷商城付费 Tag
+
+![](https://tailchat-nightly.moonrailgun.com/static/files/66cc73fefdbc1501a473087d/476b03bc2cbbfd517a6fb59ccf57ab63.png)
+
+在[浴谷商城](https://discussforluogu.flarum.cloud/d/403)购买获得的 Tag。
+
+##### 文字 Tag
+
+![](https://tailchat-nightly.moonrailgun.com/static/files/66cc73fefdbc1501a473087d/4a6be7fe0ebe1401d5b567bf4c8b8878.png)
+
+目前已经绝版，不再售卖。
+
+##### 月活名单第一位无 Tag 用户 Tag
+
+每月月底刷新，若上一个月获得了此 Tag 但当前月份不满足获得该 Tag 条件的将会收回 Tag。
+
+只考虑月活名单前五名，若前五名均有 Tag 则不发放。
+
+##### 洛谷账号同步 Tag
+
+![]()
+
+
+
+##### 作弊者 Tag
+
+因为作弊或其他学术不端行为，所获得的惩罚的一部分，将被强制更改用户名颜色并加上作弊者标签，15 天后重置。
 
 ### 资金
 
@@ -44,6 +70,16 @@ updated: '2025-06-01T14:34:08.422+08:00'
 #### 发帖、回帖
 
 通过发帖和回帖可以
+
+#### 转账
+
+#### 彩票
+
+详见[此贴](https://discussforluogu.flarum.cloud/d/634)。
+
+#### 银行
+
+详见[此贴](https://discussforluogu.flarum.cloud/d/235)。
 
 ### 经验值
 
