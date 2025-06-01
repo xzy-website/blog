@@ -110,6 +110,15 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/baidu_verify_codeva-F0RjFTve6w</loc>
+    
+    <lastmod>2025-06-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/config.json</loc>
     
     <lastmod>2025-06-01</lastmod>
@@ -138,15 +147,6 @@
   
   <url>
     <loc>https://xzy404.me/comments/</loc>
-    
-    <lastmod>2025-06-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/baidu_verify_codeva-F0RjFTve6w</loc>
     
     <lastmod>2025-06-01</lastmod>
     
@@ -399,14 +399,14 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/tags/%E9%A2%98%E8%A7%A3/</loc>
+    <loc>https://xzy404.me/tags/%E5%A8%B1%E4%B9%90/</loc>
     <lastmod>2025-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xzy404.me/tags/%E5%A8%B1%E4%B9%90/</loc>
+    <loc>https://xzy404.me/tags/%E9%A2%98%E8%A7%A3/</loc>
     <lastmod>2025-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -436,14 +436,14 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/categories/%E9%A2%98%E8%A7%A3/</loc>
+    <loc>https://xzy404.me/categories/%E5%A8%B1%E4%B9%90/</loc>
     <lastmod>2025-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xzy404.me/categories/%E5%A8%B1%E4%B9%90/</loc>
+    <loc>https://xzy404.me/categories/%E9%A2%98%E8%A7%A3/</loc>
     <lastmod>2025-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
