@@ -29,34 +29,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/load</loc>
-    
-    <lastmod>2025-06-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/manifest.json</loc>
-    
-    <lastmod>2025-06-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/test.json</loc>
-    
-    <lastmod>2025-06-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/js/waifu-tips.json</loc>
     
     <lastmod>2025-06-01</lastmod>
     
@@ -75,6 +48,33 @@
   
   <url>
     <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
+    
+    <lastmod>2025-06-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/manifest.json</loc>
+    
+    <lastmod>2025-06-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/load</loc>
+    
+    <lastmod>2025-06-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/js/waifu-tips.json</loc>
     
     <lastmod>2025-06-01</lastmod>
     
@@ -119,6 +119,15 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/baidu_verify_codeva-F0RjFTve6w</loc>
+    
+    <lastmod>2025-06-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/bbs/</loc>
     
     <lastmod>2025-06-01</lastmod>
@@ -146,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/baidu_verify_codeva-F0RjFTve6w</loc>
+    <loc>https://xzy404.me/yugu/help/sqgz</loc>
     
     <lastmod>2025-06-01</lastmod>
     
@@ -183,15 +192,6 @@
   
   <url>
     <loc>https://xzy404.me/yugu/help/ticketgz</loc>
-    
-    <lastmod>2025-05-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/yugu/help/sqgz</loc>
     
     <lastmod>2025-05-05</lastmod>
     
