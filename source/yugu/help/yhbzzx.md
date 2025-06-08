@@ -1,7 +1,7 @@
 ---
 date: '2025-06-01T14:34:08.275037+08:00'
 title: 浴谷用户帮助中心
-updated: '2025-06-07T19:13:07.331+08:00'
+updated: '2025-06-08T11:15:27.678+08:00'
 ---
 # 账号
 
@@ -21,11 +21,13 @@ updated: '2025-06-07T19:13:07.331+08:00'
 
 #### 彩色流动 Tag
 
+![](https://tailchat-nightly.moonrailgun.com/static/files/66cc73fefdbc1501a473087d/020034adf789ffb70d1e52ebfcaba190.jpg)
+
 彩色流动 Tag 为优质博主 Tag。需要在视频平台（如 Tiktok、哔哩哔哩、小红书等）或文章平台（如 Uoj、知乎、洛谷）发布超过 3（视频）/10（文章） 条及以上的有关于学术的内容（例如讲解知识点、讲评题目、如何使用某类软件），点赞以及收藏总数要在 5 个及以上，视频介绍部分或文章结尾需要添加字段：`欢迎大家使用[浴谷](https://discussforluogu.flarum.cloud)！`，并且已经与管理组确认身份。
 
 #### 管理员 Tag
 
-![](https://tailchat-nightly.moonrailgun.com/static/files/66cc73fefdbc1501a473087d/4f2f9f6e4f811eb21c830624d073a492.png)
+![](https://tailchat-nightly.moonrailgun.com/static/files/66cc73fefdbc1501a473087d/bd9760af5a041c7125afe09063f0a52a.jpg)
 
 所有管理员均为紫色用户名，管理员的牌子默认字段为【管理员】，但管理员上任时都可以向 [xzy（PM & Mascot）](https://discussforluogu.flarum.cloud/u/1) 申请自定义 Tag。在管理员任上一直有效。
 
