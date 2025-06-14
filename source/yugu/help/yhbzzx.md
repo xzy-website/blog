@@ -1,15 +1,100 @@
 ---
 date: '2025-06-01T14:34:08.275037+08:00'
 title: 浴谷用户帮助中心
-updated: '2025-06-08T11:15:27.678+08:00'
+updated: '2025-06-14T16:48:45.021+08:00'
 ---
-# 账号
+> 温馨提示：本文内容较多，可以使用 Ctrl+F 进行搜索需要查询的内容。
 
-## 用户
+# 使用
+
+## 主页
+
+所有操作均在已登录的情况下进行。
+
+### 网址
+
+[https://discussforluogu.flarum.cloud](https://discussforluogu.flarum.cloud)。
+
+### 介绍
+
+![](https://tailchat-nightly.moonrailgun.com/static/files/66cc73fefdbc1501a473087d/c508b07b53ee9322e181a7788b0849a6.png)
+
+![](https://tailchat-nightly.moonrailgun.com/static/files/66cc73fefdbc1501a473087d/beea3b162f609bdf7ea7cca369d64bab.png)
+
+### 顶栏
+
+#### 注册/登录
+
+![](https://tailchat-nightly.moonrailgun.com/static/files/66cc73fefdbc1501a473087d/8f508419366ede6385ee3f9f11605a8d.png)
+
+![](https://tailchat-nightly.moonrailgun.com/static/files/66cc73fefdbc1501a473087d/7dce244294c9e949efd341b7def50de5.png)
+
+![](https://tailchat-nightly.moonrailgun.com/static/files/66cc73fefdbc1501a473087d/e4156159456f1cb26967f7076c4886a5.png)
+
+#### 搜索
+
+![](https://tailchat-nightly.moonrailgun.com/static/files/66cc73fefdbc1501a473087d/04ada92104ca815630ebc2facc12ed25.png)
+
+#### 私信
+
+![](https://tailchat-nightly.moonrailgun.com/static/files/66cc73fefdbc1501a473087d/f85dd3054a02b15c0f6b9fb87806b4e7.png)
+
+#### 通知中心
+
+![](https://tailchat-nightly.moonrailgun.com/static/files/66cc73fefdbc1501a473087d/9a0b017fb7d26781a44b06f4a7cf520f.png)
+
+#### 个人菜单
+
+![](https://tailchat-nightly.moonrailgun.com/static/files/66cc73fefdbc1501a473087d/e6f62d5403521633e3bff876883d67fd.png)
+
+### 左侧栏
+
+待更新。
+
+### 右侧栏
+
+待更新。
+
+### 中间
+
+待更新。
+
+## 讨论/社区功能
+
+### 板块
+
+- 站务版：管理团队将会正在这里发布网站重要信息。不允许普通用户在此发帖。
+- 灌水区：可以发布休闲娱乐等内容，但禁止发布包括但不限于违法、刷屏等内容。
+- 学术版：你可以在这里提出关于题目的各种问题和其他学术问题，也可以用来发布各种比赛的赛时答疑帖。
+- 工单版：工单功能，详见[工单反馈规则](https://xzy404.me/yugu/help/ticketgz)。
+- 日报版：用于发布新闻和浴谷新闻。原则上不允许普通用户在此发帖。
+- 权限区：用于发布用户权限变更的内容。不允许普通用户在此发帖。
+- 小黑屋：用来公开损害浴谷的行为。
+- 专栏区：用于发布文章，详见[专栏使用手册](https://discussforluogu.flarum.cloud/blog/321)。
+
+## 视频
+
+# 介绍
+
+## 账号
 
 ### 用户名
 
 浴谷用户名分为中文用户名和英文用户名。正常情况下为英文用户名，付费后可更改为中文用户名，详见[浴谷商城](https://discussforluogu.flarum.cloud/d/403)。
+
+浴谷用户名注册后默认为黑色（日间模式）/白色（夜间模式），但绑定洛谷账号后即可参与用户名颜色变更，与谷值相关。
+
+### 谷值
+
+谷值由管理员进行评定，不定期更新。
+
+谷值分为：基础、活跃、贡献、学术以及荣誉五个部分。0\~80 谷值为灰色用户名，81\~110 谷值为蓝色用户名，111\~170 谷值为绿色用户名，171\~210 谷值为橙色用户名，211\~500 谷值为红色用户名，管理员不受谷值影响，为紫色用户名，作弊者不受谷值影响，为棕色用户名。
+
+谷值暂不开设谷值排行榜，此前的“谷值排行榜”已暂停更新。
+
+### 学术分
+
+详见[学术排行榜](https://discussforluogu.flarum.cloud/d/410)。
 
 ### 奖项认证
 
@@ -104,16 +189,3 @@ updated: '2025-06-08T11:15:27.678+08:00'
 ## 经验值
 
 与资金相似，但只能通过发帖、回帖和点赞增长经验值。
-
-# 讨论/社区功能
-
-## 板块
-
-- 站务版：管理团队将会正在这里发布网站重要信息。不允许普通用户在此发帖。
-- 灌水区：可以发布休闲娱乐等内容，但禁止发布包括但不限于违法、刷屏等内容。
-- 学术版：你可以在这里提出关于题目的各种问题和其他学术问题，也可以用来发布各种比赛的赛时答疑帖。
-- 工单版：工单功能，详见[工单反馈规则](https://xzy404.me/yugu/help/ticketgz)。
-- 日报版：用于发布新闻和浴谷新闻。原则上不允许普通用户在此发帖。
-- 权限区：用于发布用户权限变更的内容。不允许普通用户在此发帖。
-- 小黑屋：用来公开损害浴谷的行为。
-- 专栏区：用于发布文章，详见[专栏使用手册](https://discussforluogu.flarum.cloud/blog/321)。
