@@ -56,15 +56,6 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/js/waifu-tips.json</loc>
-    
-    <lastmod>2025-06-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/tags/</loc>
     
     <lastmod>2025-06-14</lastmod>
@@ -84,6 +75,15 @@
   
   <url>
     <loc>https://xzy404.me/posts/61713/chats.json</loc>
+    
+    <lastmod>2025-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/js/waifu-tips.json</loc>
     
     <lastmod>2025-06-14</lastmod>
     
