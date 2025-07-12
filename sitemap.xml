@@ -29,7 +29,34 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/test.json</loc>
+    
+    <lastmod>2025-07-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/tags/</loc>
+    
+    <lastmod>2025-07-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
+    
+    <lastmod>2025-07-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/posts/61713/chats.json</loc>
     
     <lastmod>2025-07-12</lastmod>
     
@@ -56,34 +83,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/test.json</loc>
-    
-    <lastmod>2025-07-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/js/waifu-tips.json</loc>
-    
-    <lastmod>2025-07-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/tags/</loc>
-    
-    <lastmod>2025-07-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/posts/61713/chats.json</loc>
     
     <lastmod>2025-07-12</lastmod>
     
@@ -157,7 +157,7 @@
   <url>
     <loc>https://xzy404.me/article/%E9%87%8D%E7%94%9F%E4%B9%8B%E6%88%91%E5%9C%A8%E9%AB%98%E4%B8%80/</loc>
     
-    <lastmod>2025-06-14</lastmod>
+    <lastmod>2025-07-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
