@@ -29,15 +29,6 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/manifest.json</loc>
-    
-    <lastmod>2025-07-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/test.json</loc>
     
     <lastmod>2025-07-13</lastmod>
@@ -75,6 +66,15 @@
   
   <url>
     <loc>https://xzy404.me/load</loc>
+    
+    <lastmod>2025-07-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/manifest.json</loc>
     
     <lastmod>2025-07-13</lastmod>
     
@@ -470,14 +470,14 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/categories/%E8%AE%B0%E5%BD%95/</loc>
+    <loc>https://xzy404.me/categories/%E4%BC%91%E9%97%B2-%C2%B7-%E5%A8%B1%E4%B9%90/</loc>
     <lastmod>2025-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xzy404.me/categories/%E4%BC%91%E9%97%B2-%C2%B7-%E5%A8%B1%E4%B9%90/</loc>
+    <loc>https://xzy404.me/categories/%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2025-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
