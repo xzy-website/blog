@@ -29,15 +29,6 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
-    
-    <lastmod>2025-07-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/load</loc>
     
     <lastmod>2025-07-13</lastmod>
@@ -75,6 +66,15 @@
   
   <url>
     <loc>https://xzy404.me/tags/</loc>
+    
+    <lastmod>2025-07-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
     
     <lastmod>2025-07-13</lastmod>
     
