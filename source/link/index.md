@@ -4,22 +4,24 @@ date: '2020-12-01T22:19:45+08:00'
 title: 友人帐
 top_img: false
 type: link
-updated: '2025-05-05T12:07:39.530+08:00'
+updated: '2025-07-13T09:48:10.435+08:00'
 ---
 # 友链交换规则
 
 1. 站点可以在中国大陆区域（IP）正常访问且内容符合中国大陆法律法规；
 2. 站点友情链接含本站链接；
-3. 站点类型不限，但如果为博客
+3. 站点类型不限，但如果为博客会更加容易通过；
+4. 由于 xzy 不是经常上线，可以[邮箱](mailto:XiaofanMango@outlook.com)或各种方式催促交换！
    {% tabs 友链添加方式 %}
 
 <!-- tab General -->
 
+
 | 名称       | 值                                                                                |
 | ---------- | --------------------------------------------------------------------------------- |
-| 站点名称   | xzy の 未知屋                                                                      |
+| 站点名称   | xzy の 未知屋                                                                     |
 | 站点地址   | https://xzy404.me                                                                 |
-| 站点描述   | An OIer の Profile の Profile                                                                           |
+| 站点描述   | An OIer の Profile の Profile                                                     |
 | 站点图像   | https://cdn.luogu.com.cn/upload/usericon/1062508.png                              |
 | 站点页面   | https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://xzy404.me// |
 | 站点关键词 | xzy,个人博客                                                                      |
@@ -250,4 +252,3 @@ function askFriend (event) {
 <link rel="stylesheet" href="https://jsd.cdn.sinzmise.top/npm/qexo-static@1.6.0/hexo/friends.css"/>
 
 <link rel="stylesheet" href="/css/apursuer-hexo-friend-links.css"/>
-
