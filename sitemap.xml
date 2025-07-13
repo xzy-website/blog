@@ -29,24 +29,6 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/test.json</loc>
-    
-    <lastmod>2025-07-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/tags/</loc>
-    
-    <lastmod>2025-07-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
     
     <lastmod>2025-07-13</lastmod>
@@ -74,7 +56,25 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/test.json</loc>
+    
+    <lastmod>2025-07-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/js/waifu-tips.json</loc>
+    
+    <lastmod>2025-07-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/tags/</loc>
     
     <lastmod>2025-07-13</lastmod>
     
@@ -101,6 +101,24 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/config.json</loc>
+    
+    <lastmod>2025-07-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/comments/</loc>
+    
+    <lastmod>2025-07-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/essay/</loc>
     
     <lastmod>2025-07-13</lastmod>
@@ -110,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/config.json</loc>
+    <loc>https://xzy404.me/baidu_verify_codeva-F0RjFTve6w</loc>
     
     <lastmod>2025-07-13</lastmod>
     
@@ -137,16 +155,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/comments/</loc>
-    
-    <lastmod>2025-07-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/baidu_verify_codeva-F0RjFTve6w</loc>
+    <loc>https://xzy404.me/article/%E6%9C%80%E5%88%9D%E7%9A%84%E7%8E%A9%E7%AC%91/</loc>
     
     <lastmod>2025-07-13</lastmod>
     
