@@ -21,15 +21,15 @@
         avatar: https://cdn.luogu.com.cn/upload/usericon/1056150.png
         descr: 建站人！
         siteshot: https://cdn.luogu.com.cn/upload/usericon/1056150.png
-- class_name: NPY
-  class_desc: 可爱喵~
+- class_name: Me
+  class_desc: 自己爱自己。
   flink_style: butterfly
   link_list: 
-        - name: zxh_qwq
-          link: https://www.luogu.com.cn/user/919709
-          avatar: https://cdn.luogu.com.cn/upload/usericon/919709.png
-          descr: （前）NPY 可爱喵~
-          siteshot: https://cdn.luogu.com.cn/upload/usericon/919709.png
+        - name: xzy
+          link: https://xzy404.me
+          avatar: https://cdn.luogu.com.cn/upload/usericon/1062508.png
+          descr: 一位兼挖坑人和开发者的 OIer。
+          siteshot: https://cdn.luogu.com.cn/upload/usericon/1062508.png
 - class_name: 友谊长存
   class_desc: 相识即是缘分
   flink_style: butterfly
@@ -49,7 +49,7 @@
           descr: 愿无岁月可回头，山高路远行未休
           siteshot: https://blog.tuxiw.cn/img/tx/tx1.jpg
         - name: lijingshu`s blog
-          link: https://lijingshu-304775.github.io/
+          link: https://lijingshu2014.github.io/
           avatar: https://lijingshu-304775.github.io/img/avatar.png
           descr: lijingshu 的博客
           siteshot: https://lijingshu-304775.github.io/img/avatar.png
