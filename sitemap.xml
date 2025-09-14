@@ -29,34 +29,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/load</loc>
-    
-    <lastmod>2025-09-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/manifest.json</loc>
-    
-    <lastmod>2025-09-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/test.json</loc>
-    
-    <lastmod>2025-09-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/js/waifu-tips.json</loc>
     
     <lastmod>2025-09-14</lastmod>
     
@@ -84,6 +57,33 @@
   
   <url>
     <loc>https://xzy404.me/posts/61713/chats.json</loc>
+    
+    <lastmod>2025-09-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/load</loc>
+    
+    <lastmod>2025-09-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/manifest.json</loc>
+    
+    <lastmod>2025-09-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/js/waifu-tips.json</loc>
     
     <lastmod>2025-09-14</lastmod>
     
@@ -414,7 +414,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/tags/About/</loc>
+    <loc>https://xzy404.me/tags/%E8%BD%AC%E8%BD%BD/</loc>
     <lastmod>2025-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -428,7 +428,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/tags/%E8%BD%AC%E8%BD%BD/</loc>
+    <loc>https://xzy404.me/tags/About/</loc>
     <lastmod>2025-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -500,14 +500,14 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/categories/%E9%A2%98%E8%A7%A3/</loc>
+    <loc>https://xzy404.me/categories/%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2025-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xzy404.me/categories/%E8%AE%B0%E5%BD%95/</loc>
+    <loc>https://xzy404.me/categories/%E9%A2%98%E8%A7%A3/</loc>
     <lastmod>2025-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
