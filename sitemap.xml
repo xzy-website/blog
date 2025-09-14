@@ -29,15 +29,6 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
-    
-    <lastmod>2025-09-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/load</loc>
     
     <lastmod>2025-09-14</lastmod>
@@ -75,6 +66,15 @@
   
   <url>
     <loc>https://xzy404.me/tags/</loc>
+    
+    <lastmod>2025-09-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
     
     <lastmod>2025-09-14</lastmod>
     
@@ -147,6 +147,15 @@
   
   <url>
     <loc>https://xzy404.me/comments/</loc>
+    
+    <lastmod>2025-09-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/article/%E9%A2%98%E8%A7%A3%EF%BC%9AP12004%20%E3%80%90MX-X10-T0%E3%80%91[LSOT-4]%20%E5%97%AF%E6%AC%A7%E5%93%8E%E5%8A%88/</loc>
     
     <lastmod>2025-09-14</lastmod>
     
@@ -477,14 +486,14 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/categories/%E4%BC%91%E9%97%B2-%C2%B7-%E5%A8%B1%E4%B9%90/</loc>
+    <loc>https://xzy404.me/categories/%E5%AD%A6%E4%B9%A0-%C2%B7-%E6%96%87%E5%8C%96%E8%AF%BE/</loc>
     <lastmod>2025-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xzy404.me/categories/%E5%AD%A6%E4%B9%A0-%C2%B7-%E6%96%87%E5%8C%96%E8%AF%BE/</loc>
+    <loc>https://xzy404.me/categories/%E4%BC%91%E9%97%B2-%C2%B7-%E5%A8%B1%E4%B9%90/</loc>
     <lastmod>2025-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
