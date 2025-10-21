@@ -286,7 +286,7 @@ facebook_comments:
   order_by: social
   lang: en_US
 twikoo:
-  envId: https://twikoojs.heishao.me/
+  envId: https://twikoojs.xzy404.me/
   region: null
   visitor: false
   option: null
