@@ -7,10 +7,25 @@ type: link
 updated: '2025-07-13T09:48:10.435+08:00'
 ---
 
-<div id="container"></div>
+<div id="container" tabindex="0"></div>
 <script src="https://cdn.hellolin.top/gh/linusxiong/chrome_dino_game/runner.js"></script>
 <script>
- initRunner('#container');
+    initRunner('#container');
+    const gameContainer = document.querySelector('#container');
+    gameContainer.focus();
+    document.addEventListener('keydown', function(event) {
+        if (event.code === 'Space' || event.code === 'ArrowUp') {
+            event.preventDefault();
+            gameContainer.focus();
+        }
+        if (['KeyW', 'KeyA', 'KeyS', 'KeyD', 'ArrowDown'].includes(event.code)) {
+            event.preventDefault();
+            gameContainer.focus();
+        }
+    });
+    gameContainer.addEventListener('click', function() {
+        gameContainer.focus();
+    });
 </script>
 
 # 友链交换规则
