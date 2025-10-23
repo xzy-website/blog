@@ -6,6 +6,13 @@ top_img: false
 type: link
 updated: '2025-07-13T09:48:10.435+08:00'
 ---
+
+<div id="container"></div>
+<script src="https://cdn.hellolin.top/gh/linusxiong/chrome_dino_game/runner.js"></script>
+<script>
+ initRunner('#container');
+</script>
+
 # 友链交换规则
 
 1. 站点可以在中国大陆区域（IP）正常访问且内容符合中国大陆法律法规；
