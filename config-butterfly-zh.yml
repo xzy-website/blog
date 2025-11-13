@@ -658,7 +658,7 @@ inject:
       src="https://jsd.cdn.sinzmise.top/npm/swiper@10.3.1/swiper-bundle.min.js"></script>
     - >-
       <script
-      src="https://cdnjs.cdn.sinzmise.top/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+      src="https://cdn.staticfile.net/jquery/3.5.1/jquery.min.js"></script>
     - >-
       <script
       src="https://jsd.cdn.sinzmise.top/npm/axios/dist/axios.min.js"></script>
