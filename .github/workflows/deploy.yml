@@ -36,11 +36,11 @@ jobs:
 
       - name: Run Luogu crawler
         run: |
-          python scripts/luogu_spider.py
+          python python-scripts/luogu_spider.py
 
       - name: Merge friend links
         run: |
-          python scripts/merge_links.py
+          python python-scripts/merge_links.py
 
       - name: Commit and push friend links update
         uses: stefanzweifel/git-auto-commit-action@v4
