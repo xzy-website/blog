@@ -132,6 +132,11 @@ a(href='https://xzy404.me' rel="external nofollow") xzy の 未知屋
 
 # 友链交换方式
 
+## 注意事项
+
+1. 洛谷的友链为每次部署或凌晨 2:00 通过 Github Action 自动生成至 links.yml ，请勿通过 PR 更改，唯一方式是洛谷私信 @xzy_awa 让 ta 关注你即可，请注意关注并非立刻生效，请等待至 2:00 A.M. 后。
+2. 唯一可以申请的友链文件位于 `links-fixed.yml`，请注意区分。
+
 ## 评论区申请
 
 <div class="addBtns"><button class="addBtn btn-beautify block orange larger" onclick="leonus.linkCom()"><i class="fa-solid fa-circle-plus"></i> 点击此处进行申请 </button>
@@ -140,136 +145,9 @@ a(href='https://xzy404.me' rel="external nofollow") xzy の 未知屋
 
 自行发起 PR：[xzy-website/blog](https://github.com/xzy-website/blog)。
 
-## Qexo 申请
+注意⚠️：友链文件位于 links-fixed.yml，不要更改错误，并且在发布 PR 后请 @zhao2022-Ux
 
-<article class="message is-info">
-    <div class="message-header">
-        通过 Qexo 申请友链。
-    </div>
-    <div class="message-body">
-        <div class="form-ask-friend">
-            <div class="field">
-                <label class="label">友链名称</label>
-                <div class="control has-icons-left">
-                    <input class="input" type="text" placeholder="例：xzy の 未知屋" id="friend-name" required>
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-signature"></i>
-                    </span>
-                </div>
-            </div>
-            <div class="field">
-                <label class="label">友链链接</label>
-            <div class="control has-icons-left">
-                <input class="input" type="url" placeholder="例：https://xzy404.me" id="friend-link" required>
-                <span class="icon is-small is-left">
-                    <i class="fas fa-link"></i>
-                </span>
-            </div>
-            <p class="help ">注：请确保该网站符合友链交换规则！</p>
-            </div>
-            <div class="field">
-                <label class="label">友链图标</label>
-                <div class="control has-icons-left">
-                    <input class="input" type="url" placeholder="例：https://cdn.luogu.com.cn/upload/usericon/1062508.png" id="friend-icon" required>
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-image"></i>
-                    </span>
-                </div>
-            </div>
-            <div class="field">
-                <label class="label">友链简介</label>
-                <div class="control has-icons-left">
-                    <input class="input" type="text" placeholder="例：An OIer の Profile" id="friend-des" required>
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-info"></i>
-                    </span>
-                </div>
-            </div>
-            <div class="field">
-                <div class="control">
-                    <label class="checkbox">
-                        <input type="checkbox" id="friend-check"/> 我不会提交无意义的友链申请，并且保证友链符合友链交换申请规则。
-                    </label>
-                </div>
-            </div>
-            <div class="field is-grouped">
-                <div class="control">
-                    <button class="button is-info" type="submit" onclick="askFriend(event)">提交！</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</article>
-<script data-pjax src="https://recaptcha.net/recaptcha/api.js?render=6LftRhgrAAAAAE_YJ-KXKavs_DABCjPY1_VckqrJ"></script>
-<script data-pjax>
-function TestUrl(url) {
-    var Expression=/http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w- .\/?%&=]*)?/;
-    var objExp=new RegExp(Expression);
-    if(objExp.test(url) != true){
-        return false;
-    }
-    return true;
-}
-function askFriend (event) {
-    let check = $("#friend-check").is(":checked");
-    let name = $("#friend-name").val();
-    let url = $("#friend-link").val();
-    let image = $("#friend-icon").val();
-    let des = $("#friend-des").val();
-    if(!check){
-        alert("Please check \"I am not submitting nonsense information\"");
-        return;
-    }
-    if(!(name&&url&&image&&des)){
-        alert("The information is incomplete! ");
-        return;
-    }
-    if (!(TestUrl(url))){
-        alert("URL format error! Need to include HTTP protocol header! ");
-        return;
-    }
-    if (!(TestUrl(image))){
-        alert("The format of the slice URL is wrong! It needs to contain the HTTP protocol header! ");
-        return;
-    }
-    event.target.classList.add('is-loading');
-    grecaptcha.ready(function() {
-          grecaptcha.execute('6LftRhgrAAAAAE_YJ-KXKavs_DABCjPY1_VckqrJ', {action: 'submit'}).then(function(token) {
-              $.ajax({
-                type: 'get',
-                cache: false,
-                url: url,
-                dataType: "jsonp",
-                async: false,
-                processData: false,
-                //timeout:10000, 
-                complete: function (data) {
-                    if(data.status==200){
-                    $.ajax({
-                        type: 'POST',
-                        dataType: "json",
-                        data: {
-                            "name": name,
-                            "url": url,
-                            "image": image,
-                            "description": des,
-                            "verify": token,
-                        },
-                        url: 'https://webadmin.xzy404.me/pub/ask_friend/',
-                        success: function (data) {
-                            alert(data.msg);
-                        }
-                    });}
-                    else{
-                        alert("The URL cannot be reached!");
-                    }
-                    event.target.classList.remove('is-loading');
-                }
-          });
-        });
-    });
-}
-</script>
+
 
 <link rel="stylesheet" href="https://jsd.cdn.sinzmise.top/npm/qexo-static@1.6.0/hexo/friends.css"/>
 
