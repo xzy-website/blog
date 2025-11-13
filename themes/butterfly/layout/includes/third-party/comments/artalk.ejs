@@ -1,0 +1,14 @@
+<link href="https://artalk.xzy404.me/dist/Artalk.css" rel="stylesheet" />
+<script src="https://artalk.xzy404.me/dist/Artalk.js"></script>
+
+<div id="Comments"></div>
+
+<script>
+  var artalk = Artalk.init({
+    el: '#Comments',
+    pageKey: '<%= page.permalink %>',
+    pageTitle: '<%= page.title %>',
+    server: 'https://artalk.xzy404.me',
+    site: 'blog',
+  })
+</script>

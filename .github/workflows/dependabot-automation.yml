@@ -1,0 +1,57 @@
+name: Dependabot Automation
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  dependabot-handler:
+    if: github.actor == 'dependabot[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      # 步骤1：自动批准PR
+      - name: Auto-approve Dependabot PR
+        uses: hmarr/auto-approve-action@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          # 仅批准符合semver规范的更新
+          label: dependencies
+          require: 
+            - "title=^(chore|fix|ci): bump.*from .*to .*$"
+
+      # 步骤2：自动添加标签
+      - name: Label PR
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['dependencies']
+            })
+
+      # 步骤3：自动合并（安全条件）
+      - name: Auto-merge
+        if: |
+          github.event.pull_request.mergeable == true &&
+          contains(github.event.pull_request.labels.*.name, 'dependencies') &&
+          github.event.pull_request.title.match(/bump .* from .* to .*/)
+        uses: pascalgn/automerge-action@v0.15.6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          # 合并条件配置
+          merge-method: squash
+          required-status-checks: |
+            ci-build, 
+            lint-check
+          # 仅允许自动合并patch和minor更新
+          allowed-update-types: |
+            semver:patch,
+            semver:minor

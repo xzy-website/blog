@@ -1,0 +1,70 @@
+- class_name: 框架&主题
+  class_desc: 使用的框架＆主题
+  flink_style: flexcard
+  link_list: 
+    - name: Hexo
+      link: https://hexo.io/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网站框架
+      siteshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://hexo.io/zh-tw/
+    - name: Butterfly
+      link: https://butterfly.js.org/
+      avatar: https://butterfly.js.org/img/butterfly-icon.png
+      descr: A Simple and Card UI Design theme for Hexo
+      siteshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://butterfly.js.org/
+- class_name: 大佬们
+  class_desc: Sto %%% Dalao Orz
+  flink_style: volantis
+  link_list: 
+      - name: 黑客少年
+        link: https://www.luogu.com.cn/user/1056150
+        avatar: https://cdn.luogu.com.cn/upload/usericon/1056150.png
+        descr: 建站人！
+        siteshot: https://cdn.luogu.com.cn/upload/usericon/1056150.png
+- class_name: Me
+  class_desc: 自己爱自己。
+  flink_style: butterfly
+  link_list: 
+        - name: xzy
+          link: https://xzy404.me
+          avatar: https://cdn.luogu.com.cn/upload/usericon/1062508.png
+          descr: 一位兼挖坑人和开发者的 OIer。
+          siteshot: https://cdn.luogu.com.cn/upload/usericon/1062508.png
+- class_name: NPY
+  class_desc: NPY 可爱喵~
+  flink_style: butterfly
+  link_list: 
+        - name: _awa_wangjiawen
+          link: https://www.luogu.com.cn/user/305069
+          avatar: https://cdn.luogu.com.cn/upload/usericon/305069.png
+          descr: 女朋友可爱喵qwq
+          siteshot: https://cdn.luogu.com.cn/upload/usericon/305069.png
+- class_name: 友谊长存
+  class_desc: 相识即是缘分
+  flink_style: butterfly
+  link_list: 
+        - name: CSP_SAKME
+          link: https://www.luogu.com.cn/user/973480
+          avatar: https://cdn.luogu.com.cn/upload/usericon/973480.png
+          descr: An OIer~
+          siteshot: https://cdn.luogu.com.cn/upload/usericon/973480.png
+- class_name: 热心网友
+  class_desc: 相见即热心
+  flink_style: butterfly
+  link_list: 
+        - name: 月月博客
+          link: https://blog.tuxiw.cn
+          avatar: https://blog.tuxiw.cn/img/tx/tx1.jpg
+          descr: 愿无岁月可回头，山高路远行未休
+          siteshot: https://blog.tuxiw.cn/img/tx/tx1.jpg
+        - name: lijingshu`s blog
+          link: https://lijingshu2014.github.io/
+          avatar: https://lijingshu2014.github.io/img/avatar.png
+          descr: lijingshu 的博客
+          siteshot: https://lijingshu2014.github.io/img/avatar.png
+        - name: csxx601cjy
+          link: https://0xcjy.github.io/
+          avatar: https://cdn.luogu.com.cn/upload/usericon/1283951.png
+          descr: csxx601cjy 的博客
+          siteshot: https://cdn.luogu.com.cn/upload/usericon/1283951.png
+

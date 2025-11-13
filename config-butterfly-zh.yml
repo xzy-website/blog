@@ -1,0 +1,813 @@
+menu: 
+  文章 || icon--article || faa-tada || hide:
+    归档: /archives/ || icon-guidang1 || faa-tada
+    标签: /tags/ || icon-sekuaibiaoqian || faa-tada
+    分类: /categories/ || icon-fenlei || faa-tada
+  友链 || icon-shejiaoxinxi || faa-tada || hide:
+    留言板: /comments/ || icon-liuyan || faa-tada
+    友人帐: /link/ || icon-lianjie || faa-tada
+  关于 || icon-shejiaoxinxi || faa-tada || hide:
+    即刻短文: /essay/ || icon-pjh-duanwenbentuijian || faa-tada
+    联系我: /about/ || icon-shejiaoxinxi || faa-tada
+highlight_theme: mac
+highlight_copy: true
+highlight_lang: true
+highlight_shrink: false
+highlight_height_limit: 230
+code_word_wrap: false
+copy:
+  enable: true
+  copyright:
+    enable: false
+    limit_count: 50
+social:
+  Github: https://github.com/china-fan || icon-github || faa-tada
+  Bilibili: https://space.bilibili.com/1094927181 || icon-bilibili || faa-tada
+  Email: mailto:XiaofanMango@outlook.com || icon-youxiang || faa-tada
+  RSS: /atom.xml || icon-RSS || faa-tada
+search:
+  use: local_search
+  placeholder: Search...
+  algolia_search:
+    hitsPerPage: 6
+  local_search:
+    preload: true
+    top_n_per_article: 1
+    unescape: false
+    CDN: null
+  docsearch:
+    appId: null
+    apiKey: null
+    indexName: null
+    option: null
+mathjax:
+  enable: true
+  per_page: false
+  cdn: >-
+    https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+favicon: https://cdn.luogu.com.cn/upload/usericon/1062508.png
+avatar:
+  img: https://cdn.luogu.com.cn/upload/usericon/1062508.png
+  effect: false
+disable_top_img: null 
+index_img: null
+default_top_img: null
+archive_img: null
+tag_img: false
+tag_per_img: null
+category_img: null
+category_per_img: null
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  position: both
+  default_cover:
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_1.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_2.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_3.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_4.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_5.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_6.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_7.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_8.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_9.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_10.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_11.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_12.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_13.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_14.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_15.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_16.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_17.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_18.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_19.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_20.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_21.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_22.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_23.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_24.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_25.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_26.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_27.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_28.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_29.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_30.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_31.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_32.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_33.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_34.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_35.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_36.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_37.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_38.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_39.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_40.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_41.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_42.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_43.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_44.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_45.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_46.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_47.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_48.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_49.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_50.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_51.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_52.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_53.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_54.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_55.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_56.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_57.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_58.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_59.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_60.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_61.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_62.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_63.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_64.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_65.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_66.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_67.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_68.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_69.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_70.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_71.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_72.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_73.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_74.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_75.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_76.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_77.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_78.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_79.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_80.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_81.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_82.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_83.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_84.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_85.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_86.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_87.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_88.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_89.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_90.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_91.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_92.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_93.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_94.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_95.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_96.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_97.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_98.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_99.webp
+    - https://sourcebucket.s3.bitiful.net/img/default_cover_100.webp
+
+error_404:
+  enable: true
+  subtitle: 此页面不存在哦٩͡[๏̯͡๏]
+  background: /assets/404_1.jpg
+post_meta:
+  page:
+    date_type: both
+    date_format: relative
+    categories: true
+    tags: true
+    label: true
+  post:
+    date_type: both
+    date_format: relative
+    categories: true
+    tags: true
+    label: true
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
+index_post_content:
+  method: 2
+  length: 500
+anchor: false
+toc:
+  post: true
+  page: false
+  number: false
+  expand: false
+  style_simple: false
+post_copyright:
+  enable: true
+  decode: true
+  author_href: null
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+reward:
+  enable: true
+  coinAudio: https://jsd.cdn.sinzmise.top/npm/akilar-candyassets@1.0.36/audio/aowu.m4a
+  QR_code:
+    - img: https://cdn.hellolin.top/gh/zhao2022-Ux/zhao2022-Ux/qr.png
+      link: null
+      text: 微信
+post_edit:
+  enable: false
+  url: null
+related_post:
+  enable: true
+  limit: 6
+  date_type: updated
+photofigcaption: false
+post_pagination: 1
+noticeOutdate:
+  enable: true
+  style: flat
+  limit_day: 365
+  position: top
+  message_prev: It has been
+  message_next: days since the last update, the content of the article may be outdated.
+addThis:
+  enable: false
+  pubid: null
+sharejs:
+  enable: true
+  sites: facebook,twitter,wechat,weibo,qq
+addtoany:
+  enable: false
+  item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
+comments:
+  use: Artalk
+  text: true
+  lazyload: true
+  count: false
+  card_post_count: false
+artalk:
+  site: 'blog'
+  server: https://artalk.xzy404.me  
+disqus:
+  shortname: null
+  apikey: null
+disqusjs:
+  shortname: null
+  apikey: null
+  option: null
+idisqus:
+  shortname: 
+  serverURL: 
+  url: 
+  css: 
+  js: 
+  option: null
+livere:
+  uid: null
+gitalk:
+  client_id: null
+  client_secret: null
+  repo: null
+  owner: null
+  admin: null
+  option: null
+valine:
+  appId: null
+  appKey: null
+  avatar: monsterid
+  serverURLs: null
+  bg: null
+  visitor: false
+  option: null
+waline:
+  serverURL: null
+  bg: null
+  pageview: false
+  option: null
+utterances:
+  repo: null
+  issue_term: pathname
+  light_theme: github-light
+  dark_theme: photon-dark
+facebook_comments:
+  app_id: null
+  user_id: null
+  pageSize: 10
+  order_by: social
+  lang: en_US
+twikoo:
+  envId: https://twikoojs.xzy404.me/
+  region: null
+  visitor: false
+  option: null
+giscus:
+  repo: null
+  repo_id: null
+  category_id: null
+  theme:
+    light: light
+    dark: dark
+  option: null
+remark42:
+  host: null
+  siteId: null
+  option: null
+chat_btn: false
+chat_hide_show: true
+chatra:
+  enable: false
+  id: null
+tidio:
+  enable: false
+  public_key: 3t32opveizex3f0gpkosins3l0ubkxgr
+daovoice:
+  enable: false
+  app_id: null
+gitter:
+  enable: false
+  room: null
+crisp:
+  enable: false
+  website_id: null
+footer:
+  marquee:
+    enable: false
+    text: >-
+      
+  owner:
+    enable: true
+    since: 2025
+  custom_text: 
+    
+  copyright: true
+  links:
+    - l_link: /link/
+      l_name: 我的朋友
+      r_link: /comments/
+      r_name: 留点什么
+    - l_link: /categories/
+      l_name: 文章分类
+      r_link: /tags/
+      r_name: 文章标签
+    - l_link: https://easylink.cc/
+      l_name: 简单云链
+      r_link: https://www.jyshare.com/
+      r_name: 菜鸟工具
+    - l_link: https://shadiao.pro/
+      l_name: 沙雕导航
+      r_link: https://www.iiice.cn/
+      r_name: 下次一定
+
+  flinks:
+    - link: https://www.luogu.com.cn/user/1062508
+      title: XzyLuogu
+      image: https://cdn.luogu.com.cn/upload/usericon/1062508.png
+    - link: https://hydro.ac/user/45204
+      title: XzyHydro
+      image: https://cdn.luogu.com.cn/upload/usericon/1062508.png
+    - link: https://chenyuan33.github.io
+      title: Cy3Blog
+      image: https://cdn.luogu.com.cn/upload/usericon/559528.png
+  bdages:
+    - title: 博客框架由Hexo提供支持
+      link: https://hexo.io/
+      image: https://files.blog.sinzmise.top/images/Frame-Hexo-blue.svg
+    - title: 主题框架由Butterfly提供支持
+      link: https://butterfly.js.org/
+      image: https://files.blog.sinzmise.top/images/Theme-Butterfly-6513df
+    - title: 本站源码由Github提供支持
+      link: https://github.com/
+      image: https://files.blog.sinzmise.top/images/Source-Github-d021d6.svg
+    - title: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
+      link: http://creativecommons.org/licenses/by-nc-sa/4.0/
+      image: >-
+        https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris
+    - title: 萌ICP备20256008号
+      link: https://icp.gov.moe/?keyword=20256008
+      image: https://img.shields.io/badge/%E8%90%8CICP%E5%A4%87-20256008-fe1384?style-flat&logo=data:image/png;base64,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
+
+    # 修 layout/footer.pug 
+LA:
+  ck: K9WDMA2h2AfDg5GG
+  perf: K94JRCDsbHJJSjNs
+google_adsense:
+  enable: false
+  auto_ads: true
+  js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+  client: null
+  enable_page_level_ads: true
+
+theme_color:
+  enable: true
+  main: null
+  paginator: null
+  button_hover: null
+  text_selection: null
+  link_color: '#a591e0'
+  meta_color: '#858585'
+  hr_color: '#A4D8FA'
+  code_foreground: null
+  code_background: null
+  toc_color: null
+  blockquote_padding_color: null
+  blockquote_background_color: null
+  scrollbar_color: null
+  meta_theme_color_light: ffffff
+  meta_theme_color_dark: '#0d0d0d'
+index_site_info_top: null
+index_top_img_height: null
+category_ui: null
+tag_ui: null
+background:
+  default: var(--default-bg)
+  darkmode: var(--darkmode-bg)
+  mobileday: var(--mobileday-bg)
+  mobilenight: var(--mobilenight-bg)
+footer_bg: false
+rightside-bottom: null
+enter_transitions: true
+canvas_ribbon:
+  enable: false
+  size: 150
+  alpha: 0.6
+  zIndex: -1
+  click_to_change: false
+  mobile: false
+canvas_fluttering_ribbon:
+  enable: false
+  mobile: false
+canvas_nest:
+  enable: false
+  color: 0,0,255
+  opacity: 0.7
+  zIndex: -1
+  count: 30
+  mobile: false
+activate_power_mode:
+  enable: false
+  colorful: true
+  shake: true
+  mobile: false
+fireworks:
+  enable: false
+  zIndex: 9999
+  mobile: false
+click_heart:
+  enable: false
+  mobile: false
+ClickShowText:
+  enable: false
+  text: null
+  fontSize: 15px
+  random: false
+  mobile: false
+display_mode: light
+beautify:
+  enable: true
+  field: site
+  title-prefix-icon: \f863
+  title-prefix-icon-color: '#F47466'
+font:
+  global-font-size: 15.5px
+  code-font-size: 14.5px
+  font-family: >-
+    var(--global-font), -apple-system, 'Quicksand', 'Nimbus Roman No9 L',
+    'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei',
+    'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
+  code-font-family: >-
+    Consolas_1, var(--global-font), "Microsoft YaHei", Menlo, "PingFang SC",
+    "Microsoft JhengHei", sans-serif
+blog_title_font:
+  font_link: null
+  font-family: var(--global-font)
+hr_icon:
+  enable: true
+  icon: \f2dc
+  icon-top: '-10px'
+subtitle:
+  enable: true
+  effect: true
+  loop: true
+  source: 1
+  sub:
+    - Welcome to Xzy House!🤣🤣🤣
+    - Hope you have a nice day!🍭🍭🍭
+preloader:
+  enable: true
+  load_color: null
+  load_style: heo
+  load_image: null
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description: null
+    button:
+      enable: true
+      icon: null
+      text: 个人主页
+      link: https://mugu.zhaohonghao-qwq.com/
+  card_announcement:
+    enable: true
+    content: <center>Built by heishao, used by xzy.</center> <center>感谢 ed-builder 提供的服务器以构建说说，感谢 haofafa 提供的服务器以构建 artalk 评论</center><center>评论加载不出来就刷新</center>
+      
+  card_recent_post:
+    enable: false
+    limit: 3
+    sort: date
+    sort_order: null
+  card_categories:
+    enable: false
+    limit: 8
+    expand: none
+    sort_order: null
+  card_tags:
+    enable: false
+    limit: 20
+    color: true
+    sort_order: null
+  card_archives:
+    enable: false
+    type: monthly
+    format: MMMM YYYY
+    order: -1
+    limit: 8
+    sort_order: null
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+    sort_order: null
+  card_weibo:
+    enable: false
+  card_friend_link:
+    enable: true
+    sort_order: null
+busuanzi:
+  site_uv: true
+  site_pv: true
+  page_pv: true
+  cdn: https://jsd.cdn.sinzmise.top/npm/penndu@16.0.0/bsz.js
+runtimeshow:
+  enable: false
+  publish_date: 4/13/2025 00:00:00
+newest_comments:
+  enable: false
+  sort_order: null
+  limit: 5
+  storage: 10
+  avatar: true
+translate:
+  enable: true
+  default: 繁
+  defaultEncoding: 2
+  translateDelay: 0
+  msgToTraditionalChinese: 繁
+  msgToSimplifiedChinese: 简
+readmode: 2
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 2
+rightside_item_order:
+  enable: false
+  hide: null
+  show: null
+medium_zoom: false
+fancybox: true
+mermaid:
+  enable: false
+  theme:
+    light: default
+    dark: dark
+note:
+  style: flat
+  icons: true
+  border_radius: 3
+  light_bg_offset: 0
+pjax:
+  enable: true
+  exclude:
+    - /bbs/
+aplayerInject:
+  enable: true
+  per_page: true
+snackbar:
+  enable: false
+  position: top-right
+  bg_light: var(--theme-color)
+  bg_dark: '#191919'
+instantpage: true
+pangu:
+  enable: false
+  field: post
+lazyload:
+  enable: true
+  field: site
+  placeholder: null
+  blur: true
+pwa:
+  enable: true
+  manifest: /manifest.json
+  theme_color: var(--theme-color)
+  apple_touch_icon: /images/siteicon/ios/128.png
+  favicon_32_32: /images/siteicon/ios/32.png
+  favicon_16_16: /images/siteicon/ios/16.png
+  mask_icon: /images/siteicon/ios/128.png
+Open_Graph_meta: true
+css_prefix: true
+essay:
+  enable: false
+  strip: 50
+  mode: memos
+  mode_link: https://diary.sinzmise.top/api/v1/memo?creatorId=1&tag=说说
+indieweb:
+  enable: false
+  auth_endpoint: https://indieauth.com/auth
+  token_endpoint: https://tokens.indieauth.com/token
+  webmention:
+    enable: true
+    endpoint: https://webmention.io/blog.sinzmise.top/webmention
+    pingback: https://webmention.io/blog.sinzmise.top/xmlrpc
+inject:
+  head:
+    - >-
+      <link rel="stylesheet"
+      href="https://jsd.cdn.sinzmise.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css">
+    - <link rel="stylesheet" href="/custom2.css">
+    - <style id="themeColor"></style>
+    - <style id="rightSide"></style>
+    - <style id="transPercent"></style>
+    - <style id="blurNum"></style>
+    - <style id="settingStyle"></style>
+    - <span id="fps"></span>
+    - <style id="defineBg"></style>
+    - <style id="menu_shadow"></style>
+    - <script data-pjax src="/chatroom/chatroom.js"></script>
+    - <script async src="/js/categorybar.js"></script>
+    - <script defer src="/js/fomal.js"></script>
+  bottom:
+    - <script async data-pjax src="/bbs/bbs.js"></script>
+    - >-
+      <script
+      src="https://jsd.cdn.sinzmise.top/npm/swiper@10.3.1/swiper-bundle.min.js"></script>
+    - >-
+      <script
+      src="https://cdnjs.cdn.sinzmise.top/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    - >-
+      <script
+      src="https://jsd.cdn.sinzmise.top/npm/axios/dist/axios.min.js"></script>
+    - >-
+      <script>var meting_api =
+      'https://meting.api.sinzmise.eu.org/api?server=:server&type=:type&id=:id&auth=:auth&r=:r';</script>
+    - >-
+      <script async
+      src="https://jsd.cdn.sinzmise.top/npm/vue@2.6.14/dist/vue.min.js"></script>
+    - >-
+      <script async
+      src="https://jsd.cdn.sinzmise.top/npm/element-ui@2.15.6/lib/index.js"></script>
+    - >-
+      <script async
+      src="https://cdnjs.cdn.sinzmise.top/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
+    - >-
+      <script defer type="text/javascript"
+      src="https://jsd.cdn.sinzmise.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js"></script>
+    - >-
+      <script async
+      src="https://jsd.cdn.sinzmise.top/npm/pace-js@1.2.4/pace.min.js"></script>
+    - >-
+      <script defer
+      src="https://jsd.cdn.sinzmise.top/gh/nextapps-de/winbox/dist/winbox.bundle.min.js"></script>
+    - >-
+      <script async
+      src="//at.alicdn.com/t/c/font_3586335_hsivh70x0fm.js"></script>
+    - >-
+      <script async
+      src="//at.alicdn.com/t/c/font_3636804_gr02jmjr3y9.js"></script>
+    - >-
+      <script async
+      src="//at.alicdn.com/t/c/font_3612150_kfv55xn3u2g.js"></script>
+    - >-
+      <script async
+      src="//at.alicdn.com/t/c/font_4199232_t96lac78z3.js"></script>
+    - <script async src="/js/Gold-ingot.js"></script>
+    - <canvas id="universe"></canvas>
+    - <canvas id="snow"></canvas>
+CDN:
+  internal_provider: local
+  third_party_provider: szncdnjs
+  version: false
+  custom_format: null
+  option:
+    algolia_search_v4: >-
+      https://cdnjs.cdn.sinzmise.top/ajax/libs/algoliasearch/4.14.3/algoliasearch-lite.umd.min.js
+    instantsearch_v4: >-
+      https://cdnjs.cdn.sinzmise.top/ajax/libs/instantsearch.js/4.49.2/instantsearch.production.min.js
+    lazyload: >-
+      https://cdnjs.cdn.sinzmise.top/ajax/libs/vanilla-lazyload/17.3.1/lazyload.iife.min.js
+    instantpage: >-
+      https://cdnjs.cdn.sinzmise.top/ajax/libs/instant.page/5.1.0/instantpage.min.js
+    typed: https://cdnjs.cdn.sinzmise.top/ajax/libs/typed.js/2.0.12/typed.min.js
+    fancybox_css_v4: >-
+      https://cdnjs.cdn.sinzmise.top/ajax/libs/fancyapps-ui/4.0.31/fancybox.min.css
+    fancybox_v4: >-
+      https://cdnjs.cdn.sinzmise.top/ajax/libs/fancyapps-ui/4.0.31/fancybox.umd.min.js
+    fontawesomeV6: >-
+      https://cdnjs.cdn.sinzmise.top/ajax/libs/font-awesome/6.0.0/css/all.min.css
+    aplayer_css: https://jsd.cdn.sinzmise.top/npm/aplayer/dist/APlayer.min.css
+    aplayer_js: https://jsd.cdn.sinzmise.top/npm/aplayer/dist/APlayer.min.js
+    meting_js: https://jsd.cdn.sinzmise.top/npm/meting/dist/Meting.min.js
+    coin_js: /js/coin.js
+    coin_css: /css/coin.css
+wowjs:
+  enable: true
+  priority: 10
+  mobile: false
+  animateitem:
+    - class: recent-post-item
+      style: animate__zoomIn
+      duration: 2s
+      delay: 200ms
+      offset: 30
+      iteration: 1
+    - class: category-bar
+      style: animate__zoomIn
+      duration: 2s
+      delay: 200ms
+      offset: 30
+      iteration: 1
+    - class: card-widget
+      style: animate__zoomIn
+      duration: 2s
+      delay: 200ms
+      offset: 30
+      iteration: 1
+  animate_css: https://jsd.cdn.sinzmise.top/npm/hexo-butterfly-wowjs/lib/animate.min.css
+  wow_js: https://jsd.cdn.sinzmise.top/npm/hexo-butterfly-wowjs/lib/wow.min.js
+  wow_init_js: https://jsd.cdn.sinzmise.top/npm/hexo-butterfly-wowjs/lib/wow_init.js
+envelope_comment:
+  enable: true
+  custom_pic:
+    cover: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg 
+    line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png 
+    beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png 
+    afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png 
+  message:
+    - 本站有哪些做得好或者不好的地方？
+    - 或者你有什么改进的建议？
+    - 又或者你有什么具体的问题需要咨询？
+    - 都可以在下方评论区留言哦~~~
+  bottom: 邮酱为您提供服务！
+  height: null
+  path: null
+  front_matter:
+    title: 留言板
+    comments: true
+flink_style: volantis
+error_img:
+  flink: /assets/r1.jpg
+  post_page: /assets/r2.jpg
+tag_plugins:
+  enable: true
+  priority: 5
+  issues: false
+  link:
+    placeholder: /assets/coffee.png
+  CDN:
+    anima: >-
+      https://jsd.cdn.sinzmise.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css
+    jquery: https://jsd.cdn.sinzmise.top/npm/jquery@3.6.3/dist/jquery.min.js
+    issues: >-
+      https://jsd.cdn.sinzmise.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js
+    carousel: >-
+      https://jsd.cdn.sinzmise.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
+    tag_plugins_css: >-
+      https://jsd.cdn.sinzmise.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+index_card_style: multicard
+lantern:
+  enable: false
+
+# electric_clock
+# see https://anzhiy.cn/posts/fc18.html
+electric_clock:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  exclude:
+    # - /posts/
+    # - /about/
+  layout: # 挂载容器类型
+    type: class
+    name: sticky_layout
+    index: 0
+  loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif #加载动画自定义
+  clock_css: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css
+  clock_js: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.js
+  ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
+  qweather_key:  # 和风天气key
+  gaud_map_key:  # 高得地图web服务key
+  default_rectangle: false # 开启后将一直显示rectangle位置的天气，否则将获取访问者的地理位置与天气
+  rectangle: 112.6534116,27.96920845 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置

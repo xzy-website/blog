@@ -1,0 +1,9 @@
+#icat-bber
+    section.icat-page
+        case theme.essay.mode
+            when 'local'
+                include ./essay/local.pug
+            when 'json'
+                include ./essay/json.pug
+            when 'memos'
+                include ./essay/memos.pug

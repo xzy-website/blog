@@ -1,0 +1,56 @@
+<meta name="msapplication-TileColor" content="#ccf6f4">
+<meta name="theme-color" content="#ccf6f4">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/siteicon/ios/180.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/siteicon/ios/32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/siteicon/ios/16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="shortcut icon" href="/images/siteicon/favicon.ico">
+<meta name="apple-mobile-web-app-title" content="Volantis">
+<meta name="application-name" content="Volantis">
+<meta name="msapplication-TileColor" content="#f4f4f4">
+<meta name="msapplication-TileImage" content="/images/siteicon/ios/32.png">
+<meta name="theme-color" content="#f4f4f4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+
+<meta name="baidu-site-verification" content="codeva-NA6uDlCuZg">
+<meta name="msvalidate.01" content="18428535B4425286753107589FC35E79">
+<meta name="google-site-verification" content="H2O2-443XGKJh5l1ik9o6ZgFmcBEf9AKSoMRRlNIltQ">
+
+<script>
+    /////////////////////////////// serviceWorker ///////////////////////////////////////////
+    function registerServiceWorker(path) {
+      if (window.location.hostname != "localhost") {
+        "serviceWorker" in navigator && navigator.serviceWorker.register(`${path}?time=${new Date().getTime()}`).then(function (n) {
+          n.onupdatefound = function () {
+            var e = n.installing;
+            e.onstatechange = function () {
+              switch (e.state) {
+                case "installed":
+                  navigator.serviceWorker.controller ?
+                    console.log("Updated Service Worker.") :
+                    console.log("Service Worker Sucess!");
+                  break;
+                case "redundant":
+                  console.log("The installing service worker became redundant.")
+              }
+            }
+          }
+        }).catch(function (e) {
+          console.error("Error during service worker registration:", e)
+          if (typeof swinstallretry === 'undefined') {
+            swinstallretry = 1;
+            registerServiceWorker(`/sw.js`)
+          }
+        });
+      }
+    }
+    registerServiceWorker(`/sw.js`)
+    //////////////////////////////////////////////////////////////////////////
+    //// unregister serviceWorker
+    //if ('serviceWorker' in navigator) {
+    //  navigator.serviceWorker.ready.then(registration => {
+    //    registration.unregister();
+    //  });
+    //}
+    //////////////////////////////////////////////////////////////////////////
+  </script>

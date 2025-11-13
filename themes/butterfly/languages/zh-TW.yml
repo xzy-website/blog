@@ -1,0 +1,169 @@
+footer:
+  framework: 框架
+  theme: 主題
+  motto: 格言🧬
+  mottosay: 再看看那個光點，它就在這裡，這是家園，這是我們——你所愛的每一個人，你認識的一個人，你聽說過的每一個人，曾經有過的每一個人，都在它上面度過他們的一生 ✨
+  mottostart: 穿梭到星空之旅途
+  guess: 猜你想看
+  flinks: 推薦友鏈⌛
+
+copy:
+  success: 複製成功
+  error: 複製錯誤
+  noSupport: 瀏覽器不支援
+
+page:
+  articles: 文章總覽
+  tag: 標籤
+  category: 分類
+  archives: 歸檔
+
+card_post_count: 條評論
+
+sticky: 置頂
+no_title: 無題
+
+post:
+  created: 發表於
+  updated: 更新於
+  wordcount: 字數總計
+  min2read: 閱讀時長
+  min2read_unit: 分鐘
+  page_pv: 閱讀量
+  comments: 評論數
+  copyright:
+    author: 文章作者
+    link: 文章連結
+    license: 許可協議
+    copyright_notice: 版權聲明
+    copyright_content: '本部落格所有文章除特別聲明外，均採用
+      <a href="%s" target="_blank">%s</a> 許可協議。轉載請註明來自 <a href="%s" target="_blank">%s</a>！'
+  recommend: 相關推薦
+  edit: 編輯
+
+search:
+  title: 搜尋
+  load_data: 資料庫載入中
+  algolia_search:
+    input_placeholder: 搜尋文章
+    hits_empty: '找不到您查詢的內容：${query}'
+    hits_stats: '找到 ${hits} 條結果，用時 ${time} 毫秒'
+
+  local_search:
+    input_placeholder: 搜尋文章
+    hits_empty: '找不到您查詢的內容：${query}'
+
+pagination:
+  prev: 上一篇
+  next: 下一篇
+
+comment: 評論
+
+aside:
+  articles: 文章
+  tags: 標籤
+  categories: 分類
+  card_announcement: 公告
+  card_categories: 分類
+  card_tags: 標籤
+  card_archives: 歸檔
+  card_recent_post: 最新文章
+  card_friend_link: 通訊錄
+  card_weibo: 微博熱搜
+  card_webinfo:
+    headline: 網站資訊
+    article_name: 文章數目
+    runtime:
+      name: 已執行時間
+      unit: 天
+    last_push_date:
+      name: 最後更新時間
+    site_wordcount: 本站總字數
+    site_uv_name: 本站訪客數
+    site_pv_name: 本站總訪問量
+  more_button: 檢視更多
+  card_newest_comments:
+    headline: 最新評論
+    loading_text: 正在載入中...
+    error: 無法獲取評論，請確認相關配置是否正確
+    zero: 沒有評論
+    image: 圖片
+    link: 連結
+    code: 程式碼
+  card_toc: 目錄
+
+date_suffix:
+  just: 剛剛
+  min: 分鐘前
+  hour: 小時前
+  day: 天前
+  month: 個月前
+
+donate: 打賞
+share: 分享
+
+rightside:
+  readmode_title: 閱讀模式
+  translate_title: 簡繁轉換
+  night_mode_title: 淺色和深色模式轉換
+  back_to_top: 回到頂部
+  toc: 目錄
+  scroll_to_comment: 直達評論
+  setting: 設定
+  aside: 單欄和雙欄切換
+  chat: 聊天
+
+copy_copyright:
+  author: 作者
+  link: 連結
+  source: 來源
+  info: 著作權歸作者所有。商業轉載請聯絡作者獲得授權，非商業轉載請註明出處。
+
+Snackbar:
+  chs_to_cht: 你已切換為繁體
+  cht_to_chs: 你已切換為簡體
+  day_to_night: 你已切換為深色模式
+  night_to_day: 你已切換為淺色模式
+
+disquscheck: 加載Disqus原生評論框
+
+sw:
+  update: ✨  魔法屋上新了！ 👉
+  check: 🍭 查看新品 🍬
+
+rightmenu:
+  copy: 複製
+  bing: Bing Search
+  tolink: 轉到連結
+  paste: 粘貼
+  comment: 評論
+  copythislink: 複製本文地址
+  newtab: 在新窗口打開
+  copylink: 複製連結
+  saveimage: 保存圖片
+  copypiclink: 複製圖片連結
+  random: 隨機文章
+  checkdark: 晝夜切換
+  reading: 閱讀模式
+  about: 關於我
+  themesetting: 主題設定
+  fullscreen: 切換全屏
+  print: Print
+
+loading: 載入中...
+
+error404: 頁面沒有找到
+
+webmention:
+  webmention: 網絡迴響
+  webmention_submit: "欲提交/移除對本文的回應，請於此提交您的文章地址："
+  webmention_response:
+    response: Webmention 回應
+    no_response: 本文暫無回應。
+    one_response: 本文有以下一條回應：
+    some_response: 本文有以下 ${count} 條回應：
+    loading_response: 正在加載回應。
+  webmention_status:
+    submit: "提交"
+    good: "已提交！"
+    bad: "提交失敗。"

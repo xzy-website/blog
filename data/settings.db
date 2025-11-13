@@ -1,0 +1,3 @@
+{"type":"system","jwtSecret":"524c96e8b7d8aadaa14950a6cc024ea12275bcd7c39262d8e476f7fe1eee16dec901b18e5ed20afd6ba8726e378a818f2082f971ef5b363562abeadfc1ea18cb","createdAt":{"$$date":1762431287122},"updatedAt":{"$$date":1762431287122},"_id":"5LzGlaJpYwI6EoTm"}
+{"username":"xzy","menuCollapsed":false,"createdAt":{"$$date":1762431287121},"updatedAt":{"$$date":1762431287121},"_id":"8rDPC3G6u2X5ZeaZ"}
+{"type":"storage","storageConfig":{"type":"local","customPath":"images","aliyun":{},"qiniu":{"accessKey":"xzy","secretKey":"xzy12345"},"tencent":{"secretId":"xzy","secretKey":"xzy12345"}},"createdAt":{"$$date":1762431404850},"updatedAt":{"$$date":1762917285801},"_id":"KEIRzWBUB9dwijiT"}

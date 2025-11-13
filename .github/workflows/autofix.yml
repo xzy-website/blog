@@ -1,0 +1,16 @@
+name: autofix.ci
+on:
+  pull_request:
+  push:
+    branches: [ "master" ]
+permissions:
+  contents: read
+
+jobs:
+  autofix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pre-commit
+      - run: pre-commit autoupdate
+      - run: pre-commit install

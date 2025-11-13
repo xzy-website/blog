@@ -1,0 +1,181 @@
+body.light-theme,
+:root {
+    --color-main: #222;
+    --color-background: #fff;
+    --color-memos-id: #536471;
+    --color-tag: #2563eb;
+    --color-tag-hover: #54a3ff;
+    --color-link: #539bf5;
+}
+
+body.dark-theme {
+    --color-main: #adbac7;
+    --color-background: #1c2128;
+    --color-memos-id: #71767b;
+    --color-tag: #539bf5;
+    --color-link: #539bf5;
+}
+
+@media (prefers-color-scheme: light) {
+    body:not(.dark-theme) {
+        --color-main: #222;
+        --color-background: #fff;
+        --color-memos-id: #536471;
+        --color-tag: #2563eb;
+        --color-tag-hover: #54a3ff;
+        --color-link: #539bf5;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body:not(.light-theme) {
+        --color-main: #adbac7;
+        --color-background: #1c2128;
+        --color-memos-id: #71767b;
+        --color-tag: #539bf5;
+        --color-link: #539bf5;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica,
+        Arial, "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei",
+        "Microsoft Yahei", "Segoe UI", sans-serif, serif;
+    color: var(--color-main);
+    background-color: var(--color-background);
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.pages a {
+    color: var(--color-main);
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.pages a:hover {
+    text-decoration: underline;
+}
+
+#main {
+    padding: 20px;
+}
+
+.theme-toggle {
+    cursor: pointer;
+}
+
+.memos {
+    width: 100%;
+}
+
+.memos a {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+.memos a:hover {
+    text-decoration: underline;
+}
+
+.memos__content {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    justify-content: flex-start; /* 确保左对齐 */
+}
+
+.memos__content:before {
+    content: '';
+    background: var(--avatar-url) no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    display: block;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.memos__text {
+    flex-grow: 1;
+    text-align: left; /* 强制文本左对齐 */
+}
+
+.memos__text pre {
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    overflow-x: auto;
+    text-align: left; /* 代码块也左对齐 */
+}
+
+.memos__text code {
+    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+    text-align: left; /* 代码也左对齐 */
+}
+
+.memos__userinfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    justify-content: flex-start; /* 用户信息左对齐 */
+}
+
+.memos__verify {
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+    color: #1d9bf0;
+    fill: currentColor;
+}
+
+.memos__id {
+    font-size: 0.875rem;
+    color: var(--color-memos-id);
+    margin-left: 4px;
+}
+
+.tag-span {
+    margin: 0 0.25rem;
+    color: var(--color-tag);
+}
+
+.tag-span:hover {
+    color: var(--color-tag-hover);
+}
+
+.load-btn {
+    padding: 10px;
+    margin-top: 1rem;
+    text-align: left; /* 按钮文本左对齐 */
+}
+
+.hidden {
+    display: none;
+}
+
+.filter{
+    display:none;
+}
+
+/* 全局强制左对齐 */
+* {
+    text-align: left;
+}
