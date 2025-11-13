@@ -68,3 +68,6 @@ $114514+1919810=\text{?}$
 
 博客好评！
 
+<script src="https://cdn.staticfile.net/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" id='font-awesome-css' href="https://cdn.staticfile.net/font-awesome/4.7.0/css/font-awesome.min.css" type='text/css' media='all'>
+<script id="xplayer" src="https://y.cenguigui.cn/Static/player/player.js" key="69152fcc25643" api="https://y.cenguigui.cn/" m = "1"></script>
