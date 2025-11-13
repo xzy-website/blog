@@ -1,19 +1,28 @@
-import requests
+import cloudscraper
 import json
 import yaml
 import time
+import random
 
 class LuoguFriendLinkSpider:
     def __init__(self):
         self.base_url = "https://www.luogu.com.cn/api/user/followings"
         self.user_id = "1062508"
-        self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-            'Accept': 'application/json, text/plain, */*',
-            'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-            'Origin': 'https://www.luogu.com.cn',
-            'Referer': f'https://www.luogu.com.cn/user/{self.user_id}',
+        
+        self.cookies = {
+            '__client_id': '19fcee76ca7dda5f6903570c91a4cc6993bd2312',
+            '_uid': '1848124',
+            'C3VK': '0eef12'
         }
+        
+        self.scraper = cloudscraper.create_scraper(
+            browser={
+                'browser': 'chrome',
+                'platform': 'windows',
+                'mobile': False
+            }
+        )
+        
         self.friend_links = []
 
     def crawl_followings(self, max_pages=20):
@@ -21,30 +30,45 @@ class LuoguFriendLinkSpider:
             try:
                 print(f"Crawling page {page}...")
                 url = f"{self.base_url}?user={self.user_id}&page={page}"
-                response = requests.get(url, headers=self.headers, timeout=10)
+                
+                response = self.scraper.get(
+                    url, 
+                    timeout=30,
+                    cookies=self.cookies
+                )
+                
                 if response.status_code != 200:
                     print(f"Page {page} request failed, status code: {response.status_code}")
+                    print(f"Response text: {response.text[:500]}")
+                    
+                    if response.status_code == 403:
+                        print("Access forbidden. Cookies might be expired.")
+                    
                     break
+                
                 data = response.json()
+                
                 if 'users' not in data or 'result' not in data['users']:
-                    print(f"No data on page {page}, stopping")
+                    print(f"No data structure on page {page}, stopping")
                     break
+                
                 users = data['users']['result']
                 if not users:
                     print(f"Empty user list on page {page}, stopping")
                     break
+                
                 for user in users:
                     self.process_user(user)
+                
                 print(f"Page {page} completed, got {len(users)} users")
-                time.sleep(1)
-            except requests.exceptions.RequestException as e:
-                print(f"Request exception on page {page}: {e}")
-                break
+                time.sleep(random.uniform(2, 4))
+                
             except json.JSONDecodeError as e:
                 print(f"JSON decode error on page {page}: {e}")
+                print(f"Response text: {response.text[:500]}")
                 break
             except Exception as e:
-                print(f"Unknown exception on page {page}: {e}")
+                print(f"Exception on page {page}: {e}")
                 break
 
     def process_user(self, user):
@@ -84,6 +108,7 @@ class LuoguFriendLinkSpider:
 
     def run(self):
         print("Starting Luogu following list crawl...")
+        print(f"Using cookies: {list(self.cookies.keys())}")
         self.crawl_followings()
         if self.friend_links:
             self.generate_yaml()
