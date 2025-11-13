@@ -15,10 +15,13 @@ on:
 jobs:
   crawl-friends:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           ref: master
 
       - name: Setup Python
@@ -39,21 +42,23 @@ jobs:
         run: |
           python scripts/merge_links.py
 
-      - name: Commit friend links update
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add links.yml
-          git diff --staged --quiet || git commit -m "Auto update Luogu friend links"
-          git push
+      - name: Commit and push friend links update
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Auto update Luogu friend links"
+          file_pattern: links.yml
+          branch: master
 
   deploy:
     runs-on: ubuntu-latest
     needs: crawl-friends
+    permissions:
+      contents: write
     steps:
       - name: Checkout branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           ref: master
 
       - name: Setup Node
@@ -97,4 +102,4 @@ jobs:
           repository-name: xzy-website/blog
           branch: gh-pages
           folder: public
-          commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
+          commit-message: "Auto deploy: ${{ github.event.head_commit.message }}"
