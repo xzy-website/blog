@@ -652,13 +652,14 @@ inject:
     - <script defer src="/js/fomal.js"></script>
   bottom:
     - <script src="https://artalk.xzy404.me/dist/Artalk.js"></script>
+    - >-
+      <script
+      src="https://cdn.staticfile.net/jquery/3.5.1/jquery.min.js"></script>
+    - <script id="xplayer" src="https://y.cenguigui.cn/Static/player12/js/player.js" key="69152fcc25643" api="https://y.cenguigui.cn/" m = "1"></script>
     - <script async data-pjax src="/bbs/bbs.js"></script>
     - >-
       <script
       src="https://jsd.cdn.sinzmise.top/npm/swiper@10.3.1/swiper-bundle.min.js"></script>
-    - >-
-      <script
-      src="https://cdn.staticfile.net/jquery/3.5.1/jquery.min.js"></script>
     - >-
       <script
       src="https://jsd.cdn.sinzmise.top/npm/axios/dist/axios.min.js"></script>

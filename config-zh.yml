@@ -265,3 +265,13 @@ swpp:
   # 其中 key 值为要排序的变量的名称，value 为变量排序时的依据，
   # 填 false 表示禁用该项排序，填 true 表示以 value 本身为键进行排序，填字符串表示以 value[tag] 为键进行排序。
   # sort_rules:
+
+history_calendar:
+  priority: 4
+  enable: true
+  enable_page: all
+  layout:
+    type: class
+    name: sticky_layout
+    index: 0
+  temple_html: '<div class="card-widget card-history"><div class="card-content"><div class="item-headline"><i class="fas fa-clock fa-spin"></i><span>那年今日</span></div><div id="history-baidu" style="height: 100px;overflow: hidden"><div class="history_swiper-container" id="history-container" style="width: 100%;height: 100%"><div class="swiper-wrapper" id="history_container_wrapper" style="height:20px"></div></div></div></div>'
