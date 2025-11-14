@@ -3778,13 +3778,13 @@ function loadmusic(n) {
 			playerksc.style.visibility = "visible";
 			playerlrc.style.visibility = "visible";
 		} else {
-			var script = document.createElement("script");
-			script.id = "xplayer";
-			script.src = "https://y.cenguigui.cn/Static/player6/js/player.js";
-			script.setAttribute("key", "69152fcc25643");
-			script.setAttribute("m", "1");
-			script.setAttribute("api", "https://y.cenguigui.cn/");
-			document.getElementsByTagName("body")[0].appendChild(script);
+			var script = document.createElement('script');
+      		script.id = 'xplayer';
+      		script.src = 'https://y.cenguigui.cn/Static/player12/js/player.js';
+      		script.setAttribute('key','69152fcc25643');
+      		script.setAttribute('m','1');
+      		script.setAttribute('api',"https://y.cenguigui.cn/");
+      		document.getElementsByTagName('body')[0].appendChild(script);
 		}
 	} else if (
 		n == "off" &&
