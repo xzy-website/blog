@@ -29,6 +29,15 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
+    
+    <lastmod>2025-11-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/load</loc>
     
     <lastmod>2025-11-14</lastmod>
@@ -65,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
+    <loc>https://xzy404.me/js/waifu-tips.json</loc>
     
     <lastmod>2025-11-14</lastmod>
     
@@ -75,15 +84,6 @@
   
   <url>
     <loc>https://xzy404.me/posts/61713/chats.json</loc>
-    
-    <lastmod>2025-11-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/js/waifu-tips.json</loc>
     
     <lastmod>2025-11-14</lastmod>
     
@@ -455,6 +455,13 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/tags/%E6%80%8E%E4%B9%88%E5%86%99%E5%87%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/tags/About/</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -470,13 +477,6 @@
   
   <url>
     <loc>https://xzy404.me/tags/%E9%A2%98%E7%9B%AE/</loc>
-    <lastmod>2025-11-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/tags/%E6%80%8E%E4%B9%88%E5%86%99%E5%87%BA%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -506,6 +506,13 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/categories/%E7%AE%97%E6%B3%95-%C2%B7-%E7%90%86%E8%AE%BA/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/categories/%E4%BC%91%E9%97%B2-%C2%B7-%E5%A8%B1%E4%B9%90/</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -514,13 +521,6 @@
   
   <url>
     <loc>https://xzy404.me/categories/%E5%AD%A6%E4%B9%A0-%C2%B7-%E6%96%87%E5%8C%96%E8%AF%BE/</loc>
-    <lastmod>2025-11-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/categories/%E7%AE%97%E6%B3%95-%C2%B7-%E7%90%86%E8%AE%BA/</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
