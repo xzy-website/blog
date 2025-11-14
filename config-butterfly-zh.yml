@@ -512,7 +512,7 @@ aside:
       link: https://mugu.zhaohonghao-qwq.com/
   card_announcement:
     enable: true
-    content: <center>Built by heishao, used by xzy.</center> <center>感谢 ed-builder 提供的服务器以构建说说，感谢 haofafa 提供的服务器以构建 artalk 评论</center><center>评论加载不出来就刷新</center>
+    content: <center>Built by heishao, used by xzy.</center> <center>感谢 ed-builder 提供的服务器以构建说说，感谢 haofafa 提供的服务器以构建 artalk 评论</center>
       
   card_recent_post:
     enable: false
@@ -635,6 +635,7 @@ indieweb:
     pingback: https://webmention.io/blog.sinzmise.top/xmlrpc
 inject:
   head:
+    - <script defer src="https://umami.xzy404.me/umami" data-website-id="3b05b879-d6e1-464e-a887-3935bbd48dab"></script>
     - <link href="https://artalk.xzy404.me/dist/Artalk.css" rel="stylesheet" />
     - >-
       <link rel="stylesheet"
@@ -650,6 +651,9 @@ inject:
     - <style id="menu_shadow"></style>
     - <script data-pjax src="/chatroom/chatroom.js"></script>
     - <script async src="/js/categorybar.js"></script>
+    - >-
+      <script
+      src="https://cdn.staticfile.net/jquery/3.5.1/jquery.min.js"></script>
     - <script defer src="/js/fomal.js"></script>
   bottom:
     - <script src="https://artalk.xzy404.me/dist/Artalk.js"></script>
