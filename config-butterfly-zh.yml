@@ -609,6 +609,7 @@ lazyload:
   field: site
   placeholder: null
   blur: true
+  loadingImg: https://cdn.hellolin.top/gh/zhao2022-Ux/zhao2022-Ux/qr.png
 pwa:
   enable: true
   manifest: /manifest.json
