@@ -636,7 +636,11 @@ indieweb:
 inject:
   head:
     - <script defer src="https://umami.xzy404.me/umami" data-website-id="3b05b879-d6e1-464e-a887-3935bbd48dab"></script>
+    - <link rel="stylesheet" href="https://unpkg.com/katex@0.16.7/dist/katex.min.css" />
+    - <script src="https://unpkg.com/katex@0.16.7/dist/katex.min.js"></script>
     - <link href="https://artalk.xzy404.me/dist/Artalk.css" rel="stylesheet" />
+    - <script src="https://artalk.xzy404.me/dist/Artalk.js"></script>
+    - <script src="https://unpkg.com/@artalk/plugin-katex/dist/artalk-plugin-katex.js"></script>
     - >-
       <link rel="stylesheet"
       href="https://jsd.cdn.sinzmise.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css">
@@ -656,7 +660,6 @@ inject:
       src="https://cdn.staticfile.net/jquery/3.5.1/jquery.min.js"></script>
     - <script defer src="/js/fomal.js"></script>
   bottom:
-    - <script src="https://artalk.xzy404.me/dist/Artalk.js"></script>
     - >-
       <script
       src="https://cdn.staticfile.net/jquery/3.5.1/jquery.min.js"></script>
