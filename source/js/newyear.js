@@ -2,7 +2,7 @@
 function newYear() {
     if (!document.querySelector('#newYear')) return;
     // 新年时间戳 and 星期对象
-    let SpringFestival = new Date('2024-02-10 00:00:00')
+    let SpringFestival = new Date('2026-02-17 00:00:00')
     let newYear = SpringFestival.getTime() / 1000,
         week = { 0: '周日', 1: '周一', 2: '周二', 3: '周三', 4: '周四', 5: '周五', 6: '周六' }
     function nol(h) { h = Number(h); return h > 9 ? h : '0' + h; }
