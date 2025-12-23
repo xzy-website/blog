@@ -69,7 +69,7 @@
   - name: AnotherDream
     link: https://www.luogu.com.cn/user/1208546
     avatar: https://cdn.luogu.com.cn/upload/usericon/1208546.png
-    descr: 菜狗
+    descr: 强力学术
   - name: ARIS1_0
     link: https://www.luogu.com.cn/user/846661
     avatar: https://cdn.luogu.com.cn/upload/usericon/846661.png
@@ -226,7 +226,7 @@
   - name: Clare613
     link: https://www.luogu.com.cn/user/730276
     avatar: https://cdn.luogu.com.cn/upload/usericon/730276.png
-    descr: 初二蒟蒻，请勿嘲笑啊QAQ||不要嘲笑蓝勾，蓝勾可以切蓝题||生命不息，战斗不止||I am unstoppalbe!||目标一：黄+绿+蓝+紫+黑->570/888||以后互关的请AC绿题100道
+    descr: 初二蒟蒻，请勿嘲笑啊QAQ||生命不息，战斗不止||I am unstoppalbe!||目标一：黄+绿+蓝+紫+黑->602/888||以后互关的请AC绿题100道
   - name: Antarctica_Oabaijnaw
     link: https://www.luogu.com.cn/user/939957
     avatar: https://cdn.luogu.com.cn/upload/usericon/939957.png
@@ -279,7 +279,7 @@
   - name: 违规用户名1045961
     link: https://www.luogu.com.cn/user/1045961
     avatar: https://cdn.luogu.com.cn/upload/usericon/1045961.png
-    descr: '> 最后在线时间：2025年12月22日20时42分'
+    descr: '> 最后在线时间：2025年12月23日21时32分'
   - name: __qkj__
     link: https://www.luogu.com.cn/user/1007676
     avatar: https://cdn.luogu.com.cn/upload/usericon/1007676.png
@@ -344,7 +344,7 @@
   - name: Nuclear_Fish_cyq
     link: https://www.luogu.com.cn/user/670355
     avatar: https://cdn.luogu.com.cn/upload/usericon/670355.png
-    descr: QQ2895770854|最后在家时间：2025年12月22日22时49分|大致不互关
+    descr: QQ2895770854|最后在家时间：2025年12月23日22时25分|大致不互关
   - name: Lacr1mosa
     link: https://www.luogu.com.cn/user/559037
     avatar: https://cdn.luogu.com.cn/upload/usericon/559037.png
@@ -397,11 +397,11 @@
   - name: Forever_Rain
     link: https://www.luogu.com.cn/user/1706930
     avatar: https://cdn.luogu.com.cn/upload/usericon/1706930.png
-    descr: 我要有人陪我过圣诞/dk/kel
+    descr: 我服了。
   - name: Forgotten_freopen
     link: https://www.luogu.com.cn/user/510555
     avatar: https://cdn.luogu.com.cn/upload/usericon/510555.png
-    descr: 电脑被班主任代为保管至高考结束，以后上线是概率性事件 | 小号 serene_rain，你们想看的东西也在那里
+    descr: 电脑被班主任代为保管至高考结束，以后上线是概率性事件 | 猜你想找：U637378
   - name: aflyer
     link: https://www.luogu.com.cn/user/1848124
     avatar: https://cdn.luogu.com.cn/upload/usericon/1848124.png
@@ -414,10 +414,6 @@
     link: https://www.luogu.com.cn/user/1414799
     avatar: https://cdn.luogu.com.cn/upload/usericon/1414799.png
     descr: SCP为什么不把C*F收容了？
-  - name: BYDfhy
-    link: https://www.luogu.com.cn/user/1848043
-    avatar: https://cdn.luogu.com.cn/upload/usericon/1848043.png
-    descr: 范浩宇(用户名：xzy_awa)是GAY
   - name: Enoch2013
     link: https://www.luogu.com.cn/user/1069719
     avatar: https://cdn.luogu.com.cn/upload/usericon/1069719.png
@@ -466,7 +462,7 @@
   - name: zhoumurui
     link: https://www.luogu.com.cn/user/305928
     avatar: https://cdn.luogu.com.cn/upload/usericon/305928.png
-    descr: Q3200357278 | 钢四 |  五级钩互关
+    descr: Q3200357278 | 东方 | 钢四 |  五级及以上钩/车万人互关
   - name: rohitsharmaw
     link: https://www.luogu.com.cn/user/1023494
     avatar: https://cdn.luogu.com.cn/upload/usericon/1023494.png
@@ -528,6 +524,10 @@
     link: https://www.luogu.com.cn/user/780107
     avatar: https://cdn.luogu.com.cn/upload/usericon/780107.png
     descr: Aethel||那还说啥呢兄弟||SOS||互关私信随缘，大概率同意
+  - name: BYDfhy
+    link: https://www.luogu.com.cn/user/1848043
+    avatar: https://cdn.luogu.com.cn/upload/usericon/1848043.png
+    descr: 范浩宇(用户名：xzy_awa)是GAY
 - class_name: 热心网友
   class_desc: 相见即热心
   flink_style: butterfly
