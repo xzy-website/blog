@@ -29,7 +29,34 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/load</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/manifest.json</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/test.json</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/js/waifu-tips.json</loc>
     
     <lastmod>2026-01-24</lastmod>
     
@@ -65,33 +92,6 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/load</loc>
-    
-    <lastmod>2026-01-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/manifest.json</loc>
-    
-    <lastmod>2026-01-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/js/waifu-tips.json</loc>
-    
-    <lastmod>2026-01-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/google8073542809160a67</loc>
     
     <lastmod>2026-01-24</lastmod>
@@ -102,6 +102,15 @@
   
   <url>
     <loc>https://xzy404.me/essay/vercel.json</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/essay/README</loc>
     
     <lastmod>2026-01-24</lastmod>
     
@@ -128,25 +137,16 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/config.json</loc>
-    
-    <lastmod>2026-01-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/essay/README</loc>
-    
-    <lastmod>2026-01-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/baidu_verify_codeva-F0RjFTve6w</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/config.json</loc>
     
     <lastmod>2026-01-24</lastmod>
     
@@ -174,6 +174,15 @@
   
   <url>
     <loc>https://xzy404.me/comments/</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/article/%E9%A2%98%E8%A7%A3%EF%BC%9AP10414%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202023%20%E5%9B%BD%20A%5D%202023%20%E6%AC%A1%E6%96%B9/</loc>
     
     <lastmod>2026-01-24</lastmod>
     
@@ -210,15 +219,6 @@
   
   <url>
     <loc>https://xzy404.me/article/%E9%A2%98%E8%A7%A3%EF%BC%9AP9239%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202023%20%E7%9C%81%20B%5D%20%E5%A1%AB%E7%A9%BA%E9%97%AE%E9%A2%98/</loc>
-    
-    <lastmod>2026-01-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/article/%E9%A2%98%E8%A7%A3%EF%BC%9AP10414%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202023%20%E5%9B%BD%20A%5D%202023%20%E6%AC%A1%E6%96%B9/</loc>
     
     <lastmod>2026-01-24</lastmod>
     
