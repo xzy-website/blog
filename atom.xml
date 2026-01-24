@@ -6,7 +6,7 @@
   <link href="https://xzy404.me/atom.xml" rel="self"/>
   
   <link href="https://xzy404.me/"/>
-  <updated>2026-01-24T14:21:30.576Z</updated>
+  <updated>2026-01-24T14:22:23.689Z</updated>
   <id>https://xzy404.me/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>题解：P8727 [蓝桥杯 2020 国 A] 填空问题</title>
+    <link href="https://xzy404.me/article/%E9%A2%98%E8%A7%A3%EF%BC%9AP8727%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202020%20%E5%9B%BD%20A%5D%20%E5%A1%AB%E7%A9%BA%E9%97%AE%E9%A2%98/"/>
+    <id>https://xzy404.me/article/%E9%A2%98%E8%A7%A3%EF%BC%9AP8727%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202020%20%E5%9B%BD%20A%5D%20%E5%A1%AB%E7%A9%BA%E9%97%AE%E9%A2%98/</id>
+    <published>2026-01-24T14:22:21.945Z</published>
+    <updated>2026-01-24T14:22:23.689Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>题解：P8727 [蓝桥杯 2020 国 A] 填空问题</h1><h2 id="Problem-A">Problem A.</h2><p>计算从 $1$ 到 $2020$ 中合数的个数。</p><p>合数是指除了 $1$ 和它本身外还有其他约数的数（大于 $1$ 的非质数）。</p><p>考虑遍历每个数（$2$ 到 $2020$），检查是否存在除 $1$ 和自身外的约数（只需检查到平方根即可）。</p><p>答案为 $1713$。</p><h2 id="Problem-B">Problem B.</h2><p>计算从 $1900$ 年 $1$ 月 $1$ 日到 $9999$ 年 $12$ 月 $31$ 日中，年月日的数字表示中包含数字 $2$ 的天数。</p><p>考虑遍历每一天，分别检查年、月、日的数字中是否含有 $2$。这里要注意闰年的判断（能被 $4$ 整除但不能被 $100$ 整除，或能被 $400$ 整除）。使用数组存储每月的天数（区分闰年）然后判断即可（这里可以用 <code>to_string()</code> 函数转成字符串进行判断）。</p><p>答案是 $1994240$。</p><h2 id="Problem-C">Problem C.</h2><p>给定一个长度为 $200$ 的字符串 $s$，求本质不同的单调递增子序列个数（相同字符序列视为本质相同）。</p><p>考虑定义 $dp_i$ 表示以第 $i$ 个字符结尾的本质不同的递增子序列个数。</p><ul><li>遍历 $j$ 从 $0$ 到 $i-1$：<ul><li>若 $s_i = s_j$，则 $dp_i = 0$。</li><li>若 $s_i &gt; s_j$，则 $dp_i = dp_i + dp_j$。</li></ul></li></ul><p>最终答案为所有 $dp_i$ 的和。</p><p>答案即 $3616159$。</p><h2 id="Problem-D">Problem D.</h2><p>计算 $12$ 阶皮亚诺曲线中所有相邻格子（上下左右）在曲线上的距离之和。</p><p>我们设 $f(k)$ 为 $k$ 阶曲线的距离和。<br>则 $f(k) = 9 \times f(k-1) + \text{水平边界距离和} + \text{垂直边界距离和}$。</p><p>边界距离计算使用递归函数计算每个格子在曲线上的坐标。然后对边界上的相邻点计算距离差并求和。</p><p>答案：$184731576397539360$。</p><h2 id="Problem-E">Problem E.</h2><p>在 $4 \times 4$ 方格中放置 $16$ 节的玩具蛇（每节占一格，相邻节成直线或直角），求不同放置方案数。</p><p>考虑深搜枚举蛇的起点，从起点出发，向四个方向扩展，检查新位置是否在方格内且未被占用。</p><p>答案 $552$。</p><h2 id="代码">代码</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    string ans [] = &#123;</span><br><span class="line">        <span class="string">&quot;1713&quot;</span>, <span class="comment">// 双引号中替换为 A 题的答案</span></span><br><span class="line">        <span class="string">&quot;1994240&quot;</span>, <span class="comment">// 双引号中替换为 B 题的答案</span></span><br><span class="line">        <span class="string">&quot;3616159&quot;</span>, <span class="comment">// 双引号中替换为 C 题的答案</span></span><br><span class="line">        <span class="string">&quot;184731576397539360&quot;</span>, <span class="comment">// 双引号中替换为 D 题的答案</span></span><br><span class="line">        <span class="string">&quot;552&quot;</span>, <span class="comment">// 双引号中替换为 E 题的答案</span></span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="type">char</span> T;</span><br><span class="line">    cin &gt;&gt; T;</span><br><span class="line">    cout &lt;&lt; ans[T - <span class="string">&#x27;A&#x27;</span>] &lt;&lt; endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="题解" scheme="https://xzy404.me/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="题解" scheme="https://xzy404.me/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
   
   <entry>
     <title>题解：P9239 [蓝桥杯 2023 省 B] 填空问题</title>

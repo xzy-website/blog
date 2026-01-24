@@ -29,6 +29,15 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/load</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/manifest.json</loc>
     
     <lastmod>2026-01-24</lastmod>
@@ -74,15 +83,6 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/load</loc>
-    
-    <lastmod>2026-01-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/js/waifu-tips.json</loc>
     
     <lastmod>2026-01-24</lastmod>
@@ -110,15 +110,6 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/essay/README</loc>
-    
-    <lastmod>2026-01-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/essay/</loc>
     
     <lastmod>2026-01-24</lastmod>
@@ -137,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/baidu_verify_codeva-F0RjFTve6w</loc>
+    <loc>https://xzy404.me/essay/README</loc>
     
     <lastmod>2026-01-24</lastmod>
     
@@ -155,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/bbs/</loc>
+    <loc>https://xzy404.me/baidu_verify_codeva-F0RjFTve6w</loc>
     
     <lastmod>2026-01-24</lastmod>
     
@@ -173,7 +164,25 @@
   </url>
   
   <url>
+    <loc>https://xzy404.me/bbs/</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzy404.me/comments/</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/article/%E9%A2%98%E8%A7%A3%EF%BC%9AP8727%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202020%20%E5%9B%BD%20A%5D%20%E5%A1%AB%E7%A9%BA%E9%97%AE%E9%A2%98/</loc>
     
     <lastmod>2026-01-24</lastmod>
     
