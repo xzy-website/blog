@@ -10,7 +10,7 @@ class LuoguFriendLinkSpider:
         self.user_id = "1062508"
         
         self.cookies = {
-            '__client_id': 'bc4d1063dbd89f4bbbb255c5657ba21e0fcb45f7',
+            '__client_id': os.environ.get('cookie'),
             '_uid': '1848124',
             'C3VK': '0eef12'
         }
