@@ -3,6 +3,7 @@ import json
 import yaml
 import time
 import random
+import os
 
 class LuoguFriendLinkSpider:
     def __init__(self):
