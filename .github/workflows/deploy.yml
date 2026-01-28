@@ -35,6 +35,8 @@ jobs:
           pip install requests pyyaml cloudscraper
 
       - name: Run Luogu crawler
+        env:
+          cookie: ${{ secrets.cookie }}
         run: |
           python python-scripts/luogu_spider.py
 
