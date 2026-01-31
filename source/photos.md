@@ -7,7 +7,7 @@ updated: '2026-01-31T19:46:29.620+08:00'
 ![](https://cdn.luogu.com.cn/upload/image_hosting/hf8he741.png)
 ![](https://cdn.luogu.com.cn/upload/image_hosting/4asy58p2.png)
 
-@[xzy_awa](https://www.luogu.com.cn/user/1062508)：![]()
+@[xzy_awa](https://www.luogu.com.cn/user/1062508)：![](https://cdn.luogu.com.cn/upload/image_hosting/coxfx3og.png)
 
 @[_awa_wangjiawen](https://www.luogu.com.cn/user/305069)：![](https://cdn.luogu.com.cn/upload/image_hosting/gncx36nq.png)
 
