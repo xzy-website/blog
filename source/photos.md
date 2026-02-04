@@ -1,7 +1,7 @@
 ---
 date: '2026-01-31T19:46:29.205664+08:00'
 title: 照片
-updated: '2026-01-31T19:46:29.620+08:00'
+updated: '2026-02-04T21:08:33.671+08:00'
 ---
 本校信竞队合照（拍摄于 2025 年 10 月，部分）：
 ![](https://cdn.luogu.com.cn/upload/image_hosting/hf8he741.png)
@@ -15,3 +15,6 @@ updated: '2026-01-31T19:46:29.620+08:00'
 
 某人的：![](https://cdn.luogu.com.cn/upload/image_hosting/4om7rtg9.png)
 
+@[Calm_qwq](https://www.luogu.com.cn/user/1432361)：
+
+![](https://cdn.luogu.com.cn/upload/image_hosting/s1gci27w.png)
