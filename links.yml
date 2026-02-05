@@ -21,7 +21,7 @@
   - name: MLE_Automaton
     link: https://www.luogu.com.cn/user/928418
     avatar: https://cdn.luogu.com.cn/upload/usericon/928418.png
-    descr: This user is too lazy to write anything
+    descr: 这个家伙很神秘，什么都很神秘
   - name: tyr_04
     link: https://www.luogu.com.cn/user/747109
     avatar: https://cdn.luogu.com.cn/upload/usericon/747109.png
@@ -61,7 +61,7 @@
   - name: AnotherDream
     link: https://www.luogu.com.cn/user/1208546
     avatar: https://cdn.luogu.com.cn/upload/usericon/1208546.png
-    descr: 让爱渗透了地面 / 我要的只是你在我身边
+    descr: 你说你会哭 / 不是因为在乎
   - name: ARIS1_0
     link: https://www.luogu.com.cn/user/846661
     avatar: https://cdn.luogu.com.cn/upload/usericon/846661.png
@@ -327,7 +327,7 @@
   - name: Nuclear_Fish_cyq
     link: https://www.luogu.com.cn/user/670355
     avatar: https://cdn.luogu.com.cn/upload/usericon/670355.png
-    descr: '> 最后在线时间：2026年2月5日16时13分|不壶关了|网络ENFP-T现实INTP|初一|B站：不想取名的核动力鱼 < 由 exOIso
+    descr: '> 最后在线时间：2026年2月5日19时10分|不壶关了|网络ENFP-T现实INTP|初一|B站：不想取名的核动力鱼 < 由 exOIso
       发送激光'
   - name: Lacr1mosa
     link: https://www.luogu.com.cn/user/559037
@@ -465,7 +465,7 @@
   - name: _me_
     link: https://www.luogu.com.cn/user/1134686
     avatar: https://cdn.luogu.com.cn/upload/usericon/1134686.png
-    descr: 2025.12.4后AFO||叫我me/我||心奈可爱||非私信可能不壶，私信72小时内必壶（二百粉出福）（小号__me__）
+    descr: 2025.12.4后AFO||叫我me/我||心奈+霍霍+丛雨||非私信可能不壶，私信72小时内必壶（二百粉出福）（小号__me__）
   - name: CuteGielHina
     link: https://www.luogu.com.cn/user/1542698
     avatar: https://cdn.luogu.com.cn/upload/usericon/1542698.png
@@ -506,7 +506,7 @@
   - name: shy_lihui
     link: https://www.luogu.com.cn/user/1053122
     avatar: https://cdn.luogu.com.cn/upload/usericon/1053122.png
-    descr: 雪，凝雨也
+    descr: 我々の戦いはここまでだ
   - name: lmaz
     link: https://www.luogu.com.cn/user/1331896
     avatar: https://cdn.luogu.com.cn/upload/usericon/1331896.png
@@ -641,6 +641,14 @@
     link: https://www.luogu.com.cn/user/1685421
     avatar: https://cdn.luogu.com.cn/upload/usericon/1685421.png
     descr: 本人最后在线时间2026.2.3 16:00:56  || 壶关私
+  - name: Red_river
+    link: https://www.luogu.com.cn/user/930268
+    avatar: https://cdn.luogu.com.cn/upload/usericon/930268.png
+    descr: Instruments of Retribution || ♂
+  - name: jsntzth666
+    link: https://www.luogu.com.cn/user/1294443
+    avatar: https://cdn.luogu.com.cn/upload/usericon/1294443.png
+    descr: '&lzm1 || 壶关需活跃或受信任用户 || 仅我关注的人才可以给我发私信'
 - class_name: 热心网友
   class_desc: 相见即热心
   flink_style: butterfly
