@@ -8,7 +8,7 @@ mathjax: true
 tags:
 - 题解
 title: YGOI R2 题解
-updated: '2026-02-09T11:54:38.318+08:00'
+updated: '2026-02-09T19:13:18.378+08:00'
 ---
 # T1
 
@@ -108,19 +108,156 @@ int main()
 代码：
 
 ```cpp
-12
-CREATE 1 10
-CREATE 2 20
-CREATE 3 15
-RUN
-UP 1 5
-QUERY 1
-MERGE 1 3
-QUERY 3
-RUN
-RUN
-CREATE 4 100
-RUN
+#include <iostream>
+#include <unordered_map>
+#include <set>
+#include <string>
+#include <algorithm>
+using namespace std;
+
+// 比较器：用于每个组内的进程集合，按原始优先级降序，相同则 pid 升序
+struct ComparePair {
+    bool operator()(const pair<int, int>& a, const pair<int, int>& b) const {
+        if (a.first != b.first) return a.first > b.first;
+        return a.second < b.second;
+    }
+};
+
+// 全局候选结构，按最终优先级降序，相同则 pid 升序
+struct GlobalCandidate {
+    int final_priority;
+    int pid;
+    bool operator<(const GlobalCandidate& other) const {
+        if (final_priority != other.final_priority) return final_priority > other.final_priority;
+        return pid < other.pid;
+    }
+};
+
+unordered_map<int, int> parent;       // 并查集父节点
+unordered_map<int, int> delta;        // 组优先级偏移量
+unordered_map<int, set<pair<int, int>, ComparePair>> group_members; // 每个组的进程集合
+set<GlobalCandidate> global_set;      // 全局候选集合
+unordered_map<int, int> proc_priority;// 进程原始优先级
+
+int find(int x) {
+    if (parent[x] != x) parent[x] = find(parent[x]);
+    return parent[x];
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int m;
+    cin >> m;
+    string op;
+    while (m--) {
+        cin >> op;
+        if (op == "CREATE") {
+            int pid, priority;
+            cin >> pid >> priority;
+            parent[pid] = pid;
+            proc_priority[pid] = priority;
+            delta[pid] = 0;
+            group_members[pid].insert({priority, pid});
+            global_set.insert({priority + delta[pid], pid});
+        }
+        else if (op == "RUN") {
+            auto it = global_set.begin();
+            int pid = it->pid;
+            int final_priority = it->final_priority;
+            global_set.erase(it);
+
+            int gid = find(pid);
+            int p = proc_priority[pid];
+            auto& mem = group_members[gid];
+            mem.erase({p, pid});
+            if (!mem.empty()) {
+                auto it_mem = mem.begin();
+                int new_top_p = it_mem->first;
+                int new_top_pid = it_mem->second;
+                int new_final = new_top_p + delta[gid];
+                global_set.insert({new_final, new_top_pid});
+            }
+            proc_priority.erase(pid);
+            cout << pid << '\n';
+        }
+        else if (op == "UP") {
+            int pid, x;
+            cin >> pid >> x;
+            int gid = find(pid);
+            int old_p = proc_priority[pid];
+            auto& mem = group_members[gid];
+            auto it_mem = mem.begin();
+            int old_top_p = it_mem->first;
+            int old_top_pid = it_mem->second;
+            int old_final = old_top_p + delta[gid];
+            global_set.erase({old_final, old_top_pid});
+
+            mem.erase({old_p, pid});
+            int new_p = old_p + x;
+            proc_priority[pid] = new_p;
+            mem.insert({new_p, pid});
+
+            it_mem = mem.begin();
+            int new_top_p = it_mem->first;
+            int new_top_pid = it_mem->second;
+            int new_final = new_top_p + delta[gid];
+            global_set.insert({new_final, new_top_pid});
+        }
+        else if (op == "MERGE") {
+            int pid1, pid2;
+            cin >> pid1 >> pid2;
+            int g1 = find(pid1);
+            int g2 = find(pid2);
+            if (g1 == g2) continue;
+
+            // 启发式合并：保证 g1 的集合更大
+            if (group_members[g1].size() < group_members[g2].size()) swap(g1, g2);
+
+            auto& mem1 = group_members[g1];
+            auto& mem2 = group_members[g2];
+
+            // 删除两个组的旧候选
+            auto it1 = mem1.begin();
+            int top1_p = it1->first;
+            int top1_pid = it1->second;
+            int final1 = top1_p + delta[g1];
+            global_set.erase({final1, top1_pid});
+
+            auto it2 = mem2.begin();
+            int top2_p = it2->first;
+            int top2_pid = it2->second;
+            int final2 = top2_p + delta[g2];
+            global_set.erase({final2, top2_pid});
+
+            // 合并集合
+            for (const auto& elem : mem2) mem1.insert(elem);
+            delta[g1] += delta[g2];
+
+            // 清除被合并组的信息
+            group_members.erase(g2);
+            delta.erase(g2);
+            parent[g2] = g1;   // 并查集合并
+
+            // 插入新候选
+            auto it_new = mem1.begin();
+            int new_top_p = it_new->first;
+            int new_top_pid = it_new->second;
+            int new_final = new_top_p + delta[g1];
+            global_set.insert({new_final, new_top_pid});
+        }
+        else if (op == "QUERY") {
+            int pid;
+            cin >> pid;
+            int gid = find(pid);
+            int p = proc_priority[pid];
+            int final_priority = p + delta[gid];
+            cout << final_priority << '\n';
+        }
+    }
+    return 0;
+}
 ```
 
 # T3
@@ -332,3 +469,5 @@ int main() {
 }
 ```
 
+
+```
