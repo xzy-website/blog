@@ -8,33 +8,327 @@ mathjax: true
 tags:
 - 题解
 title: YGOI R2 题解
-updated: '2026-02-05T21:17:23.859+08:00'
+updated: '2026-02-09T11:54:38.318+08:00'
 ---
 # T1
 
-暴力枚举所有区间是 \\(O(n^2)\\)，会超时。 正解：考虑每个元素作为最大值和最小值对答案的贡献。 对于每个 \\(a\_i\\)，计算它作为最大值的区间个数 \\(cnt\\\_max[i]\\) 和作为最小值的区间个数 \\(cnt\\\_min[i]\\)。 答案 = \\(\\sum a\_i \\times (cnt\\\_max[i] - cnt\\\_min[i])\\)。  使用单调栈可以在 \\(O(n)\\) 时间内求出每个元素的支配区间范围。
+暴力枚举所有区间是 $O(n^2)$，会超时。正解：考虑每个元素作为最大值和最小值对答案的贡献。对于每个 $a_i$，计算它作为最大值的区间个数 $cnt\_max[i]$ 和作为最小值的区间个数 $cnt\_min[i]$。答案 = $\sum a_i \times (cnt\_max[i] - cnt\_min[i])$。使用单调栈可以在 $O(n)$ 时间内求出每个元素的支配区间范围。
 
-#### 数据生成器 \`\`\`cpp #include <bits/stdc++.h> using namespace std;  int main() { int n = 200000; cout << n << endl; mt19937 rng(time(0)); uniform\_int\_distribution dist(-1e9, 1e9); for (int i = 0; i < n; i++) { cout << dist(rng) << " "; } cout << endl; return 0; } \`\`\`
-
-#### 正解代码 \`\`\`cpp #include <bits/stdc++.h> using namespace std; typedef long long ll; const int MOD = 1e9+7; const int N = 2e5+5;  int n; ll a[N]; int left\_max[N], right\_max[N]; int left\_min[N], right\_min[N];  void solve\_max() { stack st; for (int i = 1; i <= n; i++) { while (!st.empty() && a[st.top()] <= a[i]) { st.pop(); } left\_max[i] = st.empty() ? 1 : (st.top()+1); st.push(i); } while (!st.empty()) st.pop(); for (int i = n; i >= 1; i--) { while (!st.empty() && a[st.top()] < a[i]) { st.pop(); } right\_max[i] = st.empty() ? n : (st.top()-1); st.push(i); } }  void solve\_min() { stack st; for (int i = 1; i <= n; i++) { while (!st.empty() && a[st.top()] >= a[i]) { st.pop(); } left\_min[i] = st.empty() ? 1 : (st.top()+1); st.push(i); } while (!st.empty()) st.pop(); for (int i = n; i >= 1; i--) { while (!st.empty() && a[st.top()] > a[i]) { st.pop(); } right\_min[i] = st.empty() ? n : (st.top()-1); st.push(i); } }  int main() { ios::sync\_with\_stdio(false); cin.tie(0); cin >> n; for (int i = 1; i <= n; i++) cin >> a[i];  solve\_max(); solve\_min();  ll ans = 0; for (int i = 1; i <= n; i++) { ll cnt\_max = (ll)(i - left\_max[i] + 1) \* (right\_max[i] - i + 1); ll cnt\_min = (ll)(i - left\_min[i] + 1) \* (right\_min[i] - i + 1); ll contribution = (cnt\_max - cnt\_min) % MOD \* (a[i] % MOD) % MOD; ans = (ans + contribution) % MOD; } ans = (ans + MOD) % MOD; cout << ans << endl; return 0; } \`\`\`
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+const int MOD = 1e9 + 7;
+const int N = 2e5 + 5;
+int n;
+ll a[N];
+int left_max[N], right_max[N];
+int left_min[N], right_min[N];
+void solve_max()
+{
+    stack<int> st;
+    for (int i = 1; i <= n; i++)
+    {
+        while (!st.empty() && a[st.top()] <= a[i])
+        {
+            st.pop();
+        }
+        left_max[i] = st.empty() ? 1 : (st.top() + 1);
+        st.push(i);
+    }
+    while (!st.empty())
+        st.pop();
+    for (int i = n; i >= 1; i--)
+    {
+        while (!st.empty() && a[st.top()] < a[i])
+        {
+            st.pop();
+        }
+        right_max[i] = st.empty() ? n : (st.top() - 1);
+        st.push(i);
+    }
+}
+void solve_min()
+{
+    stack<int> st;
+    for (int i = 1; i <= n; i++)
+    {
+        while (!st.empty() && a[st.top()] >= a[i])
+        {
+            st.pop();
+        }
+        left_min[i] = st.empty() ? 1 : (st.top() + 1);
+        st.push(i);
+    }
+    while (!st.empty())
+        st.pop();
+    for (int i = n; i >= 1; i--)
+    {
+        while (!st.empty() && a[st.top()] > a[i])
+        {
+            st.pop();
+        }
+        right_min[i] = st.empty() ? n : (st.top() - 1);
+        st.push(i);
+    }
+}
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    for (int i = 1; i <= n; i++)
+        cin >> a[i];
+    solve_max();
+    solve_min();
+    ll ans = 0;
+    for (int i = 1; i <= n; i++)
+    {
+        ll cnt_max = (ll)(i - left_max[i] + 1) * (right_max[i] - i + 1);
+        ll cnt_min = (ll)(i - left_min[i] + 1) * (right_min[i] - i + 1);
+        ll contribution = (cnt_max - cnt_min) % MOD * (a[i] % MOD) % MOD;
+        ans = (ans + contribution) % MOD;
+    }
+    ans = (ans + MOD) % MOD;
+    cout << ans << endl;
+    return 0;
+}
+```
 
 # T2
 
-解题思路 直接模拟所有操作，需要注意： 1. 使用优先队列维护可执行进程（按最终优先级排序） 2. 使用并查集维护进程组，记录每个组的额外优先级偏移 3. 合并时更新所有受影响的进程在优先队列中的位置  由于m≤5000，暴力更新可以接受。
+直接模拟所有操作，需要注意：
 
-#### 数据生成器 \`\`\`cpp #include <bits/stdc++.h> using namespace std;  int main() { mt19937 rng(time(0)); int m = 5000; cout << m << endl;  vector pids; int next\_pid = 1;  for (int i = 0; i < m; i++) { int op\_type = rng() % 5; if (op\_type == 0 || pids.empty()) { // CREATE cout << "CREATE " << next\_pid << " " << (rng() % 20001 - 10000) << endl; pids.push\_back(next\_pid); next\_pid++; } else if (op\_type == 1) { // RUN cout << "RUN" << endl; if (!pids.empty()) { // 实际数据生成时随机删除一个 pids.erase(pids.begin() + (rng() % pids.size())); } } else if (op\_type == 2) { // UP int pid = pids[rng() % pids.size()]; cout << "UP " << pid << " " << (rng() % 2001 - 1000) << endl; } else if (op\_type == 3) { // MERGE if (pids.size() >= 2) { int idx1 = rng() % pids.size(); int idx2 = rng() % pids.size(); while (idx1 == idx2) idx2 = rng() % pids.size(); cout << "MERGE " << pids[idx1] << " " << pids[idx2] << endl; } else { i--; // 重试 } } else { // QUERY int pid = pids[rng() % pids.size()]; cout << "QUERY " << pid << endl; } } return 0; } \`\`\`
+1. 使用优先队列维护可执行进程（按最终优先级排序）
+2. 使用并查集维护进程组，记录每个组的额外优先级偏移
+3. 合并时更新所有受影响的进程在优先队列中的位置
 
-#### 正解代码 \`\`\`cpp #include <bits/stdc++.h> using namespace std;  struct Process { int pid; int base\_priority; int group; bool operator<(const Process& other) const { if (base\_priority != other.base\_priority) return base\_priority < other.base\_priority; return pid > other.pid; } };  struct Group { int extra; vector members; };  vector<Process> processes(100001); vector<Group> groups(100001); vector<int> group\_extra(100001, 0); priority\_queue<Process> pq; vector<bool> active(100001, false); int next\_group = 1;  int find\_group(int pid) { return processes[pid].group; }  void merge\_groups(int g1, int g2) { if (g1 == g2) return; if (groups[g1].members.size() < groups[g2].members.size()) { swap(g1, g2); } // 合并g2到g1 for (int pid : groups[g2].members) { processes[pid].group = g1; processes[pid].base\_priority += group\_extra[g2] - group\_extra[g1]; groups[g1].members.push\_back(pid); } groups[g2].members.clear(); next\_group++; }  int main() { ios::sync\_with\_stdio(false); cin.tie(0);  int m; cin >> m;  while (m--) { string op; cin >> op;  if (op == "CREATE") { int pid, priority; cin >> pid >> priority; processes[pid] = {pid, priority, next\_group}; groups[next\_group] = {next\_group, {pid}}; group\_extra[next\_group] = 0; active[pid] = true; pq.push(processes[pid]); next\_group++; } else if (op == "RUN") { while (!pq.empty()) { Process p = pq.top(); pq.pop(); if (!active[p.pid]) continue; // 检查是否还是当前优先级 int gid = processes[p.pid].group; int actual\_priority = processes[p.pid].base\_priority + group\_extra[gid]; if (actual\_priority != p.base\_priority) { // 优先级已变，重新入队 processes[p.pid].base\_priority = actual\_priority; pq.push(processes[p.pid]); continue; } cout << p.pid << "\\n"; active[p.pid] = false; break; } } else if (op == "UP") { int pid, x; cin >> pid >> x; int gid = processes[pid].group; group\_extra[gid] += x; // 更新组内所有进程在优先队列中的表示 for (int p : groups[gid].members) { processes[p].base\_priority += x; if (active[p]) { pq.push(processes[p]); } } } else if (op == "MERGE") { int pid1, pid2; cin >> pid1 >> pid2; int g1 = find\_group(pid1); int g2 = find\_group(pid2); merge\_groups(g1, g2); } else if (op == "QUERY") { int pid; cin >> pid; int gid = processes[pid].group; int priority = processes[pid].base\_priority + group\_extra[gid]; cout << priority << "\\n"; } }  return 0; } \`\`\`
+由于 $m \le 5000$，暴力更新可以接受。
+
+代码：
+
+```cpp
+12
+CREATE 1 10
+CREATE 2 20
+CREATE 3 15
+RUN
+UP 1 5
+QUERY 1
+MERGE 1 3
+QUERY 3
+RUN
+RUN
+CREATE 4 100
+RUN
+```
 
 # T3
 
-解题思路 1. 使用动态规划：\\( dp[t][state] \\) 表示第t个时间单位后的资源分布状态 2. 状态转移：对于每个状态，计算可能通过网络流传输到达的下一个状态 3. 网络流建模：源点向每个节点连边（容量为当前资源量），节点间按管道连边，节点向汇点连边（容量为目标状态资源量） 4. 优化：状态数可能很多，需要剪枝和合并等价状态 
+1. 使用动态规划：$dp[t][state]$ 表示第 $t$ 个时间单位后的资源分布状态
+2. 状态转移：对于每个状态，计算可能通过网络流传输到达的下一个状态
+3. 网络流建模：源点向每个节点连边（容量为当前资源量），节点间按管道连边，节点向汇点连边（容量为目标状态资源量）
+4. 优化：状态数可能很多，需要剪枝和合并等价状态
 
-#### 数据生成器 \`\`\`cpp #include <bits/stdc++.h> using namespace std;  int main() { mt19937 rng(time(0)); int n = 50, m = 200, k = 5; cout << n << " " << m << " " << k << endl;  uniform\_int\_distribution cap\_dist(0, 100); for (int i = 0; i < n; i++) { cout << cap\_dist(rng) << " "; } cout << endl;  for (int i = 0; i < n; i++) { int c = cap\_dist(rng); cout << c << " "; } cout << endl;  for (int i = 0; i < m; i++) { int u = rng() % n + 1; int v = rng() % n + 1; while (u == v) v = rng() % n + 1; int w = rng() % 101; cout << u << " " << v << " " << w << endl; } return 0; } \`\`\`  
+代码：
 
-#### 正解代码 \`\`\`cpp #include <bits/stdc++.h> using namespace std;  const int INF = 1e9;  struct Edge { int to, cap, rev; };  class MaxFlow { vector> g; vector level, iter; int n; public: MaxFlow(int n) : n(n), g(n), level(n), iter(n) {}  void add\_edge(int from, int to, int cap) { g[from].push\_back({to, cap, (int)g[to].size()}); g[to].push\_back( {from, 0, (int)g[from].size()-1}); }  void bfs(int s) { fill(level.begin(), level.end(), -1); queue q; level[s] = 0; q.push(s); while (!q.empty()) { int v = q.front(); q.pop(); for (auto& e : g[v]) { if (e.cap > 0 && level[e.to] < 0) { level[e.to] = level[v] + 1; q.push(e.to); } } } }  int dfs(int v, int t, int f) { if (v == t) return f; for (int& i = iter[v]; i < g[v].size(); i++) { Edge& e = g[v][i]; if (e.cap > 0 && level[v] < level[e.to]) { int d = dfs(e.to, t, min(f, e.cap)); if (d > 0) { e.cap -= d; g[e.to][e.rev].cap += d; return d; } } } return 0; }  int max\_flow(int s, int t) { int flow = 0; while (true) { bfs(s); if (level[t] < 0) return flow; fill(iter.begin(), iter.end(), 0); int f; while ((f = dfs(s, t, INF)) > 0) { flow += f; } } } };  int n, m, k; vector<int> cap, init; vector<tuple<int, int, int>> pipes;  pair<int, int> compute\_score(const vector<int>& state) { int sum = accumulate(state.begin(), state.end(), 0); int avg = sum / n; int variance = 0; for (int x : state) { variance += (x - avg) \* (x - avg); } return {variance, sum}; }  int main() { ios::sync\_with\_stdio(false); cin.tie(0);  cin >> n >> m >> k; cap.resize(n); init.resize(n); for (int i = 0; i < n; i++) cin >> cap[i]; for (int i = 0; i < n; i++) cin >> init[i];  pipes.resize(m); for (int i = 0; i < m; i++) { int u, v, w; cin >> u >> v >> w; pipes[i] = {u-1, v-1, w}; }  // 状态编码：使用vector<int>作为状态 map<vector<int>, int> dp\_flow; // 最大传输量 map<vector<int>, pair<int, int>> dp\_score; // (方差, 传输量)  dp\_score[init] = {0, 0};  for (int t = 0; t < k; t++) { map, pair> next\_dp;  for (auto& [state, score] : dp\_score) { // 构建网络流图：源点->节点(当前资源)，节点->汇点(目标资源) // 节点间通过管道连接 int nodes = n + 2; int S = n, T = n + 1;  // 尝试所有可能的目标状态 // 简化：只考虑在容量范围内的状态 // 由于状态空间大，需要限制搜索范围 // 这里使用启发式：只考虑与当前状态相差不大的状态  vector candidate(n); // 生成候选状态：对每个节点，资源量在[min(state[i], cap[i]), cap[i]]之间 // 实际上需要枚举，这里简化：只考虑每个节点变化不超过delta的情况 const int delta = 2;  function&)> generate\_states = [&](int idx, vector& cur) { if (idx == n) { // 检查是否可达 MaxFlow mf(nodes); for (int i = 0; i < n; i++) { mf.add\_edge(S, i, state[i]); mf.add\_edge(i, T, cur[i]); } for (auto& [u, v, w] : pipes) { mf.add\_edge(u, v, w); } int flow = mf.max\_flow(S, T); if (flow == accumulate(cur.begin(), cur.end(), 0)) { // 可达 auto new\_score = compute\_score(cur); int total\_flow = score.second + flow;  if (!next\_dp.count(cur) || make\_pair(new\_score.first, -total\_flow) < make\_pair(next\_dp[cur].first, -next\_dp[cur].second)) { next\_dp[cur] = {new\_score.first, total\_flow}; } } return; }  for (int val = max(0, state[idx] - delta); val <= min(cap[idx], state[idx] + delta); val++) { cur[idx] = val; generate\_states(idx+1, cur); } };  vector<int> cur\_state(n); generate\_states(0, cur\_state); }  dp\_score = move(next\_dp); }  // 找到最佳结果 pair<int, int> best\_score = {INF, -INF}; vector<int> best\_state;  for (auto& [state, score] : dp\_score) { auto current = make\_pair(score.first, -score.second); if (current < best\_score) { best\_score = current; best\_state = state; } }  cout << best\_score.first \* n \* n << " " << -best\_score.second << endl;  return 0; } \`\`\`  ---
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
 
+typedef long long ll;
+const int MAXN = 5000; // 最大节点数
+const ll INF = 1e18;
+const ll M = 1000000; // 足够大的权重，确保方差最小化优先
 
+struct Edge {
+    int to, cap, cost, rev;
+};
 
-## ## 题目总结  1. \*\*第一题\*\*：需要单调栈技巧将 \\(O(n^2)\\) 优化到 \\(O(n)\\) 的思维题 2. \*\*第二题\*\*：复杂的大模拟，考察代码实现能力和数据结构使用 3. \*\*第三题\*\*：结合网络流和动态规划的综合题，暴力搜索结合优化可以通过  每道题都提供了数据生成器和正解代码，可以直接用于模拟赛。
+vector<Edge> graph[MAXN];
+ll h[MAXN]; // 势函数
+ll dist[MAXN];
+int prevv[MAXN], preve[MAXN];
+
+void add_edge(int from, int to, int cap, int cost) {
+    graph[from].push_back((Edge){to, cap, cost, (int)graph[to].size()});
+    graph[to].push_back((Edge){from, 0, -cost, (int)graph[from].size()-1});
+}
+
+// 最小费用流，从s到t输送f单位流量，返回最小费用
+ll min_cost_flow(int s, int t, int f, int n) {
+    ll res = 0;
+    // 初始势：由于存在负权边，先用Bellman-Ford计算最短路
+    fill(h, h+n, 0);
+    // 实际上，因为我们的图是DAG，且初始势为0即可，但为了处理负权，我们还是运行一次Bellman-Ford
+    bool updated = true;
+    for (int iter = 0; iter < n && updated; iter++) {
+        updated = false;
+        for (int v = 0; v < n; v++) {
+            if (h[v] == INF) continue;
+            for (Edge &e : graph[v]) {
+                if (e.cap > 0 && h[e.to] > h[v] + e.cost) {
+                    h[e.to] = h[v] + e.cost;
+                    updated = true;
+                }
+            }
+        }
+    }
+
+    while (f > 0) {
+        // 使用Dijkstra求最短路（基于势）
+        fill(dist, dist+n, INF);
+        dist[s] = 0;
+        priority_queue<pair<ll,int>, vector<pair<ll,int>>, greater<pair<ll,int>>> pq;
+        pq.push({0, s});
+        while (!pq.empty()) {
+            auto p = pq.top(); pq.pop();
+            ll d = p.first;
+            int v = p.second;
+            if (dist[v] < d) continue;
+            for (int i = 0; i < graph[v].size(); i++) {
+                Edge &e = graph[v][i];
+                if (e.cap > 0) {
+                    ll nd = d + e.cost + h[v] - h[e.to];
+                    if (dist[e.to] > nd) {
+                        dist[e.to] = nd;
+                        prevv[e.to] = v;
+                        preve[e.to] = i;
+                        pq.push({nd, e.to});
+                    }
+                }
+            }
+        }
+        if (dist[t] == INF) {
+            // 无法输送更多流量（理论上不会发生）
+            return -1;
+        }
+        for (int v = 0; v < n; v++) {
+            if (dist[v] < INF) h[v] += dist[v];
+        }
+        // 沿最短路增广
+        int d = f;
+        for (int v = t; v != s; v = prevv[v]) {
+            d = min(d, graph[prevv[v]][preve[v]].cap);
+        }
+        f -= d;
+        res += d * h[t]; // 实际费用即为新的势在汇点的值
+        for (int v = t; v != s; v = prevv[v]) {
+            Edge &e = graph[prevv[v]][preve[v]];
+            e.cap -= d;
+            graph[v][e.rev].cap += d;
+        }
+    }
+    return res;
+}
+
+int main() {
+    int n, m, k;
+    cin >> n >> m >> k;
+    vector<int> c(n+1), a(n+1);
+    for (int i = 1; i <= n; i++) cin >> c[i];
+    for (int i = 1; i <= n; i++) cin >> a[i];
+    vector<tuple<int,int,int>> pipes;
+    for (int i = 0; i < m; i++) {
+        int u, v, w;
+        cin >> u >> v >> w;
+        pipes.push_back({u, v, w});
+    }
+
+    int S = 0; // 总资源量
+    for (int i = 1; i <= n; i++) S += a[i];
+
+    // 构建时间扩展网络
+    // 节点编号：0: 源点 s, 1: 汇点 t
+    // 对于每个资源站 i 和时间步 t (0..k)，有两个节点：in(i,t) 和 out(i,t)
+    // 编号规则：in(i,t) = 2 + (i-1)*2*(k+1) + 2*t
+    //          out(i,t)= 2 + (i-1)*2*(k+1) + 2*t+1
+    int total_time_nodes = n * 2 * (k+1);
+    int s = 0, t = 1;
+    int N = total_time_nodes + 2;
+    for (int i = 0; i < N; i++) graph[i].clear();
+
+    // 记录管道边的信息，用于最后计算总传输量
+    vector<tuple<int,int,int>> pipe_edges; // (from, edge_index, initial_cap)
+
+    // 添加边
+    // 1. 从源点 s 到 in(i,0)
+    for (int i = 1; i <= n; i++) {
+        int in_node = 2 + (i-1)*2*(k+1) + 0; // t=0 的 in 节点
+        add_edge(s, in_node, a[i], 0);
+    }
+
+    // 2. 从 out(i,k) 到汇点 t：每条边容量1，费用为 M*(2j-1)
+    for (int i = 1; i <= n; i++) {
+        int out_node = 2 + (i-1)*2*(k+1) + 2*k + 1; // t=k 的 out 节点
+        for (int j = 1; j <= c[i]; j++) {
+            add_edge(out_node, t, 1, M * (2*j - 1));
+        }
+    }
+
+    // 3. 对于每个 i,t：从 in(i,t) 到 out(i,t)
+    for (int i = 1; i <= n; i++) {
+        for (int tt = 0; tt <= k; tt++) {
+            int in_node = 2 + (i-1)*2*(k+1) + 2*tt;
+            int out_node = in_node + 1;
+            add_edge(in_node, out_node, c[i], 0);
+        }
+    }
+
+    // 4. 保留边：从 out(i,t) 到 in(i,t+1)
+    for (int i = 1; i <= n; i++) {
+        for (int tt = 0; tt < k; tt++) {
+            int out_node = 2 + (i-1)*2*(k+1) + 2*tt + 1;
+            int in_node_next = 2 + (i-1)*2*(k+1) + 2*(tt+1);
+            add_edge(out_node, in_node_next, c[i], 0);
+        }
+    }
+
+    // 5. 管道边：从 out(u,t) 到 in(v,t+1)
+    for (auto &pipe : pipes) {
+        int u = get<0>(pipe), v = get<1>(pipe), w = get<2>(pipe);
+        for (int tt = 0; tt < k; tt++) {
+            int out_node = 2 + (u-1)*2*(k+1) + 2*tt + 1;
+            int in_node_next = 2 + (v-1)*2*(k+1) + 2*(tt+1);
+            // 记录管道边
+            int idx = graph[out_node].size();
+            add_edge(out_node, in_node_next, w, -1);
+            pipe_edges.push_back({out_node, idx, w});
+        }
+    }
+
+    // 运行最小费用流，要求流量为 S
+    ll total_cost = min_cost_flow(s, t, S, N);
+
+    // 计算最终每个资源站的资源量 b_i 和总传输量 F
+    vector<int> b(n+1, 0);
+    ll sum_b2 = 0;
+    for (int i = 1; i <= n; i++) {
+        int out_node = 2 + (i-1)*2*(k+1) + 2*k + 1;
+        for (Edge &e : graph[out_node]) {
+            if (e.to == t) {
+                // 初始容量为1，当前容量为 e.cap，所以流量为 1 - e.cap
+                b[i] += (1 - e.cap);
+            }
+        }
+        sum_b2 += (ll)b[i] * b[i];
+    }
+
+    // 计算总传输量 F：所有管道边上的流量之和
+    ll F = 0;
+    for (auto &pe : pipe_edges) {
+        int from = get<0>(pe);
+        int idx = get<1>(pe);
+        int init_cap = get<2>(pe);
+        int flow = init_cap - graph[from][idx].cap;
+        F += flow;
+    }
+
+    // 计算不均衡度：n^2 倍方差 = n * sum(b_i^2) - S^2
+    ll V = n * sum_b2 - (ll)S * S;
+    cout << V << " " << F << endl;
+
+    return 0;
+}
+```
 
