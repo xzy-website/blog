@@ -8,8 +8,10 @@ mathjax: true
 tags:
 - 题解
 title: YGOI R2 题解
-updated: '2026-02-09T19:13:18.378+08:00'
+updated: '2026-02-09T19:18:00.905+08:00'
 ---
+PDF：[https://www.luogu.com.cn/fe/api/problem/downloadAttachment/ozivacgj](https://www.luogu.com.cn/fe/api/problem/downloadAttachment/ozivacgj%E2%80%B8)。
+
 # T1
 
 暴力枚举所有区间是 $O(n^2)$，会超时。正解：考虑每个元素作为最大值和最小值对答案的贡献。对于每个 $a_i$，计算它作为最大值的区间个数 $cnt\_max[i]$ 和作为最小值的区间个数 $cnt\_min[i]$。答案 = $\sum a_i \times (cnt\_max[i] - cnt\_min[i])$。使用单调栈可以在 $O(n)$ 时间内求出每个元素的支配区间范围。
@@ -469,5 +471,6 @@ int main() {
 }
 ```
 
+```
 
 ```
