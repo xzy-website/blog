@@ -2,10 +2,11 @@
 aside: false
 comments: false
 date: '2021-10-16T13:42:00+08:00'
+mathjax: true
 title: 关于本站
 top_img: false
 type: about
-updated: '2025-05-05T12:07:31.304+08:00'
+updated: '2026-02-16T14:44:59.844+08:00'
 ---
 本来这里是要写关于**本站**的，但我决定写一些我！
 
@@ -35,5 +36,3 @@ updated: '2025-05-05T12:07:31.304+08:00'
 
 [![](https://img.shields.io/badge/TailChat-xzy_[未知]＃1777-lgreen)](https://nightly.paw.msgbyte.com/main/personal/converse/66cc73fefdbc1501a473087d)
 [![](https://img.shields.io/badge/粉丝群-HelloXzy!-lgreen)](https://nightly.paw.msgbyte.com/invite/rVhQhJUy)
-
-
