@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/essay/README</loc>
+    <loc>https://xzy404.me/essay/vercel.json</loc>
     
     <lastmod>2026-02-16</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/essay/</loc>
+    <loc>https://xzy404.me/essay/README</loc>
     
     <lastmod>2026-02-16</lastmod>
     
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/essay/vercel.json</loc>
+    <loc>https://xzy404.me/essay/</loc>
     
     <lastmod>2026-02-16</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/categories/</loc>
+    <loc>https://xzy404.me/bbs/</loc>
     
     <lastmod>2026-02-16</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/bbs/</loc>
+    <loc>https://xzy404.me/categories/</loc>
     
     <lastmod>2026-02-16</lastmod>
     
@@ -455,14 +455,14 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/tags/%E9%A2%98%E8%A7%A3/</loc>
+    <loc>https://xzy404.me/tags/About/</loc>
     <lastmod>2026-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xzy404.me/tags/About/</loc>
+    <loc>https://xzy404.me/tags/%E9%A2%98%E8%A7%A3/</loc>
     <lastmod>2026-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
