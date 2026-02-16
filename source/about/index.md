@@ -8,10 +8,6 @@ top_img: false
 type: about
 updated: '2026-02-16T14:44:59.844+08:00'
 ---
-本来这里是要写关于**本站**的，但我决定写一些我！
-
----
-
 # https://xzy404.me
 
 ### 正在验证您是否是真人。这可能需要几秒钟时间。
@@ -26,13 +22,62 @@ updated: '2026-02-16T14:44:59.844+08:00'
 
 ---
 
-一位兼开发者和挖坑人的 OIer。
+- [![](https://img.shields.io/badge/新博客-xzy_の_未知屋-lgreen)](https://xzy404.me) & [![](https://img.shields.io/badge/小站-沐咕の主页-lgreen)](https://mugu.zhaohonghao-qwq.com) & [![](https://img.shields.io/badge/旧博客-Afan_Blog-grey)](https://china-fan.github.io)
+- [![](https://img.shields.io/badge/论坛-鱼谷-lgreen)](https://discourse.xzy404.me) & [![](https://img.shields.io/badge/Online_Judge-浴谷-lgreen)](https://yugu.xzy404.me) & [![](https://img.shields.io/badge/论坛-浴谷-grey)](https://discussforluogu.flarum.cloud/)
 
-[![](https://img.shields.io/badge/新博客-xzyのProfile-lgreen)](https://xzy404.me)
-[![](https://img.shields.io/badge/旧博客-Afan_Blog-lgreen)](https://china-fan.github.io)
-[![](https://img.shields.io/badge/小站-沐咕の主页-lgreen)](https://mugu.zhaohonghao-qwq.com/)
+---
 
-[![](https://img.shields.io/badge/论坛-浴谷-lgreen)](https://discussforluogu.flarum.cloud/)
+{% timeline Update 更新日志,blue %}
 
-[![](https://img.shields.io/badge/TailChat-xzy_[未知]＃1777-lgreen)](https://nightly.paw.msgbyte.com/main/personal/converse/66cc73fefdbc1501a473087d)
-[![](https://img.shields.io/badge/粉丝群-HelloXzy!-lgreen)](https://nightly.paw.msgbyte.com/invite/rVhQhJUy)
+<!-- timeline 2024-9 -->
+
+搭建 沐咕の主页。
+
+<!-- endtimeline -->
+
+<!-- timeline 2024-10 -->
+
+完工 沐咕の主页。
+
+<!-- endtimeline -->
+
+<!-- timeline 2024-11 -->
+
+搭建 Afan Blog。
+
+<!-- endtimeline -->
+
+<!-- timeline 2024-12 -->
+
+完工 Afan Blog。
+
+<!-- endtimeline -->
+
+<!-- timeline 2025-02 -->
+
+搭建浴谷。
+
+完工浴谷。
+
+<!-- endtimeline -->
+
+<!-- timeline 2025-03 -->
+
+搭建 xzy の 未知屋。
+
+<!-- endtimeline -->
+
+<!-- timeline 2025-04（v1.1.0） -->
+
+完工 xzy の 未知屋
+
+<!-- endtimeline -->
+
+<!-- timeline 2025-05（v1.2.0） -->
+
+开始修改博客。
+
+<!-- endtimeline -->
+
+{% endtimeline %}
+
