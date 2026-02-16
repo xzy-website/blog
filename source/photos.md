@@ -1,13 +1,13 @@
 ---
 date: '2026-01-31T19:46:29.205664+08:00'
 title: 照片
-updated: '2026-02-05T16:09:11.345+08:00'
+updated: '2026-02-16T10:21:42.928+08:00'
 ---
 本校信竞队合照（拍摄于 2025 年 10 月，部分）：
 ![](https://cdn.luogu.com.cn/upload/image_hosting/hf8he741.png)
 ![](https://cdn.luogu.com.cn/upload/image_hosting/4asy58p2.png)
 
-@[xzy_awa](https://www.luogu.com.cn/user/1062508)：![](https://cdn.luogu.com.cn/upload/image_hosting/coxfx3og.png)
+@[xzy_awa](https://www.luogu.com.cn/user/1062508)：![](https://cdn.luogu.com.cn/upload/image_hosting/coxfx3og.png) ![](https://cdn.luogu.com.cn/upload/image_hosting/0dna2j82.png)
 
 @[_awa_wangjiawen](https://www.luogu.com.cn/user/305069)：![](https://cdn.luogu.com.cn/upload/image_hosting/gncx36nq.png)
 
@@ -18,6 +18,5 @@ updated: '2026-02-05T16:09:11.345+08:00'
 @[Calm_qwq](https://www.luogu.com.cn/user/1432361)：
 
 ![](https://cdn.luogu.com.cn/upload/image_hosting/s1gci27w.png)
-
 
 @[Fractsidus](https://www.luogu.com.cn/user/1440542)：[https://www.luogu.com.cn/problem/U657029](https://www.luogu.com.cn/problem/U657029%E2%80%B8)
