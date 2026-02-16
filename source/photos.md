@@ -1,7 +1,7 @@
 ---
 date: '2026-01-31T19:46:29.205664+08:00'
 title: 照片
-updated: '2026-02-16T10:21:42.928+08:00'
+updated: '2026-02-16T14:48:50.816+08:00'
 ---
 本校信竞队合照（拍摄于 2025 年 10 月，部分）：
 ![](https://cdn.luogu.com.cn/upload/image_hosting/hf8he741.png)
@@ -19,4 +19,4 @@ updated: '2026-02-16T10:21:42.928+08:00'
 
 ![](https://cdn.luogu.com.cn/upload/image_hosting/s1gci27w.png)
 
-@[Fractsidus](https://www.luogu.com.cn/user/1440542)：[https://www.luogu.com.cn/problem/U657029](https://www.luogu.com.cn/problem/U657029%E2%80%B8)
+@[Fractsidus](https://www.luogu.com.cn/user/1440542)：![](https://cdn.luogu.com.cn/upload/image_hosting/kae40ffb.png)
