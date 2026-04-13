@@ -121,7 +121,7 @@
   - name: RoamingDuck
     link: https://www.luogu.com.cn/user/1004463
     avatar: https://cdn.luogu.com.cn/upload/usericon/1004463.png
-    descr: 坐标 SD QD
+    descr: 坐标 SD QD || 壶关
   - name: Aurelia_Veil
     link: https://www.luogu.com.cn/user/1717150
     avatar: https://cdn.luogu.com.cn/upload/usericon/1717150.png
@@ -138,7 +138,7 @@
   - name: fish_love_cat
     link: https://www.luogu.com.cn/user/754021
     avatar: https://cdn.luogu.com.cn/upload/usericon/754021.png
-    descr: 未来如何到来 / 我看不到 / 所以无法估猜 / 会是什么色彩 / 是黑色吗 / 或一片空白
+    descr: 被斥责后又一次被给予喜爱
   - name: xingkong1
     link: https://www.luogu.com.cn/user/1122456
     avatar: https://cdn.luogu.com.cn/upload/usericon/1122456.png
@@ -318,7 +318,7 @@
   - name: Lacr1mosa
     link: https://www.luogu.com.cn/user/559037
     avatar: https://cdn.luogu.com.cn/upload/usericon/559037.png
-    descr: 赴死之时||征集可以做任何事情的任何事情
+    descr: 洛谷最宽的俄罗斯斑鸠||征集可以做任何事情的任何事情
   - name: tzhengqing
     link: https://www.luogu.com.cn/user/1058570
     avatar: https://cdn.luogu.com.cn/upload/usericon/1058570.png
@@ -532,7 +532,7 @@
   - name: Ethan_sun
     link: https://www.luogu.com.cn/user/1646989
     avatar: https://cdn.luogu.com.cn/upload/usericon/1646989.png
-    descr: 宇宙很大，生活更大，我们还会见面的 | 互关 /contest/319728 | 26 赛季我要夺回属于我的一切/fendou
+    descr: 宇宙很大，生活更大，我们还会见面的 | 26 赛季我要夺回属于我的一切/fendou
   - name: leaf_in_storm
     link: https://www.luogu.com.cn/user/1389364
     avatar: https://cdn.luogu.com.cn/upload/usericon/1389364.png
@@ -597,7 +597,7 @@
   - name: Charlie_oua
     link: https://www.luogu.com.cn/user/1364135
     avatar: https://cdn.luogu.com.cn/upload/usericon/1364135.png
-    descr: 屁是屎的叹息
+    descr: 世界变化不停 人潮川流不息
   - name: user121_2023wbm
     link: https://www.luogu.com.cn/user/984809
     avatar: https://cdn.luogu.com.cn/upload/usericon/984809.png
@@ -629,7 +629,7 @@
   - name: Jason227
     link: https://www.luogu.com.cn/user/1011727
     avatar: https://cdn.luogu.com.cn/upload/usericon/1011727.png
-    descr: QQ:2783836130||叫我Jason||互关私信(加上在哪看到我的(纯好奇)，关注了我但我没回的私信(一般是小号回))||⎛⎝≥⏝⏝≤⎛⎝||ጿኈቼዽጿ
+    descr: WX:13928458195(其实就是手机号)||QQ:2783836130||叫我Jason||互关私信(加上在哪看到我的(纯好奇))||⎛⎝≥⏝⏝≤⎛⎝||ጿኈቼዽጿ
   - name: keatsli
     link: https://www.luogu.com.cn/user/377782
     avatar: https://cdn.luogu.com.cn/upload/usericon/377782.png
@@ -681,15 +681,11 @@
   - name: wonder_for_you
     link: https://www.luogu.com.cn/user/1813495
     avatar: https://cdn.luogu.com.cn/upload/usericon/1813495.png
-    descr: 掉蓝求不取关、原崩绝三修/.https://www.luogu.com.cn/team/125586 欢迎旅行者/开拓者/绳匠/任何人加入星际和平公司（不是灰棕都可互关）
+    descr: 原崩绝三修，欢迎加团/.https://www.luogu.com.cn/team/125586 欢迎旅行者/开拓者/绳匠/任何人加入星际和平公司（不是灰棕都可互关）
   - name: Vela_Core
     link: https://www.luogu.com.cn/user/942515
     avatar: https://cdn.luogu.com.cn/upload/usericon/942515.png
     descr: '&CrystalCore || &xubaichuan'
-  - name: BYDfhy
-    link: https://www.luogu.com.cn/user/1848043
-    avatar: https://cdn.luogu.com.cn/upload/usericon/1848043.png
-    descr: 生有涯，艺无涯
   - name: xiaozhengguoaaa
     link: https://www.luogu.com.cn/user/1421829
     avatar: https://cdn.luogu.com.cn/upload/usericon/1421829.png
@@ -707,6 +703,10 @@
     avatar: https://cdn.luogu.com.cn/upload/usericon/2020598.png
     descr: Faith Motivates Quest. || 壶关条件：是人 || /team/126949 加团 || 关我即壶关 || /team/120039
       娱乐团，另一个才是正式团，进入即是管理员
+  - name: BYDfhy
+    link: https://www.luogu.com.cn/user/1848043
+    avatar: https://cdn.luogu.com.cn/upload/usericon/1848043.png
+    descr: 生有涯，艺无涯
 - class_name: 热心网友
   class_desc: 相见即热心
   flink_style: butterfly
