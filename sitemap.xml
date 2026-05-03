@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
+    <loc>https://xzy404.me/tags/</loc>
     
     <lastmod>2026-05-03</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/tags/</loc>
+    <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
     
     <lastmod>2026-05-03</lastmod>
     
@@ -110,15 +110,6 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/essay/package.json</loc>
-    
-    <lastmod>2026-05-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzy404.me/essay/README</loc>
     
     <lastmod>2026-05-03</lastmod>
@@ -129,6 +120,15 @@
   
   <url>
     <loc>https://xzy404.me/essay/</loc>
+    
+    <lastmod>2026-05-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/essay/package.json</loc>
     
     <lastmod>2026-05-03</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/categories/</loc>
+    <loc>https://xzy404.me/comments/</loc>
     
     <lastmod>2026-05-03</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/comments/</loc>
+    <loc>https://xzy404.me/categories/</loc>
     
     <lastmod>2026-05-03</lastmod>
     
@@ -434,7 +434,7 @@
 
   
   <url>
-    <loc>https://xzy404.me/tags/%E9%97%B2%E8%AF%9D/</loc>
+    <loc>https://xzy404.me/tags/%E7%94%9F%E6%B4%BB-%C2%B7-%E6%B8%B8%E8%AE%B0/</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -455,14 +455,14 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/tags/%E7%94%9F%E6%B4%BB-%C2%B7-%E6%B8%B8%E8%AE%B0/</loc>
+    <loc>https://xzy404.me/tags/%E9%A2%98%E8%A7%A3/</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xzy404.me/tags/%E9%A2%98%E8%A7%A3/</loc>
+    <loc>https://xzy404.me/tags/%E9%97%B2%E8%AF%9D/</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -471,7 +471,7 @@
 
   
   <url>
-    <loc>https://xzy404.me/categories/%E9%97%B2%E8%AF%9D/</loc>
+    <loc>https://xzy404.me/categories/%E7%94%9F%E6%B4%BB-%C2%B7-%E6%B8%B8%E8%AE%B0/</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -485,14 +485,14 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/categories/%E7%94%9F%E6%B4%BB-%C2%B7-%E6%B8%B8%E8%AE%B0/</loc>
+    <loc>https://xzy404.me/categories/%E9%A2%98%E8%A7%A3/</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xzy404.me/categories/%E9%A2%98%E8%A7%A3/</loc>
+    <loc>https://xzy404.me/categories/%E9%97%B2%E8%AF%9D/</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
