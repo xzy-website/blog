@@ -4438,7 +4438,7 @@ function _0x4b15() {
 		"location",
 		"5552196GxBidg",
 		"hidden",
-		"https://xzy404.me",
+		"https://xzy404.top",
 		"left",
 		"endsWith",
 		"8309646AAUmfN",
@@ -4486,7 +4486,7 @@ function _0x4b15() {
 		"replace",
 		"hostname",
 		"appendChild",
-		"xzy404.me",
+		"xzy404.top",
 		"1079592RyrWUb",
 	];
 	_0x4b15 = function () {
@@ -4494,7 +4494,7 @@ function _0x4b15() {
 	};
 	return _0x4b15();
 }
-const validDomain1 = "xzy404.me",
+const validDomain1 = "xzy404.top",
 	validDomain2 = _0x213463(0xa0),
 	redirectUrl = _0x213463(0xa8),
 	hostname = document[_0x213463(0xa5)][_0x213463(0x9e)],
