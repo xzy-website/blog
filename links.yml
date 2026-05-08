@@ -121,7 +121,7 @@
   - name: RoamingDuck
     link: https://www.luogu.com.cn/user/1004463
     avatar: https://cdn.luogu.com.cn/upload/usericon/1004463.png
-    descr: 坐标 SD QD || 安阳嘞
+    descr: 坐标山东
   - name: Aurelia_Veil
     link: https://www.luogu.com.cn/user/1717150
     avatar: https://cdn.luogu.com.cn/upload/usericon/1717150.png
@@ -138,7 +138,7 @@
   - name: fish_love_cat
     link: https://www.luogu.com.cn/user/754021
     avatar: https://cdn.luogu.com.cn/upload/usericon/754021.png
-    descr: 说他无法幸免被时间捉弄
+    descr: 救救我吧 找不出来 已消失的答案
   - name: xingkong1
     link: https://www.luogu.com.cn/user/1122456
     avatar: https://cdn.luogu.com.cn/upload/usericon/1122456.png
@@ -375,7 +375,7 @@
   - name: zyy_awa
     link: https://www.luogu.com.cn/user/1414799
     avatar: https://cdn.luogu.com.cn/upload/usericon/1414799.png
-    descr: 本人成分复杂，混fps & phigros & SCP:SL & MC&拉电线 & cuphead & 田野打架6？& glitch，卦风高端粉丝
+    descr: 本人成分复杂（）混fps & phigros & SCP:SL & MC&拉电线 & cuphead & 田野打架6？& glitch，卦风高端粉丝
       || 同好&&绿名及以上可互关
   - name: Enoch2013
     link: https://www.luogu.com.cn/user/1069719
@@ -543,7 +543,7 @@
   - name: T7_DanieI
     link: https://www.luogu.com.cn/user/903392
     avatar: https://cdn.luogu.com.cn/upload/usericon/903392.png
-    descr: 答应我哭哭完之后把痛苦都带走之后，好好吃饭，好好睡觉，好好照顾好自己，好不好呀 || vx T7_Daniel，QQ 1104080088，欢迎扩列/聊天
+    descr: 你的笑容，就是我的奇迹 || vx T7_Daniel，QQ 1104080088，欢迎扩列/聊天
   - name: Jason_xuan
     link: https://www.luogu.com.cn/user/1216709
     avatar: https://cdn.luogu.com.cn/upload/usericon/1216709.png
@@ -609,7 +609,7 @@
   - name: Yore_Snow
     link: https://www.luogu.com.cn/user/820097
     avatar: https://cdn.luogu.com.cn/upload/usericon/820097.png
-    descr: /_\  | &Vela_Core
+    descr: 春天还没有来，请你默默等待。
   - name: chinamike
     link: https://www.luogu.com.cn/user/1639748
     avatar: https://cdn.luogu.com.cn/upload/usericon/1639748.png
@@ -711,7 +711,7 @@
   - name: EtherealSakura
     link: https://www.luogu.com.cn/user/910513
     avatar: https://cdn.luogu.com.cn/upload/usericon/910513.png
-    descr: 春天还没有来，请你默默等待。|| 背景非本人
+    descr: 可是梦中的你，真的好陌生。
   - name: Build_Dreams
     link: https://www.luogu.com.cn/user/1656195
     avatar: https://cdn.luogu.com.cn/upload/usericon/1656195.png
@@ -736,6 +736,10 @@
     link: https://www.luogu.com.cn/user/819212
     avatar: https://cdn.luogu.com.cn/upload/usericon/819212.png
     descr: This user is too lazy to write anything
+  - name: hzh17
+    link: https://www.luogu.com.cn/user/762633
+    avatar: https://cdn.luogu.com.cn/upload/usericon/762633.png
+    descr: 这个家伙很懒，什么也没有留下
 - class_name: 热心网友
   class_desc: 相见即热心
   flink_style: butterfly
