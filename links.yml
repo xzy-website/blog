@@ -514,7 +514,7 @@
     avatar: https://cdn.luogu.com.cn/upload/usericon/1046508.png
     descr: /training/1000001 && /training/999999 && 不 AFO 了 && AFO.(25.9.20-26.2.3)
       && 太空桌子 && Twigbranch &&「我该在哪里停留？我问我自己。」
-  - name: Czy_awa
+  - name: FateEchoing
     link: https://www.luogu.com.cn/user/1063830
     avatar: https://cdn.luogu.com.cn/upload/usericon/1063830.png
     descr: “我那日日相见的莫愁乡。我那素未谋面的乌托邦。”壶关私信 | 0437 1346
@@ -558,7 +558,7 @@
   - name: fan_xiaoyi
     link: https://www.luogu.com.cn/user/1495223
     avatar: https://cdn.luogu.com.cn/upload/usericon/1495223.png
-    descr: '111'
+    descr: 咕咕嘎嘎
   - name: wjy7777
     link: https://www.luogu.com.cn/user/1328264
     avatar: https://cdn.luogu.com.cn/upload/usericon/1328264.png
@@ -571,7 +571,7 @@
   - name: Red_river
     link: https://www.luogu.com.cn/user/930268
     avatar: https://cdn.luogu.com.cn/upload/usericon/930268.png
-    descr: This sorrowful rain refuses to stop || 戒暗*10(6.5)
+    descr: This sorrowful rain refuses to stop || 戒暗*15(5.6)
   - name: jsntzth666
     link: https://www.luogu.com.cn/user/1294443
     avatar: https://cdn.luogu.com.cn/upload/usericon/1294443.png
@@ -599,7 +599,7 @@
   - name: Charlie_oua
     link: https://www.luogu.com.cn/user/1364135
     avatar: https://cdn.luogu.com.cn/upload/usericon/1364135.png
-    descr: '316'
+    descr: 316 | x | 已模糊的镜头拉不回 那从前
   - name: user121_2023wbm
     link: https://www.luogu.com.cn/user/984809
     avatar: https://cdn.luogu.com.cn/upload/usericon/984809.png
@@ -607,7 +607,7 @@
   - name: Yore_Snow
     link: https://www.luogu.com.cn/user/820097
     avatar: https://cdn.luogu.com.cn/upload/usericon/820097.png
-    descr: 希望你在名为现实的世界微笑着活下去 没问题我会一直在这里 我会一直记得你。 | INFP-T
+    descr: '& | 被世界遗忘，也来不及说再见。 | INFP-T |'
   - name: chinamike
     link: https://www.luogu.com.cn/user/1639748
     avatar: https://cdn.luogu.com.cn/upload/usericon/1639748.png
@@ -627,7 +627,7 @@
   - name: Little_Cake_qwq
     link: https://www.luogu.com.cn/user/1529169
     avatar: https://cdn.luogu.com.cn/upload/usericon/1529169.png
-    descr: This user is too lazy to write anything
+    descr: <UwU>
   - name: Jason227
     link: https://www.luogu.com.cn/user/1011727
     avatar: https://cdn.luogu.com.cn/upload/usericon/1011727.png
@@ -675,7 +675,7 @@
   - name: 大橘猫喵～
     link: https://www.luogu.com.cn/user/1015977
     avatar: https://cdn.luogu.com.cn/upload/usericon/1015977.png
-    descr: 大橘猫
+    descr: 区
   - name: Yxa_Sheep
     link: https://www.luogu.com.cn/user/1459071
     avatar: https://cdn.luogu.com.cn/upload/usericon/1459071.png
@@ -741,6 +741,10 @@
     link: https://www.luogu.com.cn/user/511639
     avatar: https://cdn.luogu.com.cn/upload/usericon/511639.png
     descr: Blue Archive
+  - name: Wmy20130327
+    link: https://www.luogu.com.cn/user/1940518
+    avatar: https://cdn.luogu.com.cn/upload/usericon/1940518.png
+    descr: 初中小萌新，没见过什么世面
 - class_name: 热心网友
   class_desc: 相见即热心
   flink_style: butterfly
