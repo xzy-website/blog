@@ -121,7 +121,7 @@
   - name: RoamingDuck
     link: https://www.luogu.com.cn/user/1004463
     avatar: https://cdn.luogu.com.cn/upload/usericon/1004463.png
-    descr: 坐标山东
+    descr: 坐标山东 || 我是区！我是区！我是区！
   - name: Aurelia_Veil
     link: https://www.luogu.com.cn/user/1717150
     avatar: https://cdn.luogu.com.cn/upload/usericon/1717150.png
@@ -541,7 +541,7 @@
   - name: T7_DanieI
     link: https://www.luogu.com.cn/user/903392
     avatar: https://cdn.luogu.com.cn/upload/usericon/903392.png
-    descr: 仍要对每天展露笑容 || vx T7_Daniel，QQ 1104080088，tailchat T7_Daniel#5460 || 想互关请设法让吉祥物记住你
+    descr: vx T7_Daniel，QQ 1104080088，tailchat T7_Daniel#5460，欢迎来找我聊天！ || 想互关请设法让吉祥物记住你
   - name: Jason_xuan
     link: https://www.luogu.com.cn/user/1216709
     avatar: https://cdn.luogu.com.cn/upload/usericon/1216709.png
@@ -599,7 +599,7 @@
   - name: Charlie_oua
     link: https://www.luogu.com.cn/user/1364135
     avatar: https://cdn.luogu.com.cn/upload/usericon/1364135.png
-    descr: 316 | 忧郁
+    descr: '316'
   - name: user121_2023wbm
     link: https://www.luogu.com.cn/user/984809
     avatar: https://cdn.luogu.com.cn/upload/usericon/984809.png
@@ -745,6 +745,10 @@
     link: https://www.luogu.com.cn/user/1940518
     avatar: https://cdn.luogu.com.cn/upload/usericon/1940518.png
     descr: 初中小萌新，没见过什么世面
+  - name: luogu_LiuShaRui
+    link: https://www.luogu.com.cn/user/1824721
+    avatar: https://cdn.luogu.com.cn/upload/usericon/1824721.png
+    descr: 互关需要有一些实力 友团：team/124697 U602079 50粉福
 - class_name: 热心网友
   class_desc: 相见即热心
   flink_style: butterfly
