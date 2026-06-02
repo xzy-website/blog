@@ -121,7 +121,7 @@
   - name: RoamingDuck
     link: https://www.luogu.com.cn/user/1004463
     avatar: https://cdn.luogu.com.cn/upload/usericon/1004463.png
-    descr: 区
+    descr: 支持壶关。
   - name: Aurelia_Veil
     link: https://www.luogu.com.cn/user/1717150
     avatar: https://cdn.luogu.com.cn/upload/usericon/1717150.png
@@ -206,7 +206,7 @@
   - name: yingxi
     link: https://www.luogu.com.cn/user/737873
     avatar: https://cdn.luogu.com.cn/upload/usericon/737873.png
-    descr: 学术 & 互关私 | /paste/nu738hpa | qq3819113985 | 1022010730 欢迎来玩 | 妳也許能在2026年5月31日14时57分找到我.
+    descr: 学术 & 互关私 | /paste/nu738hpa | qq3819113985 | 1022010730 欢迎来玩 | 妳也許能在2026年6月2日22时42分找到我.
   - name: Clare613
     link: https://www.luogu.com.cn/user/730276
     avatar: https://cdn.luogu.com.cn/upload/usericon/730276.png
@@ -540,7 +540,7 @@
   - name: T7_DanieI
     link: https://www.luogu.com.cn/user/903392
     avatar: https://cdn.luogu.com.cn/upload/usericon/903392.png
-    descr: 不要以为这曲折的故事，像小时候看过的童话。向着这一切发起最后的冲刺，才是真正的骑士应该做的事情ʕ´• ᴥ•̥`ʔ
+    descr: 要天天开心哦ʕ´• ᴥ•̥`ʔ
   - name: Jason_xuan
     link: https://www.luogu.com.cn/user/1216709
     avatar: https://cdn.luogu.com.cn/upload/usericon/1216709.png
@@ -682,7 +682,7 @@
   - name: wonder_for_you
     link: https://www.luogu.com.cn/user/1813495
     avatar: https://cdn.luogu.com.cn/upload/usericon/1813495.png
-    descr: 米游三修，欢迎加团/.https://www.luogu.com.cn/team/115144 欢迎旅行者/开拓者/绳匠加入星际和平公司、非灰棕都可互关，误杀请私信）
+    descr: 叶瞬光小姐举世无双！欢迎加团/.https://www.luogu.com.cn/team/115144 、非灰棕互关随缘，误杀请私信）
   - name: xiaozhengguoaaa
     link: https://www.luogu.com.cn/user/1421829
     avatar: https://cdn.luogu.com.cn/upload/usericon/1421829.png
@@ -695,10 +695,6 @@
     link: https://www.luogu.com.cn/user/2020598
     avatar: https://cdn.luogu.com.cn/upload/usericon/2020598.png
     descr: Faith Motivates Quest. || 壶关条件：是人 || /team/126949 加团 || 全球人都保佑我不会AFO，考试顺利
-  - name: BYDfhy
-    link: https://www.luogu.com.cn/user/1848043
-    avatar: https://cdn.luogu.com.cn/upload/usericon/1848043.png
-    descr: 生有涯，艺无涯
   - name: Ymy1201
     link: https://www.luogu.com.cn/user/1186739
     avatar: https://cdn.luogu.com.cn/upload/usericon/1186739.png
@@ -711,7 +707,7 @@
   - name: Build_Dreams
     link: https://www.luogu.com.cn/user/1656195
     avatar: https://cdn.luogu.com.cn/upload/usericon/1656195.png
-    descr: '&ARIS0_0 &New_Void || 可能重度依赖 || 可能一切的可能，相信才有可能 || 爱丽丝可爱，但是号主记得锁号'
+    descr: '&New_Void || 不拿蓝沟不改签'
   - name: AsiraeM
     link: https://www.luogu.com.cn/user/765061
     avatar: https://cdn.luogu.com.cn/upload/usericon/765061.png
@@ -760,6 +756,10 @@
     link: https://www.luogu.com.cn/user/1834602
     avatar: https://cdn.luogu.com.cn/upload/usericon/1834602.png
     descr: 成功需要付出努力与汗水，但更重要的是要有坚持不懈的精神
+  - name: BYDfhy
+    link: https://www.luogu.com.cn/user/1848043
+    avatar: https://cdn.luogu.com.cn/upload/usericon/1848043.png
+    descr: 生有涯，艺无涯
 - class_name: 热心网友
   class_desc: 相见即热心
   flink_style: butterfly
