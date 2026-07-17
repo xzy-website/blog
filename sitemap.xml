@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
+    <loc>https://xzy404.me/tags/</loc>
     
     <lastmod>2026-07-17</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/tags/</loc>
+    <loc>https://xzy404.me/weichuncai/chuncai.json</loc>
     
     <lastmod>2026-07-17</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/essay/</loc>
+    <loc>https://xzy404.me/essay/README</loc>
     
     <lastmod>2026-07-17</lastmod>
     
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/essay/README</loc>
+    <loc>https://xzy404.me/essay/</loc>
     
     <lastmod>2026-07-17</lastmod>
     
@@ -434,14 +434,7 @@
 
   
   <url>
-    <loc>https://xzy404.me/tags/%E5%B9%BF%E5%91%8A/</loc>
-    <lastmod>2026-07-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzy404.me/tags/About/</loc>
+    <loc>https://xzy404.me/tags/%E7%94%9F%E6%B4%BB-%C2%B7-%E6%B8%B8%E8%AE%B0/</loc>
     <lastmod>2026-07-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -455,7 +448,14 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/tags/%E7%94%9F%E6%B4%BB-%C2%B7-%E6%B8%B8%E8%AE%B0/</loc>
+    <loc>https://xzy404.me/tags/%E5%B9%BF%E5%91%8A/</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzy404.me/tags/About/</loc>
     <lastmod>2026-07-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -471,7 +471,7 @@
 
   
   <url>
-    <loc>https://xzy404.me/categories/%E5%85%B6%E4%BB%96/</loc>
+    <loc>https://xzy404.me/categories/%E7%94%9F%E6%B4%BB-%C2%B7-%E6%B8%B8%E8%AE%B0/</loc>
     <lastmod>2026-07-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -485,7 +485,7 @@
   </url>
   
   <url>
-    <loc>https://xzy404.me/categories/%E7%94%9F%E6%B4%BB-%C2%B7-%E6%B8%B8%E8%AE%B0/</loc>
+    <loc>https://xzy404.me/categories/%E5%85%B6%E4%BB%96/</loc>
     <lastmod>2026-07-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
