@@ -33,7 +33,7 @@
   - name: zxh_qwq
     link: https://www.luogu.com.cn/user/919709
     avatar: https://cdn.luogu.com.cn/upload/usericon/919709.png
-    descr: 退役前愿望：粉丝 868/1000 || 1000粉粉福大家想 || ENFP-T
+    descr: 退役前愿望：粉丝 870/1000 || 1000粉粉福大家想 || ENFP-T
   - name: wangxiaoyi1118
     link: https://www.luogu.com.cn/user/1029447
     avatar: https://cdn.luogu.com.cn/upload/usericon/1029447.png
@@ -73,11 +73,11 @@
   - name: W_C_B_H
     link: https://www.luogu.com.cn/user/527300
     avatar: https://cdn.luogu.com.cn/upload/usericon/527300.png
-    descr: Upd 2026.07.13：①ISTP-T；②互关条件 U698385；③宣传 https://www.luogu.com.cn/article/1metprn1
+    descr: Upd 2026.08.04（更新了互关条件）：①ISTP-T；②互关条件 U698385；③宣传 https://www.luogu.com.cn/article/1metprn1
   - name: lovely_Kanade
     link: https://www.luogu.com.cn/user/768095
     avatar: https://cdn.luogu.com.cn/upload/usericon/768095.png
-    descr: 【数据删除】不会ds学什么算法||感谢支持我的朋友们喵
+    descr: 【数据删除】不会ds学什么算法||感谢支持我的朋友们喵||希望今年能给我学了n年的OI做一个回报
   - name: _MCYYDS_
     link: https://www.luogu.com.cn/user/470693
     avatar: https://cdn.luogu.com.cn/upload/usericon/470693.png
@@ -118,7 +118,7 @@
   - name: Aurelia_Veil
     link: https://www.luogu.com.cn/user/1717150
     avatar: https://cdn.luogu.com.cn/upload/usericon/1717150.png
-    descr: QQ 521141214|phigros rk14.82课题金40，前红45
+    descr: QQ 521141214|phigros rk14.84课题金40，前红45
   - name: jinhangdong
     link: https://www.luogu.com.cn/user/1004142
     avatar: https://cdn.luogu.com.cn/upload/usericon/1004142.png
@@ -199,7 +199,7 @@
   - name: Meovow
     link: https://www.luogu.com.cn/user/737873
     avatar: https://cdn.luogu.com.cn/upload/usericon/737873.png
-    descr: JYX怎么越长越抽象了？
+    descr: 不不我根本没时间完成我的任务计划，，
   - name: Clare613
     link: https://www.luogu.com.cn/user/730276
     avatar: https://cdn.luogu.com.cn/upload/usericon/730276.png
@@ -343,7 +343,7 @@
   - name: asd890123
     link: https://www.luogu.com.cn/user/1074084
     avatar: https://cdn.luogu.com.cn/upload/usericon/1074084.png
-    descr: 支持互关，互关条件https://www.luogu.com.cn/problem/U661044，宣传J模拟赛https://www.luogu.com.cn/contest/268004
+    descr: oier交流群拉人，入群+互关条件https://www.luogu.com.cn/problem/U661044，宣传J模拟赛https://www.luogu.com.cn/contest/268004
   - name: lijingshu
     link: https://www.luogu.com.cn/user/1019968
     avatar: https://cdn.luogu.com.cn/upload/usericon/1019968.png
@@ -459,7 +459,7 @@
   - name: lmaz
     link: https://www.luogu.com.cn/user/1331896
     avatar: https://cdn.luogu.com.cn/upload/usericon/1331896.png
-    descr: （猫猫探头）喵！（猫猫跑走）|| 有没有大佬教我CTF qwq||QQ3469256530||256粉福U667383
+    descr: （猫猫探头）喵！（猫猫跑走）|| 有没有大佬教我CTF qwq||QQ3469256530
   - name: Shellchen
     link: https://www.luogu.com.cn/user/935896
     avatar: https://cdn.luogu.com.cn/upload/usericon/935896.png
@@ -606,7 +606,7 @@
   - name: Little_Cake_qwq
     link: https://www.luogu.com.cn/user/1529169
     avatar: https://cdn.luogu.com.cn/upload/usericon/1529169.png
-    descr: <UwU> || 一只区 || 互关 U662688 || 大猫大狗大大猫大大狗巨大猫巨大狗更巨大的猫更巨大的狗
+    descr: <UwU> || 一只区 || 互关 U662688 || 大猫大狗大大猫大大狗巨大猫巨大狗更巨大的猫更巨大的狗 || 不拿 7 勾不改签
   - name: Jason227
     link: https://www.luogu.com.cn/user/1011727
     avatar: https://cdn.luogu.com.cn/upload/usericon/1011727.png
@@ -779,6 +779,10 @@
     link: https://www.luogu.com.cn/user/1940518
     avatar: https://cdn.luogu.com.cn/upload/usericon/1940518.png
     descr: 初中小萌新，没见过什么世面
+  - name: dn2025
+    link: https://www.luogu.com.cn/user/1652704
+    avatar: https://cdn.luogu.com.cn/upload/usericon/1652704.png
+    descr: 这个家伙很煞笔，什么也没有留下
 - class_name: 热心网友
   class_desc: 相见即热心
   flink_style: butterfly
