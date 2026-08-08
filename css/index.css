@@ -10644,43 +10644,49 @@ p.p.gray {
 /* 字体引入 */
 @font-face {
   font-family: YSHST;
-  src: url(https://sourcebucket.s3.bitiful.net/fonts/优设好身体.woff2);
+  src: url(/fonts/优设好身体.woff2);
   font-display: swap
 }
 
 @font-face {
   font-family: MiSans;
-  src: url(https://sourcebucket.s3.bitiful.net/fonts/MiSans.woff2);
+  src: url(/fonts/MiSans.woff2);
   font-display: swap
 }
 
 @font-face {
   font-family: HYTMR;
-  src: url(https://sourcebucket.s3.bitiful.net/fonts/HYTangMeiRen55W.woff2);
+  src: url(/fonts/HYTangMeiRen55W.woff2);
   font-display: swap
 }
 
 @font-face {
   font-family: LXGW;
-  src: url(https://sourcebucket.s3.bitiful.net/fonts/霞鹜文楷.woff2);
+  src: url(/fonts/霞鹜文楷.woff2);
   font-display: swap
 }
 
 @font-face {
   font-family: TTQHB;
-  src: url(https://sourcebucket.s3.bitiful.net/fonts/甜甜圈海报字体.woff2);
+  src: url(/fonts/甜甜圈海报字体.woff2);
   font-display: swap
 }
 
 @font-face {
   font-family: Consolas_1;
-  src: url(https://files.xzy404.me/fonts/JetBrainsMono-Light.woff2);
+  src: url(/fonts/JetBrainsMono-Light.woff2);
   font-display: swap
 }
 
 @font-face {
   font-family: ZhuZiAWan;
-  src: url(https://sourcebucket.s3.bitiful.net/fonts/ZhuZiAWan2.woff2);
+  src: url(/fonts/ZhuZiAWan2.woff2);
+  font-display: swap
+}
+
+@font-face {
+  font-family: JinBuTi;
+  src: url(/fonts/JinBuTi.woff2);
   font-display: swap
 }
 
@@ -11828,14 +11834,14 @@ button#go-up:hover #percent {
 }
 
 [data-theme=light] #aside-content>.card-widget.card-info {
-  background-image: url(https://sourcebucket.s3.bitiful.net/img/springBg.png);
+  background-image: url(/springBg.png);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%
 }
 
 [data-theme=dark] #aside-content>.card-widget.card-info {
-  background-image: url(https://sourcebucket.s3.bitiful.net/img/aurora.webp);
+  background-image: url(/aurora.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%
