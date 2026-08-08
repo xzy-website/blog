@@ -377,6 +377,7 @@ document.addEventListener("pjax:complete", showWelcome);
 //----------------------------------------------------------------
 
 /* 微博热搜 start */
+/*
 document.addEventListener("pjax:complete", getWeibo);
 document.addEventListener("DOMContentLoaded", getWeibo);
 
@@ -410,7 +411,7 @@ function getWeibo() {
 			console.log(error);
 		});
 }
-
+*/
 /* 微博热搜 end */
 
 //----------------------------------------------------------------
@@ -799,15 +800,12 @@ function randomPost() {
 //----------------------------------------------------------------
 
 /* 小猫咪 start */
+
 if (document.body.clientWidth > 992) {
 	function getBasicInfo() {
-		/* 窗口高度 */
 		var ViewH = $(window).height();
-		/* document高度 */
 		var DocH = $("body")[0].scrollHeight;
-		/* 滚动的高度 */
 		var ScrollTop = $(window).scrollTop();
-		/* 可滚动的高度 */
 		var S_V = DocH - ViewH;
 		var Band_H = (ScrollTop / (DocH - ViewH)) * 100;
 		return {
@@ -834,7 +832,7 @@ if (document.body.clientWidth > 992) {
 				zoom: 0.9,
 				borderRadius: 5 + "px",
 				right: 55.6 + "px",
-				nekoImg: "https://bu.dusays.com/2022/07/20/62d812db74be9.png",
+				nekoImg: "/cat.jpeg",
 				hoverMsg: "春天啦~",
 				color: "var(--theme-color)",
 				during: 500,
@@ -935,7 +933,7 @@ if (document.body.clientWidth > 992) {
 			zoom: 0.9,
 		});
 		//自定义（去掉以下注释，并注释掉其他的查看效果）
-		/*
+	/*
     $("#myscoll").nekoScroll({
         nekoname:'neko1', //nekoname，相当于id
         nekoImg:'img/猫咪.png', //neko的背景图片
@@ -951,7 +949,7 @@ if (document.body.clientWidth > 992) {
         z_index:100, //不用解释了吧
         during:1200, //从顶部到底部滑动的时长
     });
-    */
+	*/
 	});
 }
 
@@ -3984,10 +3982,10 @@ if (localStorage.getItem("blogbg") != undefined) {
 	setBg(localStorage.getItem("blogbg"));
 } else {
 	document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://sourcebucket.s3.bitiful.net/img/home_bg.webp);
-    --darkmode-bg:url(https://sourcebucket.s3.bitiful.net/img/dark_mode.webp);
-    --mobileday-bg: url(https://sourcebucket.s3.bitiful.net/img/snow.webp);
-    --mobilenight-bg: url(https://sourcebucket.s3.bitiful.net/img/mb8.webp);
+    --default-bg: url(/home_bg.webp);
+    --darkmode-bg:url(/dark_mode.webp);
+    --mobileday-bg: url(/springBg.png);
+    --mobilenight-bg: url(/mb8.webp);
   }`;
 }
 // 切换背景主函数

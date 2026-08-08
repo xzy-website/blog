@@ -10,7 +10,7 @@
     "serverzh": "sh ./deploy-zh.sh && node link.js && npm run clean && hexo generate && hexo swpp && hexo server"
   },
   "hexo": {
-    "version": "8.1.0"
+    "version": "8.1.2"
   },
   "dependencies": {
     "cheerio": "^1.0.0",
