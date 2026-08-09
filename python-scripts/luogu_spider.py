@@ -6,9 +6,11 @@ import random
 import os
 
 class LuoguFriendLinkSpider:
-    def __init__(self):
+    def __init__(self, min_delay=3, max_delay=6):
         self.base_url = "https://www.luogu.com.cn/api/user/followings"
         self.user_id = "1062508"
+        self.min_delay = min_delay
+        self.max_delay = max_delay
 
         self.cookies = {
             '__client_id': os.environ.get('cookie'),
@@ -86,8 +88,7 @@ class LuoguFriendLinkSpider:
                 retry_count = 0
                 page += 1
 
-                # 等待一分钟 (60~65 秒随机)
-                delay = random.uniform(60, 65)
+                delay = random.uniform(self.min_delay, self.max_delay)
                 print(f"Waiting {delay:.1f} seconds before next request...")
                 time.sleep(delay)
 
@@ -137,6 +138,7 @@ class LuoguFriendLinkSpider:
     def run(self):
         print("Starting Luogu following list crawler...")
         print(f"Using cookies: {list(self.cookies.keys())}")
+        print(f"Delay range: {self.min_delay}~{self.max_delay} seconds")
         self.crawl_followings()
         if self.friend_links:
             self.generate_yaml()
@@ -149,5 +151,5 @@ class LuoguFriendLinkSpider:
             print("No friends fetched. Please check cookies or network.")
 
 if __name__ == "__main__":
-    spider = LuoguFriendLinkSpider()
+    spider = LuoguFriendLinkSpider(min_delay=3, max_delay=6)
     spider.run()
