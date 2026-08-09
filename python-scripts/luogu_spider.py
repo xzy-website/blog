@@ -44,12 +44,13 @@ class LuoguFriendLinkSpider:
 
                 is_rate_limited = (
                     response.status_code in [403, 429] or
-                    '访问过于频繁' in response.text or
+                    'FrequentRequestException' in response.text or
+                    '请求频繁' in response.text or
                     'too frequent' in response.text.lower()
                 )
 
                 if is_rate_limited:
-                    if response.status_code == 403 and '访问过于频繁' not in response.text:
+                    if response.status_code == 403 and 'FrequentRequestException' not in response.text and '请求频繁' not in response.text:
                         print("403 Forbidden without rate-limit hint. Cookies may be invalid.")
                         print(f"Response preview: {response.text[:200]}")
                         break
@@ -85,7 +86,8 @@ class LuoguFriendLinkSpider:
                 retry_count = 0
                 page += 1
 
-                delay = random.uniform(8, 15)
+                # 等待一分钟 (60~65 秒随机)
+                delay = random.uniform(60, 65)
                 print(f"Waiting {delay:.1f} seconds before next request...")
                 time.sleep(delay)
 
