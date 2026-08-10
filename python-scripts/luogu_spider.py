@@ -13,14 +13,14 @@ class LuoguFriendLinkSpider:
         self.max_delay = max_delay
 
         self.cookies = {
-            '__client_id': os.environ.get('cookie'),
+            '__client_id': os.environ.get('COOKIE'),
             '_uid': '1848124',
             'C3VK': '0eef12'
         }
 
-        self.csrf_token = os.environ.get('csrf_token')
+        self.csrf_token = os.environ.get('CSRF_TOKEN')
         if not self.csrf_token:
-            print("Warning: CSRF token not found in environment variable 'csrf_token'")
+            print("Warning: CSRF token not found in environment variable 'CSRF_TOKEN'")
 
         self.scraper = cloudscraper.create_scraper(
             browser={
