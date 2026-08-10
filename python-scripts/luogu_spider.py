@@ -18,6 +18,10 @@ class LuoguFriendLinkSpider:
             'C3VK': '0eef12'
         }
 
+        self.csrf_token = os.environ.get('csrf_token')
+        if not self.csrf_token:
+            print("Warning: CSRF token not found in environment variable 'csrf_token'")
+
         self.scraper = cloudscraper.create_scraper(
             browser={
                 'browser': 'chrome',
@@ -38,10 +42,15 @@ class LuoguFriendLinkSpider:
                 print(f"Crawling page {page}...")
                 url = f"{self.base_url}?user={self.user_id}&page={page}"
 
+                headers = {}
+                if self.csrf_token:
+                    headers['X-CSRF-TOKEN'] = self.csrf_token
+
                 response = self.scraper.get(
                     url,
                     timeout=30,
-                    cookies=self.cookies
+                    cookies=self.cookies,
+                    headers=headers
                 )
 
                 is_rate_limited = (
@@ -139,6 +148,10 @@ class LuoguFriendLinkSpider:
         print("Starting Luogu following list crawler...")
         print(f"Using cookies: {list(self.cookies.keys())}")
         print(f"Delay range: {self.min_delay}~{self.max_delay} seconds")
+        if self.csrf_token:
+            print("CSRF token loaded from environment.")
+        else:
+            print("No CSRF token found.")
         self.crawl_followings()
         if self.friend_links:
             self.generate_yaml()
