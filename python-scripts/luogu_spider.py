@@ -106,7 +106,7 @@ class LuoguFriendLinkSpider:
             avatar = user.get('avatar', '')
             slogan = user.get('slogan', '')
             uid = user.get('uid', '')
-            link = f"https://www.luogu.com/user/{uid}"
+            link = f"https://www.luogu.com.cn/user/{uid}"
             friend_info = {
                 'name': name,
                 'link': link,
