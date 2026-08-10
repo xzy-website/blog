@@ -13,7 +13,7 @@ class LuoguFriendLinkSpider:
         self.max_delay = max_delay
 
         self.cookies = {
-            '__client_id': os.environ.get('COOKIE'),
+            '__client_id': os.environ.get('cookie'),
             '_uid': '1848124',
             'C3VK': '0eef12'
         }
