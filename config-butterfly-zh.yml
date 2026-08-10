@@ -185,7 +185,7 @@ comments:
   card_post_count: false
 artalk:
   site: 'blog'
-  server: https://artalk.xzy404.me  
+  server: https://artalk.xzy404.top  
 disqus:
   shortname: null
   apikey: null
@@ -581,8 +581,8 @@ inject:
     - <script defer src="https://umami.xzy404.me/umami" data-website-id="3b05b879-d6e1-464e-a887-3935bbd48dab"></script>
     - <link rel="stylesheet" href="https://unpkg.com/katex@0.16.7/dist/katex.min.css" />
     - <script src="https://unpkg.com/katex@0.16.7/dist/katex.min.js"></script>
-    - <link href="https://artalk.xzy404.me/dist/Artalk.css" rel="stylesheet" />
-    - <script src="https://artalk.xzy404.me/dist/Artalk.js"></script>
+    - <link href="https://artalk.xzy404.top/dist/Artalk.css" rel="stylesheet" />
+    - <script src="https://artalk.xzy404.top/dist/Artalk.js"></script>
     - <script src="https://unpkg.com/@artalk/plugin-katex/dist/artalk-plugin-katex.js"></script>
     - >-
       <link rel="stylesheet"
