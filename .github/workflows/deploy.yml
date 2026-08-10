@@ -37,6 +37,7 @@ jobs:
       - name: Run Luogu crawler
         env:
           cookie: ${{ secrets.cookie }}
+          CSRF_TOKEN: ${{ secrets.csrf_token }}
         run: |
           python python-scripts/luogu_spider.py
 
