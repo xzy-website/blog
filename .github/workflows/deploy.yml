@@ -10,7 +10,7 @@ on:
     types:
       - published
   schedule:
-    - cron: '0 18 * * *'
+    - cron: '0 2 * * *'
 
 jobs:
   crawl-friends:
@@ -34,9 +34,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests pyyaml cloudscraper
 
-      - name: Run Luogu crawler
+      - name: Run Luogu crawler (friends)
         env:
           cookie: ${{ secrets.cookie }}
+          CSRF_TOKEN: ${{ secrets.csrf_token }}
         run: |
           python python-scripts/luogu_spider.py
 
@@ -44,11 +45,18 @@ jobs:
         run: |
           python python-scripts/merge_links.py
 
-      - name: Commit and push friend links update
+      - name: Run Luogu crawler (talks)
+        env:
+          cookie: ${{ secrets.cookie }}
+          CSRF_TOKEN: ${{ secrets.csrf_token }}
+        run: |
+          python python-scripts/luogu_talk_spider.py
+
+      - name: Commit and push updates
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Auto update Luogu friend links"
-          file_pattern: links.yml
+          commit_message: "Auto update Luogu data (friends & talks)"
+          file_pattern: links.yml source/_data/talk.yml
           branch: master
 
   deploy:
