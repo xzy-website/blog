@@ -118,7 +118,7 @@
   - name: Aurelia_Veil
     link: https://www.luogu.com.cn/user/1717150
     avatar: https://cdn.luogu.com.cn/upload/usericon/1717150.png
-    descr: 间歇性密集上线|QQ 521141214|phigros rk14.90课题金40，前红45
+    descr: 间歇性密集上线|QQ 521141214|phigros rk14.91课题金40，前红45
   - name: jinhangdong
     link: https://www.luogu.com.cn/user/1004142
     avatar: https://cdn.luogu.com.cn/upload/usericon/1004142.png
@@ -350,7 +350,7 @@
   - name: Forever_Rain
     link: https://www.luogu.com.cn/user/1706930
     avatar: https://cdn.luogu.com.cn/upload/usericon/1706930.png
-    descr: 你我生来时就注定天真而伟大
+    descr: Is this the real life?
   - name: Forgotten_freopen
     link: https://www.luogu.com.cn/user/510555
     avatar: https://cdn.luogu.com.cn/upload/usericon/510555.png
@@ -520,7 +520,7 @@
   - name: T7_DanieI
     link: https://www.luogu.com.cn/user/903392
     avatar: https://cdn.luogu.com.cn/upload/usericon/903392.png
-    descr: 鹏北海，凤朝阳。又携书剑路茫茫。明年此日青云上，却笑人间举子忙。
+    descr: 革命尚未成功，同志仍需努力
   - name: Jason_xuan
     link: https://www.luogu.com.cn/user/1216709
     avatar: https://cdn.luogu.com.cn/upload/usericon/1216709.png
@@ -552,7 +552,7 @@
   - name: jsntzth666
     link: https://www.luogu.com.cn/user/1294443
     avatar: https://cdn.luogu.com.cn/upload/usericon/1294443.png
-    descr: '& elainya_stars || ~  2026.8.8 || 壶关条件：/paste/0lm6o4gr || 仅壶关才可私我'
+    descr: 被禁言了  || & elainya_stars || 壶关条件：/paste/0lm6o4gr
   - name: XsicAoPowerE
     link: https://www.luogu.com.cn/user/1395548
     avatar: https://cdn.luogu.com.cn/upload/usericon/1395548.png
@@ -572,11 +572,11 @@
   - name: BH5970
     link: https://www.luogu.com.cn/user/1234287
     avatar: https://cdn.luogu.com.cn/upload/usericon/1234287.png
-    descr: 已在你谷连续打卡699天 ||一只rks只有15.06的菜鸡||最高收歌：ENERGY SYNERGY MATRIX IN 14.4
+    descr: 已在你谷连续打卡715天 ||一只rks只有15.13的菜鸡||最高收歌：ENERGY SYNERGY MATRIX IN 14.4
   - name: Charlie_oua
     link: https://www.luogu.com.cn/user/1364135
     avatar: https://cdn.luogu.com.cn/upload/usericon/1364135.png
-    descr: 高木醬可愛捏 | 誰有吃的我餓了
+    descr: 高木醬可愛捏
   - name: user121_2023wbm
     link: https://www.luogu.com.cn/user/984809
     avatar: https://cdn.luogu.com.cn/upload/usericon/984809.png
@@ -629,7 +629,7 @@
   - name: a_small_OIer
     link: https://www.luogu.com.cn/user/1523280
     avatar: https://cdn.luogu.com.cn/upload/usericon/1523280.png
-    descr: '&CrystalCore | &Circle_Table | &Build_Dreams||私にできることは、全然何もないじゃん！||概率产出神秘插件||QQ:3981035996'
+    descr: '&CrystalCore | &Circle_Table | &Build_Dreams||众矢之的.||QQ:3981035996'
   - name: 封禁用户
     link: https://www.luogu.com.cn/user/757647
     avatar: https://cdn.luogu.com.cn/images/banned.png
@@ -744,7 +744,7 @@
   - name: carryfish
     link: https://www.luogu.com.cn/user/694866
     avatar: https://cdn.luogu.com.cn/upload/usericon/694866.png
-    descr: 这是时代，也是人生。||支持壶关 ||已开学术
+    descr: 这是时代，也是人生。||支持壶关 ||开个蛋的学术
   - name: rainy_mid
     link: https://www.luogu.com.cn/user/1408722
     avatar: https://cdn.luogu.com.cn/upload/usericon/1408722.png
@@ -777,10 +777,6 @@
     link: https://www.luogu.com.cn/user/1940518
     avatar: https://cdn.luogu.com.cn/upload/usericon/1940518.png
     descr: 初中小萌新，没见过什么世面
-  - name: dn2025
-    link: https://www.luogu.com.cn/user/1652704
-    avatar: https://cdn.luogu.com.cn/upload/usericon/1652704.png
-    descr: 这个家伙很煞笔，什么也没有留下
   - name: xielinfeng_spirit
     link: https://www.luogu.com.cn/user/1642038
     avatar: https://cdn.luogu.com.cn/upload/usericon/1642038.png
@@ -817,6 +813,10 @@
     link: https://www.luogu.com.cn/user/879274
     avatar: https://cdn.luogu.com.cn/upload/usericon/879274.png
     descr: 是群星闪耀时刻！
+  - name: dn2025
+    link: https://www.luogu.com.cn/user/1652704
+    avatar: https://cdn.luogu.com.cn/upload/usericon/1652704.png
+    descr: 这个家伙很煞笔，什么也没有留下
 - class_name: 热心网友
   class_desc: 相见即热心
   flink_style: butterfly
