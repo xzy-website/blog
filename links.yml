@@ -53,7 +53,7 @@
   - name: CJY_Holmes
     link: https://www.luogu.com.cn/user/1086453
     avatar: https://cdn.luogu.com.cn/upload/usericon/1086453.png
-    descr: 闭关修炼，学术开，私信开|20121019男|欲买桂花同载酒,终不似,少年游|橙红或勾可互|博客https://cjy20121019.github.io/
+    descr: 20121019男|欲买桂花同载酒,终不似,少年游|橙红或勾可互，不活跃杀|博客https://cjy20121019.github.io/
   - name: AnotherDream
     link: https://www.luogu.com.cn/user/1208546
     avatar: https://cdn.luogu.com.cn/upload/usericon/1208546.png
@@ -62,10 +62,6 @@
     link: https://www.luogu.com.cn/user/846661
     avatar: https://cdn.luogu.com.cn/upload/usericon/846661.png
     descr: 生有涯，艺无涯
-  - name: Leathback
-    link: https://www.luogu.com.cn/user/1047309
-    avatar: https://cdn.luogu.com.cn/upload/usericon/1047309.png
-    descr: 唐亦可为
   - name: Vindictae
     link: https://www.luogu.com.cn/user/1038334
     avatar: https://cdn.luogu.com.cn/upload/usericon/1038334.png
@@ -86,13 +82,9 @@
     link: https://www.luogu.com.cn/user/115359
     avatar: https://cdn.luogu.com.cn/upload/usericon/115359.png
     descr: 互关，私信。 What is mind?No matter.What is matter?Never mind.
-  - name: haofafa
+  - name: 封禁用户
     link: https://www.luogu.com.cn/user/1240580
-    avatar: https://cdn.luogu.com.cn/upload/usericon/1240580.png
-    descr: 原末影递归qwq
-  - name: alien_fresh
-    link: https://www.luogu.com.cn/user/47409
-    avatar: https://cdn.luogu.com.cn/upload/usericon/47409.png
+    avatar: https://cdn.luogu.com.cn/images/banned.png
     descr: This user is too lazy to write anything
   - name: niu_zh
     link: https://www.luogu.com.cn/user/731149
@@ -274,14 +266,6 @@
     link: https://www.luogu.com.cn/user/836786
     avatar: https://cdn.luogu.com.cn/upload/usericon/836786.png
     descr: 2026赛季目标：市同届前5 | phigros | 第五 | florr
-  - name: Seraphiel
-    link: https://www.luogu.com.cn/user/931764
-    avatar: https://cdn.luogu.com.cn/upload/usericon/931764.png
-    descr: May there be enough clouds in my life to make a beautiful sunset. 支持互关私信随缘
-  - name: lee_liang
-    link: https://www.luogu.com.cn/user/1592928
-    avatar: https://cdn.luogu.com.cn/upload/usericon/1592928.png
-    descr: 苦命鸳鸯，我没有鸳鸯，有鸳鸯了就不苦了||大爱有疆，苦海无涯||原主页见：https://www.luogu.me/user/1592928
   - name: ingo_dtw
     link: https://www.luogu.com.cn/user/1359427
     avatar: https://cdn.luogu.com.cn/upload/usericon/1359427.png
@@ -290,14 +274,6 @@
     link: https://www.luogu.com.cn/user/541634
     avatar: https://cdn.luogu.com.cn/upload/usericon/541634.png
     descr: / 我们会穿过流言喧哗 用力开放对吗 / npy@lovely_Kanade || AFO || QQ=54676908
-  - name: Under_Dream
-    link: https://www.luogu.com.cn/user/972710
-    avatar: https://cdn.luogu.com.cn/upload/usericon/972710.png
-    descr: 我要考航班111
-  - name: muslim_tianjin
-    link: https://www.luogu.com.cn/user/1459799
-    avatar: https://cdn.luogu.com.cn/upload/usericon/1459799.png
-    descr: 荔枝-S1=，男的（E,I）N（T,F）P-（A,T）粉福https://www.luogu.com.cn/problem/U560123，tj人，津爷（bushi）
   - name: Silver_StarLight
     link: https://www.luogu.com.cn/user/1246040
     avatar: https://cdn.luogu.com.cn/upload/usericon/1246040.png
@@ -323,10 +299,6 @@
     link: https://www.luogu.com.cn/user/1660231
     avatar: https://cdn.luogu.com.cn/upload/usericon/1660231.png
     descr: https://www.luogu.com.cn/team/111720
-  - name: __Frozen__
-    link: https://www.luogu.com.cn/user/1774140
-    avatar: https://cdn.luogu.com.cn/upload/usericon/1774140.png
-    descr: 喵.||NOIPlus2025只切T1的傻逼
   - name: __graphite__
     link: https://www.luogu.com.cn/user/678881
     avatar: https://cdn.luogu.com.cn/upload/usericon/678881.png
@@ -350,7 +322,7 @@
   - name: Forever_Rain
     link: https://www.luogu.com.cn/user/1706930
     avatar: https://cdn.luogu.com.cn/upload/usericon/1706930.png
-    descr: Is this the real life?
+    descr: 有人陪你过七夕吗你就学 OI，但是我有
   - name: Forgotten_freopen
     link: https://www.luogu.com.cn/user/510555
     avatar: https://cdn.luogu.com.cn/upload/usericon/510555.png
@@ -439,18 +411,10 @@
     link: https://www.luogu.com.cn/user/743048
     avatar: https://cdn.luogu.com.cn/upload/usericon/743048.png
     descr: This user is too lazy to write anything
-  - name: lzxnb
-    link: https://www.luogu.com.cn/user/1053583
-    avatar: https://cdn.luogu.com.cn/upload/usericon/1053583.png
-    descr: 你不用太在意我，就让我一直观察你吧。
   - name: AFOedStudy
     link: https://www.luogu.com.cn/user/739258
     avatar: https://cdn.luogu.com.cn/upload/usericon/739258.png
     descr: ？～2023/8/29 / 退谷 / 粉丝群 806853420
-  - name: joker_opof_qaq
-    link: https://www.luogu.com.cn/user/780107
-    avatar: https://cdn.luogu.com.cn/upload/usericon/780107.png
-    descr: Aethel||那还说啥呢兄弟||SOS||互关私信随缘，大概率同意
   - name: pengyirui
     link: https://www.luogu.com.cn/user/1364336
     avatar: https://cdn.luogu.com.cn/upload/usericon/1364336.png
@@ -480,10 +444,6 @@
     link: https://www.luogu.com.cn/user/1747567
     avatar: https://cdn.luogu.com.cn/upload/usericon/1747567.png
     descr: 互关私信，我会自行判断您是否达到我的互关标准||INTP-T||太菜了
-  - name: Yurina_aki
-    link: https://www.luogu.com.cn/user/1367731
-    avatar: https://cdn.luogu.com.cn/upload/usericon/1367731.png
-    descr: 说好的幸福呢
   - name: liangcha_crush
     link: https://www.luogu.com.cn/user/1129279
     avatar: https://cdn.luogu.com.cn/upload/usericon/1129279.png
@@ -497,10 +457,6 @@
     link: https://www.luogu.com.cn/user/1063830
     avatar: https://cdn.luogu.com.cn/upload/usericon/1063830.png
     descr: '“我那日日相见的莫愁乡，我那素未谋面的乌托邦”|2840 0437|最后在线时间: 2026/6/16 17:56'
-  - name: wawatime2
-    link: https://www.luogu.com.cn/user/1102734
-    avatar: https://cdn.luogu.com.cn/upload/usericon/1102734.png
-    descr: 不拿蓝勾不改签 || 支持壶关（橙名以上或有勾）
   - name: Calm_qwq
     link: https://www.luogu.com.cn/user/1432361
     avatar: https://cdn.luogu.com.cn/upload/usericon/1432361.png
@@ -537,10 +493,6 @@
     link: https://www.luogu.com.cn/user/1495223
     avatar: https://cdn.luogu.com.cn/upload/usericon/1495223.png
     descr: .
-  - name: wjy7777
-    link: https://www.luogu.com.cn/user/1328264
-    avatar: https://cdn.luogu.com.cn/upload/usericon/1328264.png
-    descr: 代词使用他 | | 6年级最菜蒟蒻 | | B站、AT、CF均同名 | | 回关见
   - name: jyc8248
     link: https://www.luogu.com.cn/user/1248792
     avatar: https://cdn.luogu.com.cn/upload/usericon/1248792.png
@@ -552,24 +504,16 @@
   - name: jsntzth666
     link: https://www.luogu.com.cn/user/1294443
     avatar: https://cdn.luogu.com.cn/upload/usericon/1294443.png
-    descr: 感谢洛谷管理员，辛苦了 || 被禁言了，已写好检讨 nightly.paw.msgbyte.com/invite/WTVwedcG 可找我 ||
-      &jsntzth || 壶关条件：/paste/0lm6o4gr
+    descr: R.I.P zth （2013.10-2026.8） || 被禁言了 nightly.paw.msgbyte.com/invite/WTVwedcG
+      可找我 || &jsntzth || 壶关条件：/paste/0lm6o4gr
   - name: XsicAoPowerE
     link: https://www.luogu.com.cn/user/1395548
     avatar: https://cdn.luogu.com.cn/upload/usericon/1395548.png
     descr: 目前AFO，不要取关我qwq
-  - name: Adorkabless
-    link: https://www.luogu.com.cn/user/893261
-    avatar: https://cdn.luogu.com.cn/upload/usericon/893261.png
-    descr: ʕ̯•͡˔•̯᷅ʔ
   - name: AnnaQ
     link: https://www.luogu.com.cn/user/959411
     avatar: https://cdn.luogu.com.cn/upload/usericon/959411.png
     descr: 有美一人，清扬婉兮|小Q|必看U651229|互关随缘，杀关，误杀私|？就橙别取|不想被叫姐姐私我移除名字|小号简写：PRL
-  - name: ewegg
-    link: https://www.luogu.com.cn/user/1686372
-    avatar: https://cdn.luogu.com.cn/upload/usericon/1686372.png
-    descr: AFO. || zc壶关，看见大概率回 || 可以把我做成果冻，当然，是蒟蒻牌的 || 水瓶座初一蒟蒻 || 代词用：他
   - name: BH5970
     link: https://www.luogu.com.cn/user/1234287
     avatar: https://cdn.luogu.com.cn/upload/usericon/1234287.png
@@ -577,7 +521,7 @@
   - name: Charlie_oua
     link: https://www.luogu.com.cn/user/1364135
     avatar: https://cdn.luogu.com.cn/upload/usericon/1364135.png
-    descr: 下雨这天 好安静 | 学术
+    descr: 一只初二乐乐 | 喵
   - name: user121_2023wbm
     link: https://www.luogu.com.cn/user/984809
     avatar: https://cdn.luogu.com.cn/upload/usericon/984809.png
@@ -586,10 +530,6 @@
     link: https://www.luogu.com.cn/user/820097
     avatar: https://cdn.luogu.com.cn/upload/usericon/820097.png
     descr: '&starowo | 即使不尽人意也请笑一笑吧 | 互关私信'
-  - name: chinamike
-    link: https://www.luogu.com.cn/user/1639748
-    avatar: https://cdn.luogu.com.cn/upload/usericon/1639748.png
-    descr: This user is too lazy to write anything
   - name: bangdeng
     link: https://www.luogu.com.cn/user/911834
     avatar: https://cdn.luogu.com.cn/upload/usericon/911834.png
@@ -605,7 +545,7 @@
   - name: Little_Cake_qwq
     link: https://www.luogu.com.cn/user/1529169
     avatar: https://cdn.luogu.com.cn/upload/usericon/1529169.png
-    descr: <UwU> || 一只区 || 互关 U662688 || 大猫大狗大大猫大大狗巨大猫巨大狗 || 不拿 7 勾不改签 || 征集 150 粉粉福！U660351
+    descr: UwU || 一只区 || 互关 U662688 || 大猫大狗大大猫大大狗巨大猫巨大狗 || 不拿 7 勾不改签
   - name: keatsli
     link: https://www.luogu.com.cn/user/377782
     avatar: https://cdn.luogu.com.cn/upload/usericon/377782.png
@@ -625,7 +565,7 @@
   - name: a_small_OIer
     link: https://www.luogu.com.cn/user/1523280
     avatar: https://cdn.luogu.com.cn/upload/usericon/1523280.png
-    descr: '&CrystalCore | &Circle_Table | &Build_Dreams||众矢之的.||QQ:3981035996'
+    descr: '&CrystalCore | &Circle_Table | &Build_Dreams||众矢之的.||QQ:3981035996||我怎么会做这样的梦.'
   - name: cbcyh
     link: https://www.luogu.com.cn/user/1597658
     avatar: https://cdn.luogu.com.cn/upload/usericon/1597658.png
@@ -645,7 +585,7 @@
   - name: SheepGod33
     link: https://www.luogu.com.cn/user/1459071
     avatar: https://cdn.luogu.com.cn/upload/usericon/1459071.png
-    descr: 已申请禁言，暑假之后解除
+    descr: 已申请禁言，暑假之后解除 || 因为太菜太唐啥都不会像个大傻逼所以选择加训 ing……
   - name: wonder_for_you
     link: https://www.luogu.com.cn/user/1813495
     avatar: https://cdn.luogu.com.cn/upload/usericon/1813495.png
@@ -729,10 +669,6 @@
     link: https://www.luogu.com.cn/user/1905554
     avatar: https://cdn.luogu.com.cn/upload/usericon/1905554.png
     descr: 即将AFO勿取关|BA玩家喵!互关先提交再私信U688439[要求中等]
-  - name: ARIS5_0
-    link: https://www.luogu.com.cn/user/1992008
-    avatar: https://cdn.luogu.com.cn/upload/usericon/1992008.png
-    descr: This user is too lazy to write anything
   - name: carryfish
     link: https://www.luogu.com.cn/user/694866
     avatar: https://cdn.luogu.com.cn/upload/usericon/694866.png
@@ -744,7 +680,7 @@
   - name: tingting28
     link: https://www.luogu.com.cn/user/1255556
     avatar: https://cdn.luogu.com.cn/upload/usericon/1255556.png
-    descr: 给岁月以文明，给时光以生命。
+    descr: 无条件壶关，封禁用户除外，解封后私信我 || 给岁月以文明，给时光以生命。
   - name: TangLingxin
     link: https://www.luogu.com.cn/user/1426624
     avatar: https://cdn.luogu.com.cn/upload/usericon/1426624.png
@@ -793,16 +729,8 @@
     link: https://www.luogu.com.cn/user/1652704
     avatar: https://cdn.luogu.com.cn/upload/usericon/1652704.png
     descr: 这个家伙很煞笔，什么也没有留下
-  - name: Wmy20130327
-    link: https://www.luogu.com.cn/user/1940518
-    avatar: https://cdn.luogu.com.cn/upload/usericon/1940518.png
-    descr: 初中小萌新，没见过什么世面
   - name: 封禁用户
     link: https://www.luogu.com.cn/user/1011727
-    avatar: https://cdn.luogu.com.cn/images/banned.png
-    descr: This user is too lazy to write anything
-  - name: 封禁用户
-    link: https://www.luogu.com.cn/user/757647
     avatar: https://cdn.luogu.com.cn/images/banned.png
     descr: This user is too lazy to write anything
   - name: AmaoFox
@@ -840,11 +768,59 @@
   - name: _Flins
     link: https://www.luogu.com.cn/user/1181602
     avatar: https://cdn.luogu.com.cn/upload/usericon/1181602.png
-    descr: 闲云遮月，清风袭花 | CSP-S2026 RP++
+    descr: ???-? ???? ??++
   - name: miyachn
     link: https://www.luogu.com.cn/user/1295276
     avatar: https://cdn.luogu.com.cn/upload/usericon/1295276.png
-    descr: 13.31||一切会变得更好的，不是吗？
+    descr: 13.34||一切会变得更好的，不是吗？
+  - name: limingx
+    link: https://www.luogu.com.cn/user/1262962
+    avatar: https://cdn.luogu.com.cn/upload/usericon/1262962.png
+    descr: 无条件拉黑批话哥 || 已戒 1days
+  - name: yulexun
+    link: https://www.luogu.com.cn/user/1941016
+    avatar: https://cdn.luogu.com.cn/upload/usericon/1941016.png
+    descr: (≧▽≦)
+  - name: PhirainEX
+    link: https://www.luogu.com.cn/user/684342
+    avatar: https://cdn.luogu.com.cn/upload/usericon/684342.png
+    descr: 构造交互 Ad-hoc 爱好者||造数据必出锅||pjsk25推
+  - name: AIerqwq
+    link: https://www.luogu.com.cn/user/1055148
+    avatar: https://cdn.luogu.com.cn/upload/usericon/1055148.png
+    descr: 全网最糖 CSP-S 战绩 || 码风像AI那咋了
+  - name: Super_Diu
+    link: https://www.luogu.com.cn/user/1057013
+    avatar: https://cdn.luogu.com.cn/upload/usericon/1057013.png
+    descr: 生活就像愤怒的小鸟，失败后总有几只猪在笑。 | ⚡️事虽难，做则必成⚡️ | 互关条件 article/tmkqvn8t | 快关注我！(o゜▽゜)o☆
+  - name: Segment_Fenwick_Tree
+    link: https://www.luogu.com.cn/user/1827642
+    avatar: https://cdn.luogu.com.cn/upload/usericon/1827642.png
+    descr: 'QQ: 2823237564 || 我要7钩！ || 目标绿+青+蓝>=300(目前114+48+34=196)|| 最珍贵的记忆便是学习算法时对其进行各种修改、实验，尝试得到一些新成果的日子吧。'
+  - name: Real_Gold
+    link: https://www.luogu.com.cn/user/1978408
+    avatar: https://cdn.luogu.com.cn/upload/usericon/1978408.png
+    descr: 难的不会做简单的懒得做||最近在肝florr||florr 80级||MC有正版||主要PVP||2b2t也玩 不过最近淡游||qq:3963974836||加我请表明来意
+  - name: FHY_patrickpp
+    link: https://www.luogu.com.cn/user/1287677
+    avatar: https://cdn.luogu.com.cn/upload/usericon/1287677.png
+    descr: /article/rkjc0zdp||不拿勾子不删
+  - name: Seraphiel
+    link: https://www.luogu.com.cn/user/931764
+    avatar: https://cdn.luogu.com.cn/upload/usericon/931764.png
+    descr: May there be enough clouds in my life to make a beautiful sunset. 支持互关私信
+  - name: AprilAirlines
+    link: https://www.luogu.com.cn/user/1379996
+    avatar: https://cdn.luogu.com.cn/upload/usericon/1379996.png
+    descr: 我们现在在做什么？我们早早就停下脚步！
+  - name: alien_fresh
+    link: https://www.luogu.com.cn/user/47409
+    avatar: https://cdn.luogu.com.cn/upload/usericon/47409.png
+    descr: This user is too lazy to write anything
+  - name: muslim_tianjin
+    link: https://www.luogu.com.cn/user/1459799
+    avatar: https://cdn.luogu.com.cn/upload/usericon/1459799.png
+    descr: 荔枝-S1=，男的（E,I）N（T,F）P-（A,T）粉福https://www.luogu.com.cn/problem/U560123，tj人，津爷（bushi）
 - class_name: 热心网友
   class_desc: 相见即热心
   flink_style: butterfly
