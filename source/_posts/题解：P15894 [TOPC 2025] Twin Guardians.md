@@ -1,10 +1,12 @@
 ---
 abbrlink: P15894 题解
-categories: []
+categories:
+- - 题解
 date: '2026-10-05T20:00:01.913422+08:00'
 description: null
 mathjax: true
-tags: []
+tags:
+- 题解
 title: 题解：P15894 [TOPC 2025] Twin Guardians
 updated: '2026-10-05T20:00:02.561+08:00'
 ---
