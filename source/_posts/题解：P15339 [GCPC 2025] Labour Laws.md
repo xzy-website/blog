@@ -1,10 +1,12 @@
 ---
 abbrlink: P15339 题解
-categories: []
+categories:
+- - 题解
 date: '2026-10-05T19:59:21.922639+08:00'
 description: null
 mathjax: true
-tags: []
+tags:
+- 题解
 title: 题解：P15339 [GCPC 2025] Labour Laws
 updated: '2026-10-05T19:59:22.792+08:00'
 ---
