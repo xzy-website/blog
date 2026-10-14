@@ -24,7 +24,7 @@
     "hexo": "^8.1.2",
     "hexo-abbrlink": "^2.2.1",
     "hexo-algoliasearch": "^1.1.0",
-    "hexo-blog-encrypt": "^3.1.9",
+    "hexo-blog-encrypt": "^4.0.3",
     "hexo-butterfly-clock-anzhiyu": "^1.1.8",
     "hexo-butterfly-envelope": "^1.0.15",
     "hexo-butterfly-statictalk": "^1.0.0",
